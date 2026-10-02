@@ -1,0 +1,26 @@
+node_modules/
+.next/
+.tooling/
+.vercel/
+*.tsbuildinfo
+.env*
+!.env.example
+data/resource-links.json
+
+# Internal editorial batches and retired preview images stay local.
+data/book-details-reference.json
+data/book-details-sports.json
+data/book-details-technical.json
+public/books/01bb7f87ca4f747dc572cc999891ddbf-page-0012.webp
+public/books/01bb7f87ca4f747dc572cc999891ddbf-page-0020.webp
+public/books/15770f38f8795d488f401bb6a36cef2e-page-0008.webp
+public/books/15770f38f8795d488f401bb6a36cef2e-page-0014.webp
+public/books/35ee2ad4fee1da204a14d367edae2952-page-0017.webp
+public/books/35ee2ad4fee1da204a14d367edae2952-page-0060.webp
+public/books/92bd8cf6d46be0f6d6b84167e0a65878-page-0035.webp
+public/books/92bd8cf6d46be0f6d6b84167e0a65878-page-0083.webp
+public/books/cc6e5b5d2e0758996e3554cfc1817182-page-0063.webp
+public/books/cc6e5b5d2e0758996e3554cfc1817182-page-0107.webp
+public/books/e9f1a6035abab24c3878b7639349a18c-placeholder.svg
+public/books/f3b481c0082b19be66b48a368a6104bd-page-0015.webp
+public/books/f3b481c0082b19be66b48a368a6104bd-page-0020.webp

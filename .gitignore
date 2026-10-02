@@ -1,0 +1,13 @@
+# Publish the website source only; all local evidence and original files stay private.
+/*
+!/.gitignore
+!/README.md
+!/web/
+.DS_Store
+__pycache__/
+*.pyc
+*.pdf
+*.epub
+*.mobi
+*.doc
+*.zip

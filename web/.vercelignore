@@ -1,0 +1,10 @@
+node_modules
+.next
+.tooling
+.env*
+*.tsbuildinfo
+**/*.pdf
+**/*.epub
+**/*.mobi
+**/*.doc
+**/*.zip

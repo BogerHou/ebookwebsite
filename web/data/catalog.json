@@ -1,0 +1,4926 @@
+{
+  "schemaVersion": "1.0",
+  "updatedAt": "2026-10-02",
+  "categories": [
+    {
+      "slug": "water-sailing",
+      "title": "水上运动与航海",
+      "description": "游泳、冲浪、帆船与航海，按运动项目寻找英文原版读物。"
+    },
+    {
+      "slug": "climbing-outdoors",
+      "title": "攀登绳索与户外",
+      "description": "攀登、绳结与户外探索的原版参考书。"
+    },
+    {
+      "slug": "fitness-dance",
+      "title": "体能舞蹈与训练科学",
+      "description": "运动解剖学、体能训练、舞蹈与瑜伽。"
+    },
+    {
+      "slug": "ball-sports",
+      "title": "球类运动与教练",
+      "description": "篮球、足球、排球及其他球类运动的训练与教练读物。"
+    },
+    {
+      "slug": "cycling-riding-snow",
+      "title": "骑行马术与冰雪",
+      "description": "自行车、马术与冰雪运动，兼收器材维护和运动科学。"
+    },
+    {
+      "slug": "craft-engineering",
+      "title": "工程手作与建筑",
+      "description": "木工夹具、建筑传统、机械与工程参考。"
+    },
+    {
+      "slug": "martial-arts",
+      "title": "格斗与技击运动",
+      "description": "武术历史、运动训练及技术研究读物。"
+    },
+    {
+      "slug": "rescue-medicine",
+      "title": "救援急救与医学",
+      "description": "救援、野外医学与运动损伤的专业参考。"
+    },
+    {
+      "slug": "security-working-dogs",
+      "title": "军事安保与工作犬",
+      "description": "军事历史、职业安保与工作犬行为的英文资料。"
+    },
+    {
+      "slug": "history-collections",
+      "title": "收藏图鉴与历史参考",
+      "description": "制服、徽章、装备与历史影像图鉴。"
+    },
+    {
+      "slug": "photography",
+      "title": "摄影与视觉创作",
+      "description": "摄影布光、器材运用与视觉创作的原版读物。"
+    },
+    {
+      "slug": "science-family-management",
+      "title": "科普亲子与管理",
+      "description": "地理杂志、儿童活动以及管理和协作读物。"
+    }
+  ],
+  "books": [
+    {
+      "id": "f3b481c0082b19be66b48a368a6104bd",
+      "slug": "swimming-anatomy",
+      "title": "游泳解剖学",
+      "originalTitle": "Swimming Anatomy",
+      "authors": [
+        "Ian McLeod"
+      ],
+      "categorySlug": "water-sailing",
+      "subcategory": "游泳专项解剖与训练",
+      "tags": [
+        "游泳",
+        "人体解剖",
+        "专项体能"
+      ],
+      "summary": "把游泳动作与参与发力的肌肉联系起来，帮助读者理解专项力量练习与游泳技术之间的关系。",
+      "introduction": "把游泳动作与参与发力的肌肉联系起来，帮助读者理解专项力量练习与游泳技术之间的关系。",
+      "audience": [
+        "游泳爱好者、教练和体能训练人员"
+      ],
+      "highlights": [
+        "泳姿与肌肉参与",
+        "专项力量与核心训练",
+        "动作效率与损伤预防"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 343,
+      "sizeMB": 11.2,
+      "cover": {
+        "src": "/books/f3b481c0082b19be66b48a368a6104bd-cover.webp",
+        "width": 464,
+        "height": 600,
+        "alt": "游泳解剖学原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/f3b481c0082b19be66b48a368a6104bd-detail-0076.webp",
+          "width": 1082,
+          "height": 1400,
+          "alt": "游泳解剖学：俯卧T、Y、A肩部练习",
+          "page": 76,
+          "caption": "俯卧T、Y、A肩部练习 · PDF 第 76 页"
+        },
+        {
+          "src": "/books/f3b481c0082b19be66b48a368a6104bd-detail-0261.webp",
+          "width": 1082,
+          "height": 1400,
+          "alt": "游泳解剖学：单腿深蹲与游泳专项训练",
+          "page": 261,
+          "caption": "单腿深蹲与游泳专项训练 · PDF 第 261 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": true,
+      "seoTitle": "游泳解剖学｜英文原版电子书 · 书径",
+      "seoDescription": "把游泳动作与参与发力的肌肉联系起来，帮助读者理解专项力量练习与游泳技术之间的关系。 查看原书信息、封面和电子书资源。",
+      "year": "2010",
+      "isbn": "9780736086271"
+    },
+    {
+      "id": "15770f38f8795d488f401bb6a36cef2e",
+      "slug": "sport-climbing-basics-single-and-multi-pitch-bolted-routes",
+      "title": "运动攀登基础：单段与多段螺栓线路",
+      "originalTitle": "Sport Climbing Basics: Single and Multi-Pitch Bolted Routes",
+      "authors": [
+        "Neil Chelton"
+      ],
+      "categorySlug": "climbing-outdoors",
+      "subcategory": "岩冰攀登与多段技术",
+      "tags": [
+        "攀岩",
+        "运动攀登",
+        "多段路线"
+      ],
+      "summary": "专门讨论预设螺栓保护线路上的攀登，帮助读者理解从单段路线过渡到多段攀登时新增的知识要求。",
+      "introduction": "专门讨论预设螺栓保护线路上的攀登，帮助读者理解从单段路线过渡到多段攀登时新增的知识要求。",
+      "audience": [
+        "已有基础的攀岩者、户外攀登学习者和教练"
+      ],
+      "highlights": [
+        "运动攀登的装备体系",
+        "单段与多段线路的差异",
+        "绳索管理与团队协作"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 119,
+      "sizeMB": 16.6,
+      "cover": {
+        "src": "/books/15770f38f8795d488f401bb6a36cef2e-cover.webp",
+        "width": 398,
+        "height": 600,
+        "alt": "运动攀登基础：单段与多段螺栓线路原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/15770f38f8795d488f401bb6a36cef2e-detail-0027.webp",
+          "width": 927,
+          "height": 1400,
+          "alt": "运动攀登基础：单段与多段螺栓线路：先锋保护中的余绳与观察",
+          "page": 27,
+          "caption": "先锋保护中的余绳与观察 · PDF 第 27 页"
+        },
+        {
+          "src": "/books/15770f38f8795d488f401bb6a36cef2e-detail-0093.webp",
+          "width": 927,
+          "height": 1400,
+          "alt": "运动攀登基础：单段与多段螺栓线路：天然岩壁上的摩擦踩点与踩边",
+          "page": 93,
+          "caption": "天然岩壁上的摩擦踩点与踩边 · PDF 第 93 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": true,
+      "seoTitle": "运动攀登基础：单段与多段螺栓线路｜英文原版电子书 · 书径",
+      "seoDescription": "专门讨论预设螺栓保护线路上的攀登，帮助读者理解从单段路线过渡到多段攀登时新增的知识要求。 查看原书信息、封面和电子书资源。",
+      "year": "2020",
+      "edition": "电子版，2020年5月更新"
+    },
+    {
+      "id": "01bb7f87ca4f747dc572cc999891ddbf",
+      "slug": "router-magic-jigs-fixtures-and-tricks-to-unleash-your-router-s-full-potential",
+      "title": "修边机技巧：夹具与固定装置",
+      "originalTitle": "Router Magic: Jigs, Fixtures, and Tricks to Unleash Your Router's Full Potential",
+      "authors": [
+        "Bill Hylton"
+      ],
+      "categorySlug": "craft-engineering",
+      "subcategory": "木工工具夹具",
+      "tags": [
+        "木工",
+        "修边机",
+        "夹具"
+      ],
+      "summary": "以修边机配套装置为主线，介绍如何通过夹具改善加工精度与重复性，适合寻找木工工具的更多用途。",
+      "introduction": "以修边机配套装置为主线，介绍如何通过夹具改善加工精度与重复性，适合寻找木工工具的更多用途。",
+      "audience": [
+        "木工爱好者、家具制作者和工具使用者"
+      ],
+      "highlights": [
+        "修边机夹具的设计",
+        "固定和定位装置",
+        "开槽与接合等加工应用"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 322,
+      "sizeMB": 46.1,
+      "cover": {
+        "src": "/books/01bb7f87ca4f747dc572cc999891ddbf-cover.webp",
+        "width": 464,
+        "height": 600,
+        "alt": "修边机技巧：夹具与固定装置原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/01bb7f87ca4f747dc572cc999891ddbf-detail-0020.webp",
+          "width": 1082,
+          "height": 1400,
+          "alt": "修边机技巧：夹具与固定装置：层板支撑钻孔模板图",
+          "page": 20,
+          "caption": "层板支撑钻孔模板图 · PDF 第 20 页"
+        },
+        {
+          "src": "/books/01bb7f87ca4f747dc572cc999891ddbf-detail-0193.webp",
+          "width": 1082,
+          "height": 1400,
+          "alt": "修边机技巧：夹具与固定装置：修边机台装配与附件",
+          "page": 193,
+          "caption": "修边机台装配与附件 · PDF 第 193 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": true,
+      "seoTitle": "修边机技巧：夹具与固定装置｜英文原版电子书 · 书径",
+      "seoDescription": "以修边机配套装置为主线，介绍如何通过夹具改善加工精度与重复性，适合寻找木工工具的更多用途。 查看原书信息、封面和电子书资源。",
+      "isbn": "0762101857"
+    },
+    {
+      "id": "92bd8cf6d46be0f6d6b84167e0a65878",
+      "slug": "physics-of-sailing",
+      "title": "帆船物理学",
+      "originalTitle": "Physics of Sailing",
+      "authors": [
+        "John Kimball"
+      ],
+      "categorySlug": "water-sailing",
+      "subcategory": "帆船竞赛与运动科学",
+      "tags": [
+        "帆船",
+        "物理学",
+        "流体力学"
+      ],
+      "summary": "解释风、帆、船体与水之间的作用关系，帮助读者从物理原理理解航行表现与船只平衡。",
+      "introduction": "解释风、帆、船体与水之间的作用关系，帮助读者从物理原理理解航行表现与船只平衡。",
+      "audience": [
+        "帆船爱好者、教练和对流体力学感兴趣的读者"
+      ],
+      "highlights": [
+        "帆的升力与空气流动",
+        "船体阻力与侧向力",
+        "航向和平衡的物理关系"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 298,
+      "sizeMB": 5.4,
+      "cover": {
+        "src": "/books/92bd8cf6d46be0f6d6b84167e0a65878-cover.webp",
+        "width": 388,
+        "height": 600,
+        "alt": "帆船物理学原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/92bd8cf6d46be0f6d6b84167e0a65878-detail-0066.webp",
+          "width": 919,
+          "height": 1401,
+          "alt": "帆船物理学：理想冰帆船的速度图",
+          "page": 66,
+          "caption": "理想冰帆船的速度图 · PDF 第 66 页"
+        },
+        {
+          "src": "/books/92bd8cf6d46be0f6d6b84167e0a65878-detail-0144.webp",
+          "width": 919,
+          "height": 1401,
+          "alt": "帆船物理学：前帆张力与帆形的关系",
+          "page": 144,
+          "caption": "前帆张力与帆形的关系 · PDF 第 144 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": true,
+      "seoTitle": "帆船物理学｜英文原版电子书 · 书径",
+      "seoDescription": "解释风、帆、船体与水之间的作用关系，帮助读者从物理原理理解航行表现与船只平衡。 查看原书信息、封面和电子书资源。",
+      "year": "2010",
+      "isbn": "9781420073768"
+    },
+    {
+      "id": "cc6e5b5d2e0758996e3554cfc1817182",
+      "slug": "cycling-science",
+      "title": "自行车运动科学",
+      "originalTitle": "Cycling science",
+      "authors": [
+        "Stephen S. Cheung",
+        "Mikel Zabala"
+      ],
+      "categorySlug": "cycling-riding-snow",
+      "subcategory": "自行车运动科学与姿态优化",
+      "tags": [
+        "自行车",
+        "运动科学",
+        "姿态优化"
+      ],
+      "summary": "把骑行姿态、身体适应、训练安排和装备问题放在运动科学框架中，适合进一步理解自行车表现。",
+      "introduction": "把骑行姿态、身体适应、训练安排和装备问题放在运动科学框架中，适合进一步理解自行车表现。",
+      "audience": [
+        "进阶骑行者、教练和运动科学学习者"
+      ],
+      "highlights": [
+        "姿态与运动力学",
+        "训练生理与负荷",
+        "装备与表现优化"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 569,
+      "sizeMB": 24.8,
+      "cover": {
+        "src": "/books/cc6e5b5d2e0758996e3554cfc1817182-cover.webp",
+        "width": 420,
+        "height": 600,
+        "alt": "自行车运动科学原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/cc6e5b5d2e0758996e3554cfc1817182-detail-0085.webp",
+          "width": 980,
+          "height": 1400,
+          "alt": "自行车运动科学：踩踏过程中的肌肉激活图",
+          "page": 85,
+          "caption": "踩踏过程中的肌肉激活图 · PDF 第 85 页"
+        },
+        {
+          "src": "/books/cc6e5b5d2e0758996e3554cfc1817182-detail-0364.webp",
+          "width": 980,
+          "height": 1400,
+          "alt": "自行车运动科学：目标赛事的训练周期示例",
+          "page": 364,
+          "caption": "目标赛事的训练周期示例 · PDF 第 364 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": true,
+      "seoTitle": "自行车运动科学｜英文原版电子书 · 书径",
+      "seoDescription": "把骑行姿态、身体适应、训练安排和装备问题放在运动科学框架中，适合进一步理解自行车表现。 查看原书信息、封面和电子书资源。",
+      "year": "2017",
+      "isbn": "9781492551263",
+      "authorRole": "editor"
+    },
+    {
+      "id": "35ee2ad4fee1da204a14d367edae2952",
+      "slug": "dance-anatomy",
+      "title": "舞蹈解剖学",
+      "originalTitle": "Dance Anatomy",
+      "authors": [
+        "Jacqui Greene Haas"
+      ],
+      "categorySlug": "fitness-dance",
+      "subcategory": "舞蹈与身体力学",
+      "tags": [
+        "舞蹈",
+        "人体解剖",
+        "身体控制"
+      ],
+      "summary": "把舞蹈动作与身体结构联系起来，帮助舞者理解力量、柔韧性和稳定性如何影响动作表现。",
+      "introduction": "把舞蹈动作与身体结构联系起来，帮助舞者理解力量、柔韧性和稳定性如何影响动作表现。",
+      "audience": [
+        "舞者、舞蹈教师和体能训练人员"
+      ],
+      "highlights": [
+        "舞蹈动作与肌肉",
+        "核心力量和柔韧性",
+        "动作控制与损伤预防"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 273,
+      "sizeMB": 18.3,
+      "cover": {
+        "src": "/books/35ee2ad4fee1da204a14d367edae2952-cover.webp",
+        "width": 420,
+        "height": 600,
+        "alt": "舞蹈解剖学原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/35ee2ad4fee1da204a14d367edae2952-detail-0061.webp",
+          "width": 980,
+          "height": 1400,
+          "alt": "舞蹈解剖学：腿滑动中的核心与骨盆稳定",
+          "page": 61,
+          "caption": "腿滑动中的核心与骨盆稳定 · PDF 第 61 页"
+        },
+        {
+          "src": "/books/35ee2ad4fee1da204a14d367edae2952-detail-0208.webp",
+          "width": 980,
+          "height": 1400,
+          "alt": "舞蹈解剖学：舞蹈踝足关节与重量转移",
+          "page": 208,
+          "caption": "舞蹈踝足关节与重量转移 · PDF 第 208 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": true,
+      "seoTitle": "舞蹈解剖学｜英文原版电子书 · 书径",
+      "seoDescription": "把舞蹈动作与身体结构联系起来，帮助舞者理解力量、柔韧性和稳定性如何影响动作表现。 查看原书信息、封面和电子书资源。",
+      "year": "2018",
+      "edition": "第二版",
+      "isbn": "9781492545187"
+    },
+    {
+      "id": "ecff489405989263e4743349a47f0897",
+      "slug": "national-geographic-uk-september-2023-inside-the-dome-of-the-rock-an-exclusive-look-a",
+      "title": "国家地理英国版：2023年9月号",
+      "originalTitle": "National Geographic UK - September 2023. Inside the Dome of the Rock. An exclusive look at one of the world's most sacred sites",
+      "authors": [],
+      "categorySlug": "science-family-management",
+      "subcategory": "科普英语杂志",
+      "tags": [
+        "地理",
+        "人文纪实",
+        "英文杂志"
+      ],
+      "summary": "本期走进耶路撒冷的圆顶清真寺，通过纪实报道和影像介绍这座历史遗址及其文化背景。",
+      "introduction": "本期走进耶路撒冷的圆顶清真寺，通过纪实报道和影像介绍这座历史遗址及其文化背景。",
+      "audience": [
+        "喜欢地理、人文纪实和英文杂志的读者"
+      ],
+      "highlights": [
+        "圆顶清真寺专题",
+        "历史遗址与文化背景",
+        "英文纪实阅读"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 130,
+      "sizeMB": 61.8,
+      "cover": {
+        "src": "/books/ecff489405989263e4743349a47f0897-cover.webp",
+        "width": 413,
+        "height": 600,
+        "alt": "国家地理英国版：2023年9月号原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/ecff489405989263e4743349a47f0897-detail-0036.webp",
+          "width": 963,
+          "height": 1400,
+          "alt": "国家地理英国版：2023年9月号：圆顶清真寺专题影像",
+          "page": 36,
+          "caption": "圆顶清真寺专题影像 · PDF 第 36 页"
+        },
+        {
+          "src": "/books/ecff489405989263e4743349a47f0897-detail-0072.webp",
+          "width": 963,
+          "height": 1400,
+          "alt": "国家地理英国版：2023年9月号：柏树湿地与野生动物",
+          "page": 72,
+          "caption": "柏树湿地与野生动物 · PDF 第 72 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "国家地理英国版：2023年9月号｜英文原版电子书 · 书径",
+      "seoDescription": "本期走进耶路撒冷的圆顶清真寺，通过纪实报道和影像介绍这座历史遗址及其文化背景。 查看原书信息、封面和电子书资源。",
+      "year": "2023",
+      "edition": "英国版，2023年9月号",
+      "resourceKind": "magazine",
+      "periodicalTitle": "National Geographic"
+    },
+    {
+      "id": "7b5cde153dc9c7728e32f190ed9c6a6b",
+      "slug": "the-modern-bodyguard-the-complete-manual-of-close-protection-training",
+      "title": "现代保镖：贴身保护训练手册",
+      "originalTitle": "The Modern Bodyguard- The Complete Manual of Close Protection Training",
+      "authors": [
+        "Consterdine, Peter"
+      ],
+      "categorySlug": "security-working-dogs",
+      "subcategory": "VIP安保团队",
+      "tags": [
+        "贴身保护",
+        "职业安保",
+        "训练手册"
+      ],
+      "summary": "以贴身保护工作的整体流程为线索，连接风险判断、团队职责与日常护卫场景，便于建立职业知识框架。",
+      "introduction": "以贴身保护工作的整体流程为线索，连接风险判断、团队职责与日常护卫场景，便于建立职业知识框架。",
+      "audience": [
+        "安保从业者、职业培训学习者及相关研究者"
+      ],
+      "highlights": [
+        "贴身保护的职责范围",
+        "风险评估与团队组织",
+        "职业场景与案例参考"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 357,
+      "sizeMB": 6.3,
+      "cover": {
+        "src": "/books/7b5cde153dc9c7728e32f190ed9c6a6b-cover.webp",
+        "width": 426,
+        "height": 600,
+        "alt": "现代保镖：贴身保护训练手册原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/7b5cde153dc9c7728e32f190ed9c6a6b-detail-0035.webp",
+          "width": 999,
+          "height": 1400,
+          "alt": "现代保镖：贴身保护训练手册：个人安全与观察背景",
+          "page": 35,
+          "caption": "个人安全与观察背景 · PDF 第 35 页"
+        },
+        {
+          "src": "/books/7b5cde153dc9c7728e32f190ed9c6a6b-detail-0080.webp",
+          "width": 999,
+          "height": 1400,
+          "alt": "现代保镖：贴身保护训练手册：客户背景与威胁评估",
+          "page": 80,
+          "caption": "客户背景与威胁评估 · PDF 第 80 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "现代保镖：贴身保护训练手册｜英文原版电子书 · 书径",
+      "seoDescription": "以贴身保护工作的整体流程为线索，连接风险判断、团队职责与日常护卫场景，便于建立职业知识框架。 查看原书信息、封面和电子书资源。",
+      "edition": "含2006年修订内容",
+      "isbn": "9780953763818"
+    },
+    {
+      "id": "7801ff37ba5b1b155000f36122c9350c",
+      "slug": "escort-detail-mobile-vip-protection-mobile-security-and-motorcade-operations-for-3-4",
+      "title": "VIP移动保护：小型团队与车队安保",
+      "originalTitle": "Escort Detail Mobile VIP Protection: Mobile Security and Motorcade Operations for 3-4 Person Details",
+      "authors": [
+        "Special Tactics"
+      ],
+      "categorySlug": "security-working-dogs",
+      "subcategory": "VIP安保团队",
+      "tags": [
+        "VIP安保",
+        "车辆",
+        "小型团队"
+      ],
+      "summary": "聚焦三至四人护卫组的移动保护任务，讨论车辆、人员分工与现场协调之间的关系。",
+      "introduction": "聚焦三至四人护卫组的移动保护任务，讨论车辆、人员分工与现场协调之间的关系。",
+      "audience": [
+        "职业安保学习者及护卫团队组织研究者"
+      ],
+      "highlights": [
+        "小型护卫组的角色分工",
+        "车辆与移动场景",
+        "团队通信和风险管理"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 148,
+      "sizeMB": 17.3,
+      "cover": {
+        "src": "/books/7801ff37ba5b1b155000f36122c9350c-cover.webp",
+        "width": 464,
+        "height": 600,
+        "alt": "VIP移动保护：小型团队与车队安保原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/7801ff37ba5b1b155000f36122c9350c-detail-0022.webp",
+          "width": 1120,
+          "height": 1400,
+          "alt": "VIP移动保护：小型团队与车队安保：三人保护团队的角色组织",
+          "page": 22,
+          "caption": "三人保护团队的角色组织 · PDF 第 22 页"
+        },
+        {
+          "src": "/books/7801ff37ba5b1b155000f36122c9350c-detail-0055.webp",
+          "width": 1120,
+          "height": 1400,
+          "alt": "VIP移动保护：小型团队与车队安保：四人团队抵达场景",
+          "page": 55,
+          "caption": "四人团队抵达场景 · PDF 第 55 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "VIP移动保护：小型团队与车队安保｜英文原版电子书 · 书径",
+      "seoDescription": "聚焦三至四人护卫组的移动保护任务，讨论车辆、人员分工与现场协调之间的关系。 查看原书信息、封面和电子书资源。",
+      "year": "2021",
+      "isbn": "9780998455587"
+    },
+    {
+      "id": "c308ef582da3654f1bb488ab13b3e8b6",
+      "slug": "motorcycle-dynamics",
+      "title": "摩托车动力学",
+      "originalTitle": "Motorcycle Dynamics",
+      "authors": [
+        "Vittore Cossalter"
+      ],
+      "categorySlug": "cycling-riding-snow",
+      "subcategory": "摩托车操控与动力学",
+      "tags": [
+        "摩托车",
+        "动力学",
+        "车辆工程"
+      ],
+      "summary": "从车辆结构、轮胎与受力关系出发解释摩托车的运动表现，适合把骑行经验进一步连接到工程原理。",
+      "introduction": "从车辆结构、轮胎与受力关系出发解释摩托车的运动表现，适合把骑行经验进一步连接到工程原理。",
+      "audience": [
+        "车辆工程学习者、摩托车技术爱好者和研究人员"
+      ],
+      "highlights": [
+        "车辆几何与运动特性",
+        "轮胎和悬架的作用",
+        "制动转向与稳定性"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 405,
+      "sizeMB": 57.0,
+      "cover": {
+        "src": "/books/c308ef582da3654f1bb488ab13b3e8b6-cover.webp",
+        "width": 464,
+        "height": 600,
+        "alt": "摩托车动力学原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/c308ef582da3654f1bb488ab13b3e8b6-detail-0010.webp",
+          "width": 1082,
+          "height": 1400,
+          "alt": "摩托车动力学：摩托车运动学结构示意",
+          "page": 10,
+          "caption": "摩托车运动学结构示意 · PDF 第 10 页"
+        },
+        {
+          "src": "/books/c308ef582da3654f1bb488ab13b3e8b6-detail-0080.webp",
+          "width": 1082,
+          "height": 1400,
+          "alt": "摩托车动力学：轮胎纵向与横向力分析",
+          "page": 80,
+          "caption": "轮胎纵向与横向力分析 · PDF 第 80 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "摩托车动力学｜英文原版电子书 · 书径",
+      "seoDescription": "从车辆结构、轮胎与受力关系出发解释摩托车的运动表现，适合把骑行经验进一步连接到工程原理。 查看原书信息、封面和电子书资源。",
+      "year": "2006",
+      "edition": "第二英文版",
+      "isbn": "9781447532767"
+    },
+    {
+      "id": "bfed6198065b35fc87197f8299c2c110",
+      "slug": "civilian-public-safety-and-military-helicopter-rescue-operations",
+      "title": "民用公共安全与军事直升机救援",
+      "originalTitle": "Helicopter Rescue Techniques: Civilian Public Safety and Military Helicopter Rescue Operations",
+      "authors": [
+        "Ken Phillips"
+      ],
+      "categorySlug": "rescue-medicine",
+      "subcategory": "航空搜救",
+      "tags": [
+        "直升机",
+        "搜救",
+        "公共安全"
+      ],
+      "summary": "围绕直升机在搜救中的角色，梳理救援组织、地面协同与航空作业的知识范围。",
+      "introduction": "围绕直升机在搜救中的角色，梳理救援组织、地面协同与航空作业的知识范围。",
+      "audience": [
+        "航空搜救、消防救援学习者和相关研究者"
+      ],
+      "highlights": [
+        "直升机救援的任务类型",
+        "航空与地面团队协同",
+        "风险评估与作业管理"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 112,
+      "sizeMB": 4.3,
+      "cover": {
+        "src": "/books/bfed6198065b35fc87197f8299c2c110-cover.webp",
+        "width": 464,
+        "height": 600,
+        "alt": "民用公共安全与军事直升机救援原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/bfed6198065b35fc87197f8299c2c110-detail-0025.webp",
+          "width": 1082,
+          "height": 1400,
+          "alt": "民用公共安全与军事直升机救援：航空救援注意力与人员因素",
+          "page": 25,
+          "caption": "航空救援注意力与人员因素 · PDF 第 25 页"
+        },
+        {
+          "src": "/books/bfed6198065b35fc87197f8299c2c110-detail-0072.webp",
+          "width": 1082,
+          "height": 1400,
+          "alt": "民用公共安全与军事直升机救援：航空救援撤离座具",
+          "page": 72,
+          "caption": "航空救援撤离座具 · PDF 第 72 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "民用公共安全与军事直升机救援｜英文原版电子书 · 书径",
+      "seoDescription": "围绕直升机在搜救中的角色，梳理救援组织、地面协同与航空作业的知识范围。 查看原书信息、封面和电子书资源。",
+      "year": "2013",
+      "edition": "第一版"
+    },
+    {
+      "id": "73dcf7745f1a3b4be9f7ac18cf146c8d",
+      "slug": "getaway-driving-techniques-for-escape-and-evasion",
+      "title": "逃脱与规避驾驶：驾驶技术参考",
+      "originalTitle": "Getaway - Driving Techniques for Escape and Evasion",
+      "authors": [
+        "Ronald George Eriksen 2"
+      ],
+      "categorySlug": "security-working-dogs",
+      "subcategory": "安保驾驶与风险管理",
+      "tags": [
+        "驾驶",
+        "车辆控制",
+        "历史训练资料"
+      ],
+      "summary": "这本1980年代的驾驶资料讨论特殊情境下的车辆控制与判断，也可作为研究安保驾驶历史的材料。",
+      "introduction": "这本1980年代的驾驶资料讨论特殊情境下的车辆控制与判断，也可作为研究安保驾驶历史的材料。",
+      "audience": [
+        "高级驾驶研究者、安保培训学习者和汽车技术读者"
+      ],
+      "highlights": [
+        "车辆控制与道路观察",
+        "驾驶者的情境判断",
+        "安保驾驶的历史背景"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 47,
+      "sizeMB": 5.4,
+      "cover": {
+        "src": "/books/73dcf7745f1a3b4be9f7ac18cf146c8d-cover.webp",
+        "width": 464,
+        "height": 600,
+        "alt": "逃脱与规避驾驶：驾驶技术参考原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/73dcf7745f1a3b4be9f7ac18cf146c8d-detail-0020.webp",
+          "width": 1082,
+          "height": 1400,
+          "alt": "逃脱与规避驾驶：驾驶技术参考：早期汽车弯道路径说明",
+          "page": 20,
+          "caption": "早期汽车弯道路径说明 · PDF 第 20 页"
+        },
+        {
+          "src": "/books/73dcf7745f1a3b4be9f7ac18cf146c8d-detail-0031.webp",
+          "width": 1082,
+          "height": 1400,
+          "alt": "逃脱与规避驾驶：驾驶技术参考：历史驾驶资料车辆路径图",
+          "page": 31,
+          "caption": "历史驾驶资料车辆路径图 · PDF 第 31 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "逃脱与规避驾驶：驾驶技术参考｜英文原版电子书 · 书径",
+      "seoDescription": "这本1980年代的驾驶资料讨论特殊情境下的车辆控制与判断，也可作为研究安保驾驶历史的材料。 查看原书信息、封面和电子书资源。",
+      "year": "1983"
+    },
+    {
+      "id": "96d6bf5b0a35a8b84b2ea7d44351b51c",
+      "slug": "complete-horse-riding-manual",
+      "title": "完整马术指南",
+      "originalTitle": "Complete Horse Riding Manual",
+      "authors": [
+        "William Micklem"
+      ],
+      "categorySlug": "cycling-riding-snow",
+      "subcategory": "马术与马匹调教",
+      "tags": [
+        "马术",
+        "骑乘",
+        "综合指南"
+      ],
+      "summary": "把马匹知识、骑手姿态和骑乘训练放在同一学习框架中，适合按阶段了解现代马术。",
+      "introduction": "把马匹知识、骑手姿态和骑乘训练放在同一学习框架中，适合按阶段了解现代马术。",
+      "audience": [
+        "马术初学者、进阶骑手和骑术教练"
+      ],
+      "highlights": [
+        "马匹行为与马具知识",
+        "骑手姿态和基础骑术",
+        "不同骑乘项目的训练"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 402,
+      "sizeMB": 96.5,
+      "cover": {
+        "src": "/books/96d6bf5b0a35a8b84b2ea7d44351b51c-cover.webp",
+        "width": 498,
+        "height": 600,
+        "alt": "完整马术指南原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/96d6bf5b0a35a8b84b2ea7d44351b51c-detail-0048.webp",
+          "width": 1162,
+          "height": 1400,
+          "alt": "完整马术指南：马的感官与身体敏感区域",
+          "page": 48,
+          "caption": "马的感官与身体敏感区域 · PDF 第 48 页"
+        },
+        {
+          "src": "/books/96d6bf5b0a35a8b84b2ea7d44351b51c-detail-0118.webp",
+          "width": 1162,
+          "height": 1400,
+          "alt": "完整马术指南：人马运动协调图解",
+          "page": 118,
+          "caption": "人马运动协调图解 · PDF 第 118 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "完整马术指南｜英文原版电子书 · 书径",
+      "seoDescription": "把马匹知识、骑手姿态和骑乘训练放在同一学习框架中，适合按阶段了解现代马术。 查看原书信息、封面和电子书资源。",
+      "year": "2012",
+      "isbn": "9780756690588"
+    },
+    {
+      "id": "a5a2fd0e808c3d5d28a042d471c0e1c0",
+      "slug": "football-intelligence-training-and-tactics-for-soccer-success",
+      "title": "足球智能：训练与战术",
+      "originalTitle": "Football Intelligence: Training and Tactics for Soccer Success",
+      "authors": [
+        "Israel Teoldo",
+        "José Guilherme",
+        "Júlio Garganta"
+      ],
+      "categorySlug": "ball-sports",
+      "subcategory": "足球战术与教练",
+      "tags": [
+        "足球",
+        "战术认知",
+        "教练"
+      ],
+      "summary": "关注球员如何阅读比赛并作出决策，把战术理解作为可以训练的能力，适合补充单纯的动作练习。",
+      "introduction": "关注球员如何阅读比赛并作出决策，把战术理解作为可以训练的能力，适合补充单纯的动作练习。",
+      "audience": [
+        "足球教练、青训人员和希望提高比赛理解力的球员"
+      ],
+      "highlights": [
+        "战术认知与比赛阅读",
+        "训练中的决策培养",
+        "攻防转换与表现评估"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 247,
+      "sizeMB": 5.2,
+      "cover": {
+        "src": "/books/a5a2fd0e808c3d5d28a042d471c0e1c0-cover.webp",
+        "width": 400,
+        "height": 600,
+        "alt": "足球智能：训练与战术原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/a5a2fd0e808c3d5d28a042d471c0e1c0-detail-0055.webp",
+          "width": 934,
+          "height": 1400,
+          "alt": "足球智能：训练与战术：进攻渗透与掩护的空间关系",
+          "page": 55,
+          "caption": "进攻渗透与掩护的空间关系 · PDF 第 55 页"
+        },
+        {
+          "src": "/books/a5a2fd0e808c3d5d28a042d471c0e1c0-detail-0188.webp",
+          "width": 934,
+          "height": 1400,
+          "alt": "足球智能：训练与战术：FUT-SAT战术行为评估示例",
+          "page": 188,
+          "caption": "FUT-SAT战术行为评估示例 · PDF 第 188 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "足球智能：训练与战术｜英文原版电子书 · 书径",
+      "seoDescription": "关注球员如何阅读比赛并作出决策，把战术理解作为可以训练的能力，适合补充单纯的动作练习。 查看原书信息、封面和电子书资源。",
+      "year": "2022",
+      "isbn": "9781003223375"
+    },
+    {
+      "id": "4c9e6190c8a08583a0d5adec9c9e8054",
+      "slug": "chokes-and-strangles",
+      "title": "绞技与锁喉技术研究",
+      "originalTitle": "Chokes and Strangles",
+      "authors": [
+        "Geoff Thompson"
+      ],
+      "categorySlug": "martial-arts",
+      "subcategory": "地面格斗与绞技",
+      "tags": [
+        "地面格斗",
+        "技术研究",
+        "专题手册"
+      ],
+      "summary": "以地面格斗中的绞技为专题，讨论位置、控制和防守之间的关系，适合已有训练基础的读者查阅。",
+      "introduction": "以地面格斗中的绞技为专题，讨论位置、控制和防守之间的关系，适合已有训练基础的读者查阅。",
+      "audience": [
+        "格斗训练者、教练及武术技术研究者"
+      ],
+      "highlights": [
+        "地面位置与控制关系",
+        "绞技的技术分类",
+        "防守与训练中的常见问题"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 96,
+      "sizeMB": 1.8,
+      "cover": {
+        "src": "/books/4c9e6190c8a08583a0d5adec9c9e8054-cover.webp",
+        "width": 400,
+        "height": 600,
+        "alt": "绞技与锁喉技术研究原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/4c9e6190c8a08583a0d5adec9c9e8054-detail-0035.webp",
+          "width": 934,
+          "height": 1400,
+          "alt": "绞技与锁喉技术研究：骑乘位置专题照片",
+          "page": 35,
+          "caption": "骑乘位置专题照片 · PDF 第 35 页"
+        },
+        {
+          "src": "/books/4c9e6190c8a08583a0d5adec9c9e8054-detail-0080.webp",
+          "width": 934,
+          "height": 1400,
+          "alt": "绞技与锁喉技术研究：地面防守位置专题",
+          "page": 80,
+          "caption": "地面防守位置专题 · PDF 第 80 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "绞技与锁喉技术研究｜英文原版电子书 · 书径",
+      "seoDescription": "以地面格斗中的绞技为专题，讨论位置、控制和防守之间的关系，适合已有训练基础的读者查阅。 查看原书信息、封面和电子书资源。",
+      "year": "2001",
+      "isbn": "1840241721"
+    },
+    {
+      "id": "beb8dfe615ea3b94416a63d7927e7f8c",
+      "slug": "soccer-injury-prevention-and-treatment-a-guide-to-optimal-performance-for-players-par",
+      "title": "足球损伤预防与处理指南",
+      "originalTitle": "Soccer injury prevention and treatment : a guide to optimal performance for players, parents and coaches",
+      "authors": [
+        "John Gallucci Jr."
+      ],
+      "categorySlug": "rescue-medicine",
+      "subcategory": "运动损伤与康复",
+      "tags": [
+        "足球",
+        "运动损伤",
+        "康复"
+      ],
+      "summary": "以足球常见伤病为线索，连接训练准备、伤后恢复与回归运动，兼顾球员、家长和教练的阅读需求。",
+      "introduction": "以足球常见伤病为线索，连接训练准备、伤后恢复与回归运动，兼顾球员、家长和教练的阅读需求。",
+      "audience": [
+        "足球教练、球员、家长和运动康复学习者"
+      ],
+      "highlights": [
+        "常见足球损伤",
+        "训练准备与预防",
+        "恢复和回归运动"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 228,
+      "sizeMB": 16.3,
+      "cover": {
+        "src": "/books/beb8dfe615ea3b94416a63d7927e7f8c-cover.webp",
+        "width": 400,
+        "height": 600,
+        "alt": "足球损伤预防与处理指南原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/beb8dfe615ea3b94416a63d7927e7f8c-detail-0098.webp",
+          "width": 933,
+          "height": 1400,
+          "alt": "足球损伤预防与处理指南：膝关节损伤的机制与分类",
+          "page": 98,
+          "caption": "膝关节损伤的机制与分类 · PDF 第 98 页"
+        },
+        {
+          "src": "/books/beb8dfe615ea3b94416a63d7927e7f8c-detail-0198.webp",
+          "width": 1400,
+          "height": 933,
+          "alt": "足球损伤预防与处理指南：LESS下肢强化项目表",
+          "page": 198,
+          "caption": "LESS下肢强化项目表 · PDF 第 198 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "足球损伤预防与处理指南｜英文原版电子书 · 书径",
+      "seoDescription": "以足球常见伤病为线索，连接训练准备、伤后恢复与回归运动，兼顾球员、家长和教练的阅读需求。 查看原书信息、封面和电子书资源。",
+      "year": "2014",
+      "isbn": "9781617052194"
+    },
+    {
+      "id": "49972d24fcefe645548a61fa656b5a4b",
+      "slug": "get-tough-how-to-win-in-hand-to-hand-fighting",
+      "title": "Get Tough：徒手格斗的历史训练资料",
+      "originalTitle": "Get Tough!: How to Win in Hand-To-Hand Fighting",
+      "authors": [
+        "William Ewart Fairbairn"
+      ],
+      "categorySlug": "martial-arts",
+      "subcategory": "历史近战训练研究",
+      "tags": [
+        "二战",
+        "格斗史",
+        "历史资料"
+      ],
+      "summary": "以近身徒手格斗为主题的历史训练读物，通过图文呈现早期训练方法，适合从军事史与训练史角度了解二战时期的教材思路。",
+      "introduction": "以近身徒手格斗为主题的历史训练读物，通过图文呈现早期训练方法，适合从军事史与训练史角度了解二战时期的教材思路。",
+      "audience": [
+        "军事历史读者和传统格斗训练研究者"
+      ],
+      "highlights": [
+        "战时训练的历史背景",
+        "徒手格斗的课程结构",
+        "早期训练教材的图文表达"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 124,
+      "sizeMB": 11.3,
+      "cover": {
+        "src": "/books/49972d24fcefe645548a61fa656b5a4b-cover.webp",
+        "width": 393,
+        "height": 600,
+        "alt": "Get Tough：徒手格斗的历史训练资料原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/49972d24fcefe645548a61fa656b5a4b-detail-0020.webp",
+          "width": 917,
+          "height": 1400,
+          "alt": "Get Tough：徒手格斗的历史训练资料：历史格斗教材线描插图",
+          "page": 20,
+          "caption": "历史格斗教材线描插图 · PDF 第 20 页"
+        },
+        {
+          "src": "/books/49972d24fcefe645548a61fa656b5a4b-detail-0065.webp",
+          "width": 973,
+          "height": 1400,
+          "alt": "Get Tough：徒手格斗的历史训练资料：编号人物动作图",
+          "page": 65,
+          "caption": "编号人物动作图 · PDF 第 65 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "Get Tough：徒手格斗的历史训练资料｜英文原版电子书 · 书径",
+      "seoDescription": "以近身徒手格斗为主题的历史训练读物，通过图文呈现早期训练方法，适合从军事史与训练史角度了解二战时期的教材思路。 查看原书信息、封面和电子书资源。"
+    },
+    {
+      "id": "d122fd2f0d705b63ff7ebc6ae7d0b326",
+      "slug": "tactical-home-defense-and-security-defend-yourself-and-family-against-home-invasion-a",
+      "title": "家庭防护与住宅安全",
+      "originalTitle": "Tactical Home Defense and Security: Defend Yourself and Family Against Home Invasion and Deadly Attack",
+      "authors": [
+        "Special Tactics"
+      ],
+      "categorySlug": "security-working-dogs",
+      "subcategory": "安保驾驶与风险管理",
+      "tags": [
+        "住宅安全",
+        "风险管理",
+        "安防"
+      ],
+      "summary": "从住宅与家庭的安全规划切入，讨论环境、人员协同和应急准备在风险管理中的作用。",
+      "introduction": "从住宅与家庭的安全规划切入，讨论环境、人员协同和应急准备在风险管理中的作用。",
+      "audience": [
+        "安防研究者、家庭安全规划学习者和相关从业者"
+      ],
+      "highlights": [
+        "住宅风险与物理安防",
+        "家庭成员的协同准备",
+        "应急规划与情境判断"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 120,
+      "sizeMB": 14.1,
+      "cover": {
+        "src": "/books/d122fd2f0d705b63ff7ebc6ae7d0b326-cover.webp",
+        "width": 480,
+        "height": 600,
+        "alt": "家庭防护与住宅安全原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/d122fd2f0d705b63ff7ebc6ae7d0b326-detail-0036.webp",
+          "width": 1120,
+          "height": 1400,
+          "alt": "家庭防护与住宅安全：摄像机视野与住宅平面图",
+          "page": 36,
+          "caption": "摄像机视野与住宅平面图 · PDF 第 36 页"
+        },
+        {
+          "src": "/books/d122fd2f0d705b63ff7ebc6ae7d0b326-detail-0049.webp",
+          "width": 1120,
+          "height": 1400,
+          "alt": "家庭防护与住宅安全：预警、障碍和响应时间线",
+          "page": 49,
+          "caption": "预警、障碍和响应时间线 · PDF 第 49 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "家庭防护与住宅安全｜英文原版电子书 · 书径",
+      "seoDescription": "从住宅与家庭的安全规划切入，讨论环境、人员协同和应急准备在风险管理中的作用。 查看原书信息、封面和电子书资源。",
+      "year": "2022",
+      "isbn": "9798985595093"
+    },
+    {
+      "id": "6b7f92d97f3d2fed1dec3f0750a69137",
+      "slug": "jigs-fixtures-for-the-hand-tool-woodworker-50-classic-devices-you-can-make",
+      "title": "手工木工夹具：50种经典装置",
+      "originalTitle": "Jigs & Fixtures For The Hand Tool Woodworker 50 Classic Devices You Can Make",
+      "authors": [
+        "Graham Blackburn"
+      ],
+      "categorySlug": "craft-engineering",
+      "subcategory": "木工工具夹具",
+      "tags": [
+        "木工",
+        "手工工具",
+        "夹具"
+      ],
+      "summary": "围绕传统手工工具的固定、导向与定位需求，提供理解工作台辅助装置的思路。",
+      "introduction": "围绕传统手工工具的固定、导向与定位需求，提供理解工作台辅助装置的思路。",
+      "audience": [
+        "使用手工工具的木工爱好者和工匠"
+      ],
+      "highlights": [
+        "手工工具的固定需求",
+        "夹具与定位装置",
+        "精度和可重复性"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 162,
+      "sizeMB": 11.2,
+      "cover": {
+        "src": "/books/6b7f92d97f3d2fed1dec3f0750a69137-cover.webp",
+        "width": 456,
+        "height": 600,
+        "alt": "手工木工夹具：50种经典装置原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/6b7f92d97f3d2fed1dec3f0750a69137-detail-0020.webp",
+          "width": 1063,
+          "height": 1400,
+          "alt": "手工木工夹具：50种经典装置：台钉与工作台持料图",
+          "page": 20,
+          "caption": "台钉与工作台持料图 · PDF 第 20 页"
+        },
+        {
+          "src": "/books/6b7f92d97f3d2fed1dec3f0750a69137-detail-0045.webp",
+          "width": 1063,
+          "height": 1400,
+          "alt": "手工木工夹具：50种经典装置：挠性靠尺与曲线划线",
+          "page": 45,
+          "caption": "挠性靠尺与曲线划线 · PDF 第 45 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "手工木工夹具：50种经典装置｜英文原版电子书 · 书径",
+      "seoDescription": "围绕传统手工工具的固定、导向与定位需求，提供理解工作台辅助装置的思路。 查看原书信息、封面和电子书资源。",
+      "year": "2014",
+      "edition": "第一版",
+      "isbn": "9781440333408"
+    },
+    {
+      "id": "9114c887d40d58b6aad0345081cf1e20",
+      "slug": "higher-performance-sailing-faster-handling-techniques",
+      "title": "高性能帆船：操控进阶",
+      "originalTitle": "Higher Performance Sailing: Faster Handling Techniques",
+      "authors": [
+        "Bethwaite, Frank"
+      ],
+      "categorySlug": "water-sailing",
+      "subcategory": "帆船竞赛与运动科学",
+      "tags": [
+        "帆船",
+        "竞速",
+        "操控"
+      ],
+      "summary": "把帆船的速度表现与操控技术相联系，适合已熟悉基础航行、希望深入理解竞速与船只响应的读者。",
+      "introduction": "把帆船的速度表现与操控技术相联系，适合已熟悉基础航行、希望深入理解竞速与船只响应的读者。",
+      "audience": [
+        "帆船竞赛选手、进阶爱好者和教练"
+      ],
+      "highlights": [
+        "船速与操控关系",
+        "风和船只响应",
+        "高性能航行的技术分析"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 449,
+      "sizeMB": 56.7,
+      "cover": {
+        "src": "/books/9114c887d40d58b6aad0345081cf1e20-cover.webp",
+        "width": 441,
+        "height": 600,
+        "alt": "高性能帆船：操控进阶原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/9114c887d40d58b6aad0345081cf1e20-detail-0099.webp",
+          "width": 1028,
+          "height": 1400,
+          "alt": "高性能帆船：操控进阶：轻风中的风场与热对流",
+          "page": 99,
+          "caption": "轻风中的风场与热对流 · PDF 第 99 页"
+        },
+        {
+          "src": "/books/9114c887d40d58b6aad0345081cf1e20-detail-0216.webp",
+          "width": 1028,
+          "height": 1400,
+          "alt": "高性能帆船：操控进阶：两艇测试与船型比赛用时比较",
+          "page": 216,
+          "caption": "两艇测试与船型比赛用时比较 · PDF 第 216 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "高性能帆船：操控进阶｜英文原版电子书 · 书径",
+      "seoDescription": "把帆船的速度表现与操控技术相联系，适合已熟悉基础航行、希望深入理解竞速与船只响应的读者。 查看原书信息、封面和电子书资源。",
+      "year": "2008",
+      "isbn": "9781472901316"
+    },
+    {
+      "id": "0627acaeed009c6f7f5d4579d7819ab5",
+      "slug": "k9-schutzhund-training-a-manual-for-ipo-training-through-positive-reinforcement",
+      "title": "Schutzhund犬运动：正向强化训练",
+      "originalTitle": "K9 Schutzhund training: a manual for IPO training through positive reinforcement",
+      "authors": [
+        "Gerritsen, Resi; Haak, Ruud"
+      ],
+      "categorySlug": "security-working-dogs",
+      "subcategory": "工作犬行为与训练",
+      "tags": [
+        "工作犬",
+        "犬运动",
+        "正向强化"
+      ],
+      "summary": "以IPO犬运动的训练任务为背景，讨论正向强化与追踪、服从、护卫科目之间的关系。",
+      "introduction": "以IPO犬运动的训练任务为背景，讨论正向强化与追踪、服从、护卫科目之间的关系。",
+      "audience": [
+        "工作犬训练学习者、犬运动爱好者和训导员"
+      ],
+      "highlights": [
+        "犬运动的训练体系",
+        "正向强化与学习反馈",
+        "追踪服从及护卫科目"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 257,
+      "sizeMB": 4.8,
+      "cover": {
+        "src": "/books/0627acaeed009c6f7f5d4579d7819ab5-cover.webp",
+        "width": 389,
+        "height": 600,
+        "alt": "Schutzhund犬运动：正向强化训练原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/0627acaeed009c6f7f5d4579d7819ab5-detail-0020.webp",
+          "width": 809,
+          "height": 1400,
+          "alt": "Schutzhund犬运动：正向强化训练：追踪基础与嗅觉背景",
+          "page": 20,
+          "caption": "追踪基础与嗅觉背景 · PDF 第 20 页"
+        },
+        {
+          "src": "/books/0627acaeed009c6f7f5d4579d7819ab5-detail-0120.webp",
+          "width": 809,
+          "height": 1400,
+          "alt": "Schutzhund犬运动：正向强化训练：服从项目的渐进学习",
+          "page": 120,
+          "caption": "服从项目的渐进学习 · PDF 第 120 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "Schutzhund犬运动：正向强化训练｜英文原版电子书 · 书径",
+      "seoDescription": "以IPO犬运动的训练任务为背景，讨论正向强化与追踪、服从、护卫科目之间的关系。 查看原书信息、封面和电子书资源。",
+      "year": "2014",
+      "edition": "第二版",
+      "isbn": "9781550595581"
+    },
+    {
+      "id": "2f046b1a616e85f6efacbdae33a4f46e",
+      "slug": "day-skipper-for-sail-and-power-the-essential-manual-for-the-rya-day-skipper-theory-an",
+      "title": "日航船长：帆船与动力船",
+      "originalTitle": "Day Skipper for Sail and Power: The Essential Manual for the RYA Day Skipper Theory and Practical Certificate",
+      "authors": [
+        "Alison Noice",
+        "Roger Seymour"
+      ],
+      "categorySlug": "water-sailing",
+      "subcategory": "航海船长技能与导航",
+      "tags": [
+        "航海",
+        "船长课程",
+        "RYA"
+      ],
+      "summary": "围绕RYA日航船长理论及实践课程的知识范围，组织导航、操船、气象与航行管理等内容。",
+      "introduction": "围绕RYA日航船长理论及实践课程的知识范围，组织导航、操船、气象与航行管理等内容。",
+      "audience": [
+        "日航船长课程学习者、帆船和动力游艇爱好者"
+      ],
+      "highlights": [
+        "近岸导航与海图",
+        "帆船和动力船操纵",
+        "气象潮汐与船员管理"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 209,
+      "sizeMB": 146.7,
+      "cover": {
+        "src": "/books/2f046b1a616e85f6efacbdae33a4f46e-cover.webp",
+        "width": 461,
+        "height": 600,
+        "alt": "日航船长：帆船与动力船原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/2f046b1a616e85f6efacbdae33a4f46e-detail-0101.webp",
+          "width": 1076,
+          "height": 1400,
+          "alt": "日航船长：帆船与动力船：海图作业所需工具",
+          "page": 101,
+          "caption": "海图作业所需工具 · PDF 第 101 页"
+        },
+        {
+          "src": "/books/2f046b1a616e85f6efacbdae33a4f46e-detail-0159.webp",
+          "width": 1076,
+          "height": 1400,
+          "alt": "日航船长：帆船与动力船：天气预报区域与Navtex信息",
+          "page": 159,
+          "caption": "天气预报区域与Navtex信息 · PDF 第 159 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "日航船长：帆船与动力船｜英文原版电子书 · 书径",
+      "seoDescription": "围绕RYA日航船长理论及实践课程的知识范围，组织导航、操船、气象与航行管理等内容。 查看原书信息、封面和电子书资源。",
+      "year": "2023",
+      "edition": "第四版",
+      "isbn": "9781399402835"
+    },
+    {
+      "id": "1ebabdd45bf5255380283979ea4f801e",
+      "slug": "the-secret-karate-techniques-kata-bunkai",
+      "title": "空手道型的应用解析",
+      "originalTitle": "The secret karate techniques : kata bunkai",
+      "authors": [
+        "Helmut Kogel"
+      ],
+      "categorySlug": "martial-arts",
+      "subcategory": "空手道型分解",
+      "tags": [
+        "空手道",
+        "型分解",
+        "武术研究"
+      ],
+      "summary": "把空手道型作为技术研究对象，关注套路动作的含义与应用逻辑，适合已有习练背景的读者比较和理解。",
+      "introduction": "把空手道型作为技术研究对象，关注套路动作的含义与应用逻辑，适合已有习练背景的读者比较和理解。",
+      "audience": [
+        "空手道习练者、教练和武术研究者"
+      ],
+      "highlights": [
+        "型的动作结构",
+        "型分解的解释方法",
+        "传统技术的应用研究"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 251,
+      "sizeMB": 25.2,
+      "cover": {
+        "src": "/books/1ebabdd45bf5255380283979ea4f801e-cover.webp",
+        "width": 413,
+        "height": 600,
+        "alt": "空手道型的应用解析原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/1ebabdd45bf5255380283979ea4f801e-detail-0050.webp",
+          "width": 962,
+          "height": 1400,
+          "alt": "空手道型的应用解析：冲绳空手道大师与传承背景",
+          "page": 50,
+          "caption": "冲绳空手道大师与传承背景 · PDF 第 50 页"
+        },
+        {
+          "src": "/books/1ebabdd45bf5255380283979ea4f801e-detail-0240.webp",
+          "width": 962,
+          "height": 1400,
+          "alt": "空手道型的应用解析：型的动作应用分析",
+          "page": 240,
+          "caption": "型的动作应用分析 · PDF 第 240 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "空手道型的应用解析｜英文原版电子书 · 书径",
+      "seoDescription": "把空手道型作为技术研究对象，关注套路动作的含义与应用逻辑，适合已有习练背景的读者比较和理解。 查看原书信息、封面和电子书资源。",
+      "year": "2010",
+      "isbn": "9781841262895"
+    },
+    {
+      "id": "e2faac3e151af0ce32bffcf8e8cdae06",
+      "slug": "muay-thai-training-exercises-the-ultimate-guide-to-fitness-strength-and-fight-prepara",
+      "title": "泰拳训练：体能、力量与备赛",
+      "originalTitle": "Muay Thai Training Exercises: The Ultimate Guide to Fitness, Strength, and Fight Preparation",
+      "authors": [
+        "Christoph Delp"
+      ],
+      "categorySlug": "martial-arts",
+      "subcategory": "泰拳体能训练",
+      "tags": [
+        "泰拳",
+        "专项体能",
+        "备赛"
+      ],
+      "summary": "将泰拳专项练习、身体素质与比赛准备结合起来，帮助读者把日常训练组织为更完整的计划。",
+      "introduction": "将泰拳专项练习、身体素质与比赛准备结合起来，帮助读者把日常训练组织为更完整的计划。",
+      "audience": [
+        "泰拳爱好者、教练和格斗体能训练人员"
+      ],
+      "highlights": [
+        "专项体能与力量",
+        "训练计划和备赛安排",
+        "恢复与训练负荷"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 416,
+      "sizeMB": 10.6,
+      "cover": {
+        "src": "/books/e2faac3e151af0ce32bffcf8e8cdae06-cover.webp",
+        "width": 457,
+        "height": 600,
+        "alt": "泰拳训练：体能、力量与备赛原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/e2faac3e151af0ce32bffcf8e8cdae06-detail-0190.webp",
+          "width": 1066,
+          "height": 1400,
+          "alt": "泰拳训练：体能、力量与备赛：泰拳伸展训练专题",
+          "page": 190,
+          "caption": "泰拳伸展训练专题 · PDF 第 190 页"
+        },
+        {
+          "src": "/books/e2faac3e151af0ce32bffcf8e8cdae06-detail-0370.webp",
+          "width": 1066,
+          "height": 1400,
+          "alt": "泰拳训练：体能、力量与备赛：作者与教练照片及十周训练周期",
+          "page": 370,
+          "caption": "作者与教练照片及十周训练周期 · PDF 第 370 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "泰拳训练：体能、力量与备赛｜英文原版电子书 · 书径",
+      "seoDescription": "将泰拳专项练习、身体素质与比赛准备结合起来，帮助读者把日常训练组织为更完整的计划。 查看原书信息、封面和电子书资源。",
+      "year": "2013",
+      "isbn": "9781583946589"
+    },
+    {
+      "id": "659cd68a768afd5c7d2970524ea2f6be",
+      "slug": "the-physics-of-basketball",
+      "title": "篮球物理学",
+      "originalTitle": "The Physics of Basketball",
+      "authors": [
+        "John J. Fontanella"
+      ],
+      "categorySlug": "ball-sports",
+      "subcategory": "篮球与青训教练",
+      "tags": [
+        "篮球",
+        "物理学",
+        "运动科学"
+      ],
+      "summary": "用力学视角解释投篮、弹跳、旋转与碰撞等篮球现象，适合在球场经验之外理解动作背后的原因。",
+      "introduction": "用力学视角解释投篮、弹跳、旋转与碰撞等篮球现象，适合在球场经验之外理解动作背后的原因。",
+      "audience": [
+        "篮球爱好者、教练和对运动物理感兴趣的读者"
+      ],
+      "highlights": [
+        "投篮轨迹与出手条件",
+        "旋转反弹和碰撞",
+        "篮球动作的物理分析"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 168,
+      "sizeMB": 2.6,
+      "cover": {
+        "src": "/books/659cd68a768afd5c7d2970524ea2f6be-cover.webp",
+        "width": 400,
+        "height": 600,
+        "alt": "篮球物理学原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/659cd68a768afd5c7d2970524ea2f6be-detail-0081.webp",
+          "width": 901,
+          "height": 1400,
+          "alt": "篮球物理学：罚球时手对篮球的作用力曲线",
+          "page": 81,
+          "caption": "罚球时手对篮球的作用力曲线 · PDF 第 81 页"
+        },
+        {
+          "src": "/books/659cd68a768afd5c7d2970524ea2f6be-detail-0128.webp",
+          "width": 901,
+          "height": 1400,
+          "alt": "篮球物理学：充气压力与篮球反弹高度",
+          "page": 128,
+          "caption": "充气压力与篮球反弹高度 · PDF 第 128 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "篮球物理学｜英文原版电子书 · 书径",
+      "seoDescription": "用力学视角解释投篮、弹跳、旋转与碰撞等篮球现象，适合在球场经验之外理解动作背后的原因。 查看原书信息、封面和电子书资源。",
+      "year": "2006",
+      "isbn": "0801885132"
+    },
+    {
+      "id": "bf801bd55df8c6de7d56e22d21793c3e",
+      "slug": "krav-maga-weapon-defenses-the-contact-combat-system-of-the-israel-defense-forces",
+      "title": "Krav Maga武器防御研究",
+      "originalTitle": "Krav Maga Weapon Defenses: The Contact Combat System of the Israel Defense Forces",
+      "authors": [
+        "Kahn, David"
+      ],
+      "categorySlug": "martial-arts",
+      "subcategory": "以色列格斗术",
+      "tags": [
+        "Krav Maga",
+        "防身研究",
+        "专题教材"
+      ],
+      "summary": "以Krav Maga体系中的武器防御为专题，呈现相关技术的分类和训练语境，适合已有专业训练背景的读者参考。",
+      "introduction": "以Krav Maga体系中的武器防御为专题，呈现相关技术的分类和训练语境，适合已有专业训练背景的读者参考。",
+      "audience": [
+        "Krav Maga习练者、教练及防身体系研究者"
+      ],
+      "highlights": [
+        "防御体系与基本概念",
+        "不同情境的技术分类",
+        "训练心理与风险认识"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 322,
+      "sizeMB": 10.9,
+      "cover": {
+        "src": "/books/bf801bd55df8c6de7d56e22d21793c3e-cover.webp",
+        "width": 464,
+        "height": 600,
+        "alt": "Krav Maga武器防御研究原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/bf801bd55df8c6de7d56e22d21793c3e-detail-0045.webp",
+          "width": 1083,
+          "height": 1400,
+          "alt": "Krav Maga武器防御研究：控制技术的照片编排",
+          "page": 45,
+          "caption": "控制技术的照片编排 · PDF 第 45 页"
+        },
+        {
+          "src": "/books/bf801bd55df8c6de7d56e22d21793c3e-detail-0290.webp",
+          "width": 1083,
+          "height": 1400,
+          "alt": "Krav Maga武器防御研究：长枪专题照片与说明",
+          "page": 290,
+          "caption": "长枪专题照片与说明 · PDF 第 290 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "Krav Maga武器防御研究｜英文原版电子书 · 书径",
+      "seoDescription": "以Krav Maga体系中的武器防御为专题，呈现相关技术的分类和训练语境，适合已有专业训练背景的读者参考。 查看原书信息、封面和电子书资源。",
+      "year": "2012",
+      "isbn": "9781594392429"
+    },
+    {
+      "id": "eca58837b7e967f69bc4d1fa183791e6",
+      "slug": "field-stream-outdoor-survival-guide-survival-skills-you-need-field-stream-skills-guid",
+      "title": "Field & Stream户外生存指南",
+      "originalTitle": "Field & Stream Outdoor Survival Guide: Survival Skills You Need (Field & Stream Skills Guide)",
+      "authors": [
+        "T. Edward Nickens",
+        "Field & Stream编辑团队"
+      ],
+      "categorySlug": "climbing-outdoors",
+      "subcategory": "即兴户外生存",
+      "tags": [
+        "户外",
+        "生存知识",
+        "实用指南"
+      ],
+      "summary": "把野外活动中的庇护、用水、方向判断和应急准备组织成便于查阅的主题，适合补充户外知识。",
+      "introduction": "把野外活动中的庇护、用水、方向判断和应急准备组织成便于查阅的主题，适合补充户外知识。",
+      "audience": [
+        "户外活动爱好者、露营者和生存知识学习者"
+      ],
+      "highlights": [
+        "庇护与基本资源",
+        "导航和信号知识",
+        "野外应急准备"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 97,
+      "sizeMB": 53.6,
+      "cover": {
+        "src": "/books/eca58837b7e967f69bc4d1fa183791e6-cover.webp",
+        "width": 415,
+        "height": 600,
+        "alt": "Field & Stream户外生存指南原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/eca58837b7e967f69bc4d1fa183791e6-detail-0022.webp",
+          "width": 967,
+          "height": 1401,
+          "alt": "Field & Stream户外生存指南：独木舟翻转的图解条目",
+          "page": 22,
+          "caption": "独木舟翻转的图解条目 · PDF 第 22 页"
+        },
+        {
+          "src": "/books/eca58837b7e967f69bc4d1fa183791e6-detail-0074.webp",
+          "width": 967,
+          "height": 1401,
+          "alt": "Field & Stream户外生存指南：临时烹饪钩与处理枝木的图解",
+          "page": 74,
+          "caption": "临时烹饪钩与处理枝木的图解 · PDF 第 74 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "Field & Stream户外生存指南｜英文原版电子书 · 书径",
+      "seoDescription": "把野外活动中的庇护、用水、方向判断和应急准备组织成便于查阅的主题，适合补充户外知识。 查看原书信息、封面和电子书资源。",
+      "year": "2012",
+      "isbn": "9781616284169"
+    },
+    {
+      "id": "a5f9be5c819474a210a63c9197b542e8",
+      "slug": "an-introductory-guide-to-the-identification-of-small-arms-light-weapons-and-associate",
+      "title": "轻武器与弹药识别入门",
+      "originalTitle": "An Introductory Guide to the Identification of Small Arms, Light Weapons, and Associated Ammunition",
+      "authors": [
+        "N.R. Jenzen-Jones",
+        "Matt Schroeder"
+      ],
+      "categorySlug": "history-collections",
+      "subcategory": "武器与弹药识别",
+      "tags": [
+        "装备识别",
+        "军备研究",
+        "图鉴"
+      ],
+      "summary": "围绕外观特征、分类与标记解释建立识别框架，可作为武器史、军备研究和装备资料编目的参考。",
+      "introduction": "围绕外观特征、分类与标记解释建立识别框架，可作为武器史、军备研究和装备资料编目的参考。",
+      "audience": [
+        "军事历史读者、装备研究者和专业识别学习者"
+      ],
+      "highlights": [
+        "武器类别与识别特征",
+        "弹药和制造标记",
+        "图像对照与资料查阅"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 352,
+      "sizeMB": 21.3,
+      "cover": {
+        "src": "/books/a5f9be5c819474a210a63c9197b542e8-cover.webp",
+        "width": 423,
+        "height": 600,
+        "alt": "轻武器与弹药识别入门原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/a5f9be5c819474a210a63c9197b542e8-detail-0089.webp",
+          "width": 987,
+          "height": 1400,
+          "alt": "轻武器与弹药识别入门：枪口附件识别图例",
+          "page": 89,
+          "caption": "枪口附件识别图例 · PDF 第 89 页"
+        },
+        {
+          "src": "/books/a5f9be5c819474a210a63c9197b542e8-detail-0299.webp",
+          "width": 987,
+          "height": 1400,
+          "alt": "轻武器与弹药识别入门：授权军备转让的数据分类",
+          "page": 299,
+          "caption": "授权军备转让的数据分类 · PDF 第 299 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "轻武器与弹药识别入门｜英文原版电子书 · 书径",
+      "seoDescription": "围绕外观特征、分类与标记解释建立识别框架，可作为武器史、军备研究和装备资料编目的参考。 查看原书信息、封面和电子书资源。",
+      "year": "2018",
+      "authorRole": "editor",
+      "isbn": "9782940548552"
+    },
+    {
+      "id": "b4c29a9117ad538fb9054cd62f6ba185",
+      "slug": "low-level-light-shooting",
+      "title": "低光环境射击研究",
+      "originalTitle": "Low Level Light Shooting Techniques",
+      "authors": [
+        "Richard Franks"
+      ],
+      "categorySlug": "security-working-dogs",
+      "subcategory": "枪械射击与弹道研究",
+      "tags": [
+        "射击研究",
+        "低光环境",
+        "专题资料"
+      ],
+      "summary": "篇幅集中的专题资料，关注光线条件对射击训练与判断的影响，适合研究相关职业训练内容。",
+      "introduction": "篇幅集中的专题资料，关注光线条件对射击训练与判断的影响，适合研究相关职业训练内容。",
+      "audience": [
+        "射击训练研究者和相关专业学习者"
+      ],
+      "highlights": [
+        "光线条件与视觉判断",
+        "训练情境与设备角色",
+        "专题训练的常见问题"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 19,
+      "sizeMB": 1.2,
+      "cover": {
+        "src": "/books/b4c29a9117ad538fb9054cd62f6ba185-cover.webp",
+        "width": 425,
+        "height": 600,
+        "alt": "低光环境射击研究原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/b4c29a9117ad538fb9054cd62f6ba185-detail-0006.webp",
+          "width": 990,
+          "height": 1400,
+          "alt": "低光环境射击研究：低光照明器材照片",
+          "page": 6,
+          "caption": "低光照明器材照片 · PDF 第 6 页"
+        },
+        {
+          "src": "/books/b4c29a9117ad538fb9054cd62f6ba185-detail-0007.webp",
+          "width": 990,
+          "height": 1400,
+          "alt": "低光环境射击研究：安保照明器材携行图",
+          "page": 7,
+          "caption": "安保照明器材携行图 · PDF 第 7 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "低光环境射击研究｜英文原版电子书 · 书径",
+      "seoDescription": "篇幅集中的专题资料，关注光线条件对射击训练与判断的影响，适合研究相关职业训练内容。 查看原书信息、封面和电子书资源。",
+      "year": "2017",
+      "edition": "Volume 1 – Security Operations",
+      "isbn": "9781925615579"
+    },
+    {
+      "id": "1017f9d4b84924460ef51d4a648b2dcc",
+      "slug": "paintball-and-airsoft-battle-tactics",
+      "title": "彩弹与Airsoft团队战术",
+      "originalTitle": "Paintball and Airsoft Battle Tactics",
+      "authors": [
+        "Christopher E. Larsen"
+      ],
+      "categorySlug": "security-working-dogs",
+      "subcategory": "军事模拟与建模",
+      "tags": [
+        "模拟运动",
+        "团队协作",
+        "彩弹"
+      ],
+      "summary": "以彩弹和Airsoft模拟运动为场景，讨论队员分工、沟通和团队组织，可供了解这类活动的训练设计。",
+      "introduction": "以彩弹和Airsoft模拟运动为场景，讨论队员分工、沟通和团队组织，可供了解这类活动的训练设计。",
+      "audience": [
+        "模拟运动爱好者、活动组织者和团队训练研究者"
+      ],
+      "highlights": [
+        "模拟运动的团队角色",
+        "沟通和场地协作",
+        "练习组织与复盘"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 130,
+      "sizeMB": 61.0,
+      "cover": {
+        "src": "/books/1017f9d4b84924460ef51d4a648b2dcc-cover.webp",
+        "width": 438,
+        "height": 600,
+        "alt": "彩弹与Airsoft团队战术原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/1017f9d4b84924460ef51d4a648b2dcc-detail-0078.webp",
+          "width": 1020,
+          "height": 1400,
+          "alt": "彩弹与Airsoft团队战术：团队游戏计划与示意图",
+          "page": 78,
+          "caption": "团队游戏计划与示意图 · PDF 第 78 页"
+        },
+        {
+          "src": "/books/1017f9d4b84924460ef51d4a648b2dcc-detail-0104.webp",
+          "width": 1020,
+          "height": 1400,
+          "alt": "彩弹与Airsoft团队战术：任务规划与团队组织",
+          "page": 104,
+          "caption": "任务规划与团队组织 · PDF 第 104 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "彩弹与Airsoft团队战术｜英文原版电子书 · 书径",
+      "seoDescription": "以彩弹和Airsoft模拟运动为场景，讨论队员分工、沟通和团队组织，可供了解这类活动的训练设计。 查看原书信息、封面和电子书资源。",
+      "year": "2008",
+      "isbn": "9780760330630"
+    },
+    {
+      "id": "3c73bd307b7d16dc5988aa2189469d54",
+      "slug": "the-blue-ocean-strategy-reader-the-iconic-articles-by-w-chan-kim-and-ren-e-mauborgne",
+      "title": "蓝海战略文章读本",
+      "originalTitle": "The Blue Ocean Strategy Reader: The iconic articles by W. Chan Kim and Renée Mauborgne",
+      "authors": [
+        "W. Chan Kim",
+        "Renée Mauborgne"
+      ],
+      "categorySlug": "science-family-management",
+      "subcategory": "管理领导力与谈判",
+      "tags": [
+        "战略管理",
+        "价值创新",
+        "文章读本"
+      ],
+      "summary": "收录蓝海战略相关的代表文章，以价值创新和市场空间为线索，适合集中阅读这一管理方法的核心概念。",
+      "introduction": "收录蓝海战略相关的代表文章，以价值创新和市场空间为线索，适合集中阅读这一管理方法的核心概念。",
+      "audience": [
+        "经营者、产品人员和战略管理学习者"
+      ],
+      "highlights": [
+        "价值创新与市场空间",
+        "战略分析工具",
+        "领导力与执行议题"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 224,
+      "sizeMB": 2.0,
+      "cover": {
+        "src": "/books/3c73bd307b7d16dc5988aa2189469d54-cover.webp",
+        "width": 400,
+        "height": 600,
+        "alt": "蓝海战略文章读本原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/3c73bd307b7d16dc5988aa2189469d54-detail-0090.webp",
+          "width": 934,
+          "height": 1400,
+          "alt": "蓝海战略文章读本：商业创意与商业模式评估",
+          "page": 90,
+          "caption": "商业创意与商业模式评估 · PDF 第 90 页"
+        },
+        {
+          "src": "/books/3c73bd307b7d16dc5988aa2189469d54-detail-0191.webp",
+          "width": 934,
+          "height": 1400,
+          "alt": "蓝海战略文章读本：蓝海领导力的行为分析",
+          "page": 191,
+          "caption": "蓝海领导力的行为分析 · PDF 第 191 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "蓝海战略文章读本｜英文原版电子书 · 书径",
+      "seoDescription": "收录蓝海战略相关的代表文章，以价值创新和市场空间为线索，适合集中阅读这一管理方法的核心概念。 查看原书信息、封面和电子书资源。",
+      "year": "2017",
+      "isbn": "9781633692749"
+    },
+    {
+      "id": "03e541e24ca8f9a50217868c47ff07bc",
+      "slug": "uniforms-of-the-third-reich-a-study-in-photographs",
+      "title": "第三帝国军服：照片研究",
+      "originalTitle": "Uniforms of the Third Reich - A Study in Photographs",
+      "authors": [
+        "Arthur Hayes",
+        "Jon Maguire"
+      ],
+      "categorySlug": "history-collections",
+      "subcategory": "军服徽章与模型参考",
+      "tags": [
+        "军服",
+        "二战",
+        "模型参考"
+      ],
+      "summary": "以军服、徽章和配件照片为参考材料，适合研究1933至1945年德国制服制度与视觉细节。",
+      "introduction": "以军服、徽章和配件照片为参考材料，适合研究1933至1945年德国制服制度与视觉细节。",
+      "audience": [
+        "军事历史读者、藏家、模型和影视服装研究者"
+      ],
+      "highlights": [
+        "军服类别与年代",
+        "徽章配件和实物细节",
+        "历史形象与照片参考"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 258,
+      "sizeMB": 150.0,
+      "cover": {
+        "src": "/books/03e541e24ca8f9a50217868c47ff07bc-cover.webp",
+        "width": 441,
+        "height": 600,
+        "alt": "第三帝国军服：照片研究原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/03e541e24ca8f9a50217868c47ff07bc-detail-0009.webp",
+          "width": 988,
+          "height": 1400,
+          "alt": "第三帝国军服：照片研究：陆军制服多视图与配件",
+          "page": 9,
+          "caption": "陆军制服多视图与配件 · PDF 第 9 页"
+        },
+        {
+          "src": "/books/03e541e24ca8f9a50217868c47ff07bc-detail-0142.webp",
+          "width": 1028,
+          "height": 1400,
+          "alt": "第三帝国军服：照片研究：海军礼服实物照片",
+          "page": 142,
+          "caption": "海军礼服实物照片 · PDF 第 142 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "第三帝国军服：照片研究｜英文原版电子书 · 书径",
+      "seoDescription": "以军服、徽章和配件照片为参考材料，适合研究1933至1945年德国制服制度与视觉细节。 查看原书信息、封面和电子书资源。",
+      "year": "1997",
+      "isbn": "0764303589",
+      "authorTypes": [
+        "Person",
+        "Person"
+      ]
+    },
+    {
+      "id": "b90255f60dd31d32aa2f835e67d4ec74",
+      "slug": "the-instant-handbook-of-boat-handling-navigation-and-seamanship-a-quick-reference-gui",
+      "title": "操船、导航与航海术速查",
+      "originalTitle": "The Instant Handbook of Boat Handling, Navigation, and Seamanship: A Quick-Reference Guide for Sail and Power",
+      "authors": [
+        "Nigel Calder",
+        "Richard Clinchy",
+        "Bill Gladstone",
+        "Peter Nielsen",
+        "John Rousmaniere",
+        "Bob Sweet",
+        "Charlie Wing"
+      ],
+      "categorySlug": "water-sailing",
+      "subcategory": "航海船长技能与导航",
+      "tags": [
+        "航海",
+        "操船",
+        "速查手册"
+      ],
+      "summary": "把帆船和动力船的常用知识组织为查阅型内容，适合已有学习基础、希望快速定位主题的读者。",
+      "introduction": "把帆船和动力船的常用知识组织为查阅型内容，适合已有学习基础、希望快速定位主题的读者。",
+      "audience": [
+        "船长学员、船主和航海爱好者"
+      ],
+      "highlights": [
+        "船舶操纵主题",
+        "导航与航海术",
+        "航行问题的快速查阅"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 241,
+      "sizeMB": 21.2,
+      "cover": {
+        "src": "/books/b90255f60dd31d32aa2f835e67d4ec74-cover.webp",
+        "width": 309,
+        "height": 600,
+        "alt": "操船、导航与航海术速查原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/b90255f60dd31d32aa2f835e67d4ec74-detail-0054.webp",
+          "width": 722,
+          "height": 1400,
+          "alt": "操船、导航与航海术速查：北美航标与航道示意",
+          "page": 54,
+          "caption": "北美航标与航道示意 · PDF 第 54 页"
+        },
+        {
+          "src": "/books/b90255f60dd31d32aa2f835e67d4ec74-detail-0116.webp",
+          "width": 722,
+          "height": 1400,
+          "alt": "操船、导航与航海术速查：相遇、追越与航道规则图表",
+          "page": 116,
+          "caption": "相遇、追越与航道规则图表 · PDF 第 116 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "操船、导航与航海术速查｜英文原版电子书 · 书径",
+      "seoDescription": "把帆船和动力船的常用知识组织为查阅型内容，适合已有学习基础、希望快速定位主题的读者。 查看原书信息、封面和电子书资源。",
+      "year": "2008",
+      "isbn": "9780071596268",
+      "authorTypes": [
+        "Person",
+        "Person",
+        "Person",
+        "Person",
+        "Person",
+        "Person",
+        "Person"
+      ]
+    },
+    {
+      "id": "4adcd4c88ae7e12480291c1191b77582",
+      "slug": "military-avionics-systems",
+      "title": "军用航空电子系统",
+      "originalTitle": "Military Avionics Systems",
+      "authors": [
+        "Ian Moir",
+        "Allan G. Seabridge"
+      ],
+      "categorySlug": "craft-engineering",
+      "subcategory": "航空电子工程",
+      "tags": [
+        "航空电子",
+        "系统工程",
+        "航空"
+      ],
+      "summary": "从飞机任务与系统架构出发，组织通信、导航、传感器和集成等航空电子工程主题。",
+      "introduction": "从飞机任务与系统架构出发，组织通信、导航、传感器和集成等航空电子工程主题。",
+      "audience": [
+        "航空电子学习者、工程技术人员和研究生"
+      ],
+      "highlights": [
+        "任务需求与系统架构",
+        "通信导航和传感器",
+        "系统集成与维护支持"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 538,
+      "sizeMB": 10.8,
+      "cover": {
+        "src": "/books/4adcd4c88ae7e12480291c1191b77582-cover.webp",
+        "width": 414,
+        "height": 600,
+        "alt": "军用航空电子系统原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/4adcd4c88ae7e12480291c1191b77582-detail-0160.webp",
+          "width": 964,
+          "height": 1400,
+          "alt": "军用航空电子系统：雷达脉冲与频谱图示",
+          "page": 160,
+          "caption": "雷达脉冲与频谱图示 · PDF 第 160 页"
+        },
+        {
+          "src": "/books/4adcd4c88ae7e12480291c1191b77582-detail-0337.webp",
+          "width": 964,
+          "height": 1400,
+          "alt": "军用航空电子系统：惯性导航坐标系变换",
+          "page": 337,
+          "caption": "惯性导航坐标系变换 · PDF 第 337 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "军用航空电子系统｜英文原版电子书 · 书径",
+      "seoDescription": "从飞机任务与系统架构出发，组织通信、导航、传感器和集成等航空电子工程主题。 查看原书信息、封面和电子书资源。",
+      "year": "2006"
+    },
+    {
+      "id": "117f45fabb2391930cc02b3c4c08f370",
+      "slug": "the-kids-outdoor-adventure-book-448-great-things-to-do-in-nature-before-you-grow-up",
+      "title": "儿童自然探险：448个户外活动",
+      "originalTitle": "The kids' outdoor adventure book : 448 great things to do in nature before you grow up",
+      "authors": [
+        "Stacy Tornio",
+        "Ken Keffer"
+      ],
+      "categorySlug": "science-family-management",
+      "subcategory": "亲子自然活动",
+      "tags": [
+        "亲子",
+        "自然教育",
+        "户外活动"
+      ],
+      "summary": "以可一起完成的自然观察、游戏和手作活动，帮助家庭把户外体验变成连续的学习与探索。",
+      "introduction": "以可一起完成的自然观察、游戏和手作活动，帮助家庭把户外体验变成连续的学习与探索。",
+      "audience": [
+        "家长、自然教育工作者和儿童活动组织者"
+      ],
+      "highlights": [
+        "自然观察和探索",
+        "户外游戏与手作",
+        "按场景组织亲子活动"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 245,
+      "sizeMB": 10.1,
+      "cover": {
+        "src": "/books/117f45fabb2391930cc02b3c4c08f370-cover.webp",
+        "width": 425,
+        "height": 600,
+        "alt": "儿童自然探险：448个户外活动原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/117f45fabb2391930cc02b3c4c08f370-detail-0062.webp",
+          "width": 990,
+          "height": 1400,
+          "alt": "儿童自然探险：448个户外活动：听瀑布与观察蛛网的活动",
+          "page": 62,
+          "caption": "听瀑布与观察蛛网的活动 · PDF 第 62 页"
+        },
+        {
+          "src": "/books/117f45fabb2391930cc02b3c4c08f370-detail-0172.webp",
+          "width": 990,
+          "height": 1400,
+          "alt": "儿童自然探险：448个户外活动：秋季飞盘游戏说明",
+          "page": 172,
+          "caption": "秋季飞盘游戏说明 · PDF 第 172 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "儿童自然探险：448个户外活动｜英文原版电子书 · 书径",
+      "seoDescription": "以可一起完成的自然观察、游戏和手作活动，帮助家庭把户外体验变成连续的学习与探索。 查看原书信息、封面和电子书资源。",
+      "year": "2013",
+      "isbn": "9780762783526"
+    },
+    {
+      "id": "22f9ed97dbfb75de057e5966bf6630cb",
+      "slug": "k9-behavior-basics-a-manual-for-proven-success-in-operational-service-dog-training",
+      "title": "工作犬行为基础",
+      "originalTitle": "K9 behavior basics: a manual for proven success in operational service dog training",
+      "authors": [
+        "Resi Gerritsen",
+        "Ruud Haak",
+        "Simon Prins"
+      ],
+      "categorySlug": "security-working-dogs",
+      "subcategory": "工作犬行为与训练",
+      "tags": [
+        "工作犬",
+        "行为科学",
+        "训练"
+      ],
+      "summary": "把犬的学习机制、训练反馈和实际任务联系起来，重点在于理解行为与建立稳定的训练沟通。",
+      "introduction": "把犬的学习机制、训练反馈和实际任务联系起来，重点在于理解行为与建立稳定的训练沟通。",
+      "audience": [
+        "工作犬训导员、训练学习者和犬行为研究者"
+      ],
+      "highlights": [
+        "犬的学习与行为",
+        "训练反馈和沟通",
+        "任务训练中的行为问题"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 254,
+      "sizeMB": 5.8,
+      "cover": {
+        "src": "/books/22f9ed97dbfb75de057e5966bf6630cb-cover.webp",
+        "width": 389,
+        "height": 600,
+        "alt": "工作犬行为基础原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/22f9ed97dbfb75de057e5966bf6630cb-detail-0086.webp",
+          "width": 845,
+          "height": 1400,
+          "alt": "工作犬行为基础：犬的发育与行为阶段",
+          "page": 86,
+          "caption": "犬的发育与行为阶段 · PDF 第 86 页"
+        },
+        {
+          "src": "/books/22f9ed97dbfb75de057e5966bf6630cb-detail-0151.webp",
+          "width": 845,
+          "height": 1400,
+          "alt": "工作犬行为基础：操作性条件作用与动物训练",
+          "page": 151,
+          "caption": "操作性条件作用与动物训练 · PDF 第 151 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "工作犬行为基础｜英文原版电子书 · 书径",
+      "seoDescription": "把犬的学习机制、训练反馈和实际任务联系起来，重点在于理解行为与建立稳定的训练沟通。 查看原书信息、封面和电子书资源。",
+      "year": "2013",
+      "edition": "第二版",
+      "isbn": "9781550594515"
+    },
+    {
+      "id": "de5f63bf4734d52cefcbe6c17fb7f409",
+      "slug": "evaluating-police-tactics-an-empirical-assessment-of-room-entry-techniques",
+      "title": "警务战术评估：房间进入技术的实证研究",
+      "originalTitle": "Evaluating Police Tactics. An Empirical Assessment of Room Entry Techniques",
+      "authors": [
+        "J. Pete Blair",
+        "M. Hunter Martaindale"
+      ],
+      "categorySlug": "security-working-dogs",
+      "subcategory": "战斗绩效与战术实证研究",
+      "tags": [
+        "警务研究",
+        "实证评估",
+        "训练研究"
+      ],
+      "summary": "以评估研究的角度讨论警务进入技术，关注研究设计、表现指标与不同方法的比较。",
+      "introduction": "以评估研究的角度讨论警务进入技术，关注研究设计、表现指标与不同方法的比较。",
+      "audience": [
+        "刑事司法、职业训练和警务政策研究者"
+      ],
+      "highlights": [
+        "技术比较的研究框架",
+        "实验表现与评估指标",
+        "训练和决策的研究启示"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 76,
+      "sizeMB": 4.6,
+      "cover": {
+        "src": "/books/de5f63bf4734d52cefcbe6c17fb7f409-cover.webp",
+        "width": 400,
+        "height": 600,
+        "alt": "警务战术评估：房间进入技术的实证研究原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/de5f63bf4734d52cefcbe6c17fb7f409-detail-0030.webp",
+          "width": 934,
+          "height": 1400,
+          "alt": "警务战术评估：房间进入技术的实证研究：警务研究的模拟实验设计",
+          "page": 30,
+          "caption": "警务研究的模拟实验设计 · PDF 第 30 页"
+        },
+        {
+          "src": "/books/de5f63bf4734d52cefcbe6c17fb7f409-detail-0064.webp",
+          "width": 934,
+          "height": 1400,
+          "alt": "警务战术评估：房间进入技术的实证研究：实验结果与统计解释",
+          "page": 64,
+          "caption": "实验结果与统计解释 · PDF 第 64 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "警务战术评估：房间进入技术的实证研究｜英文原版电子书 · 书径",
+      "seoDescription": "以评估研究的角度讨论警务进入技术，关注研究设计、表现指标与不同方法的比较。 查看原书信息、封面和电子书资源。",
+      "year": "2014"
+    },
+    {
+      "id": "4acd7643c055e1911eb78b7e8ccbf541",
+      "slug": "vip-protection-room-clearing-tactics-room-hallway-and-stairwell-clearing-for-3-4-pers",
+      "title": "VIP保护：室内空间与小型团队协作",
+      "originalTitle": "VIP Protection Room Clearing Tactics: Room, Hallway and Stairwell Clearing for 3-4 Person Details",
+      "authors": [
+        "Special Tactics"
+      ],
+      "categorySlug": "security-working-dogs",
+      "subcategory": "VIP安保团队",
+      "tags": [
+        "VIP安保",
+        "室内空间",
+        "团队协作"
+      ],
+      "summary": "聚焦小型护卫组在建筑内部的保护任务，讨论空间特点、角色分工与协作，作为职业训练的专题阅读。",
+      "introduction": "聚焦小型护卫组在建筑内部的保护任务，讨论空间特点、角色分工与协作，作为职业训练的专题阅读。",
+      "audience": [
+        "职业安保学习者和护卫团队研究者"
+      ],
+      "highlights": [
+        "室内空间与保护场景",
+        "小型团队的分工",
+        "协同沟通与风险判断"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 227,
+      "sizeMB": 25.6,
+      "cover": {
+        "src": "/books/4acd7643c055e1911eb78b7e8ccbf541-cover.webp",
+        "width": 480,
+        "height": 600,
+        "alt": "VIP保护：室内空间与小型团队协作原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/4acd7643c055e1911eb78b7e8ccbf541-detail-0180.webp",
+          "width": 1120,
+          "height": 1400,
+          "alt": "VIP保护：室内空间与小型团队协作：楼梯空间中的团队角色图",
+          "page": 180,
+          "caption": "楼梯空间中的团队角色图 · PDF 第 180 页"
+        },
+        {
+          "src": "/books/4acd7643c055e1911eb78b7e8ccbf541-detail-0220.webp",
+          "width": 1120,
+          "height": 1400,
+          "alt": "VIP保护：室内空间与小型团队协作：多房间路线规划专题",
+          "page": 220,
+          "caption": "多房间路线规划专题 · PDF 第 220 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "VIP保护：室内空间与小型团队协作｜英文原版电子书 · 书径",
+      "seoDescription": "聚焦小型护卫组在建筑内部的保护任务，讨论空间特点、角色分工与协作，作为职业训练的专题阅读。 查看原书信息、封面和电子书资源。",
+      "year": "2021",
+      "isbn": "9798985595000"
+    },
+    {
+      "id": "18adca3c74e8375b31ce5ea5b29f0f37",
+      "slug": "deutsche-soldaten-uniforms-equipment-and-personal-items-of-the-german-soldier-1939-19",
+      "title": "德国士兵：1939—1945年的制服与个人物品",
+      "originalTitle": "Deutsche Soldaten",
+      "authors": [
+        "Agustín Sáiz"
+      ],
+      "categorySlug": "history-collections",
+      "subcategory": "军服徽章与模型参考",
+      "tags": [
+        "二战",
+        "装备收藏",
+        "模型参考"
+      ],
+      "summary": "以制服、装备和日常物品为线索认识德国士兵的物质生活，也便于模型、服装与收藏研究查阅细节。",
+      "introduction": "以制服、装备和日常物品为线索认识德国士兵的物质生活，也便于模型、服装与收藏研究查阅细节。",
+      "audience": [
+        "二战历史读者、收藏者、模型和服装参考使用者"
+      ],
+      "highlights": [
+        "制服与携行装备",
+        "个人物品和制造细节",
+        "实物与历史照片对照"
+      ],
+      "language": "西班牙语",
+      "format": "PDF",
+      "pages": 296,
+      "sizeMB": 35.1,
+      "cover": {
+        "src": "/books/18adca3c74e8375b31ce5ea5b29f0f37-cover.webp",
+        "width": 425,
+        "height": 600,
+        "alt": "德国士兵：1939—1945年的制服与个人物品原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/18adca3c74e8375b31ce5ea5b29f0f37-detail-0104.webp",
+          "width": 1400,
+          "height": 990,
+          "alt": "德国士兵：1939—1945年的制服与个人物品：防毒面具及配件图鉴",
+          "page": 104,
+          "caption": "防毒面具及配件图鉴 · PDF 第 104 页"
+        },
+        {
+          "src": "/books/18adca3c74e8375b31ce5ea5b29f0f37-detail-0222.webp",
+          "width": 991,
+          "height": 1400,
+          "alt": "德国士兵：1939—1945年的制服与个人物品：军人证件与驾驶许可",
+          "page": 222,
+          "caption": "军人证件与驾驶许可 · PDF 第 222 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "德国士兵：1939—1945年的制服与个人物品｜英文原版电子书 · 书径",
+      "seoDescription": "以制服、装备和日常物品为线索认识德国士兵的物质生活，也便于模型、服装与收藏研究查阅细节。 查看原书信息、封面和电子书资源。",
+      "year": "2008",
+      "edition": "西班牙语版",
+      "isbn": "9788496658110"
+    },
+    {
+      "id": "4b67b73077775b7668415484b16b8670",
+      "slug": "survival-hacks-over-200-ways-to-use-everyday-items-for-wilderness-survival",
+      "title": "野外生存巧思：日常物品的200余种用途",
+      "originalTitle": "Survival hacks : over 200 ways to use everyday items for wilderness survival",
+      "authors": [
+        "Stewart, Creek"
+      ],
+      "categorySlug": "climbing-outdoors",
+      "subcategory": "即兴户外生存",
+      "tags": [
+        "户外",
+        "材料再利用",
+        "手作"
+      ],
+      "summary": "围绕日常物品在野外环境中的再利用，提供观察材料、组合工具和应急准备的思路。",
+      "introduction": "围绕日常物品在野外环境中的再利用，提供观察材料、组合工具和应急准备的思路。",
+      "audience": [
+        "户外爱好者、露营者和手作学习者"
+      ],
+      "highlights": [
+        "日常材料的再利用",
+        "野外生活中的实用主题",
+        "应急准备与工具思路"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 242,
+      "sizeMB": 6.5,
+      "cover": {
+        "src": "/books/4b67b73077775b7668415484b16b8670-cover.webp",
+        "width": 464,
+        "height": 600,
+        "alt": "野外生存巧思：日常物品的200余种用途原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/4b67b73077775b7668415484b16b8670-detail-0117.webp",
+          "width": 1082,
+          "height": 1400,
+          "alt": "野外生存巧思：日常物品的200余种用途：桶与伞绳的水域用途",
+          "page": 117,
+          "caption": "桶与伞绳的水域用途 · PDF 第 117 页"
+        },
+        {
+          "src": "/books/4b67b73077775b7668415484b16b8670-detail-0184.webp",
+          "width": 1082,
+          "height": 1400,
+          "alt": "野外生存巧思：日常物品的200余种用途：旧握把改作工具柄",
+          "page": 184,
+          "caption": "旧握把改作工具柄 · PDF 第 184 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "野外生存巧思：日常物品的200余种用途｜英文原版电子书 · 书径",
+      "seoDescription": "围绕日常物品在野外环境中的再利用，提供观察材料、组合工具和应急准备的思路。 查看原书信息、封面和电子书资源。",
+      "year": "2016",
+      "isbn": "9781440593352"
+    },
+    {
+      "id": "0cc2f631bcefafdf29925da05f7f6ed7",
+      "slug": "running-anatomy",
+      "title": "跑步解剖学",
+      "originalTitle": "Running anatomy",
+      "authors": [
+        "Joe Puleo",
+        "Patrick Milroy"
+      ],
+      "categorySlug": "fitness-dance",
+      "subcategory": "跑者力量与解剖",
+      "tags": [
+        "跑步",
+        "人体解剖",
+        "专项力量"
+      ],
+      "summary": "用肌肉与动作的关系解释跑步训练，帮助读者将力量、稳定性和专项动作放在同一框架中理解。",
+      "introduction": "用肌肉与动作的关系解释跑步训练，帮助读者将力量、稳定性和专项动作放在同一框架中理解。",
+      "audience": [
+        "跑者、跑步教练和体能训练人员"
+      ],
+      "highlights": [
+        "跑步动作与肌肉",
+        "力量和身体稳定性",
+        "专项训练与损伤预防"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 201,
+      "sizeMB": 24.5,
+      "cover": {
+        "src": "/books/0cc2f631bcefafdf29925da05f7f6ed7-cover.webp",
+        "width": 420,
+        "height": 600,
+        "alt": "跑步解剖学原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/0cc2f631bcefafdf29925da05f7f6ed7-detail-0097.webp",
+          "width": 980,
+          "height": 1400,
+          "alt": "跑步解剖学：滑盘腿弯举的解剖图",
+          "page": 97,
+          "caption": "滑盘腿弯举的解剖图 · PDF 第 97 页"
+        },
+        {
+          "src": "/books/0cc2f631bcefafdf29925da05f7f6ed7-detail-0153.webp",
+          "width": 980,
+          "height": 1400,
+          "alt": "跑步解剖学：跑步伤害章节中的膝部示意",
+          "page": 153,
+          "caption": "跑步伤害章节中的膝部示意 · PDF 第 153 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "跑步解剖学｜英文原版电子书 · 书径",
+      "seoDescription": "用肌肉与动作的关系解释跑步训练，帮助读者将力量、稳定性和专项动作放在同一框架中理解。 查看原书信息、封面和电子书资源。",
+      "year": "2019",
+      "edition": "第二版",
+      "isbn": "9781492548386"
+    },
+    {
+      "id": "e4afb17b9cb0e4db556f935ec7f7de52",
+      "slug": "collaborating-with-the-enemy",
+      "title": "与敌人合作",
+      "originalTitle": "Collaborating with the Enemy",
+      "authors": [
+        "Adam Kahane"
+      ],
+      "categorySlug": "science-family-management",
+      "subcategory": "管理领导力与谈判",
+      "tags": [
+        "协作",
+        "管理",
+        "复杂问题"
+      ],
+      "summary": "讨论在分歧和不信任仍然存在时如何开展协作，适合面对复杂组织问题、需要推动共同行动的读者。",
+      "introduction": "讨论在分歧和不信任仍然存在时如何开展协作，适合面对复杂组织问题、需要推动共同行动的读者。",
+      "audience": [
+        "管理者、团队成员和复杂问题解决学习者"
+      ],
+      "highlights": [
+        "冲突中的合作条件",
+        "协作方式与沟通",
+        "复杂问题中的共同行动"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 161,
+      "sizeMB": 2.0,
+      "cover": {
+        "src": "/books/e4afb17b9cb0e4db556f935ec7f7de52-cover.webp",
+        "width": 389,
+        "height": 600,
+        "alt": "与敌人合作原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/e4afb17b9cb0e4db556f935ec7f7de52-detail-0065.webp",
+          "width": 906,
+          "height": 1400,
+          "alt": "与敌人合作：哥伦比亚协作案例",
+          "page": 65,
+          "caption": "哥伦比亚协作案例 · PDF 第 65 页"
+        },
+        {
+          "src": "/books/e4afb17b9cb0e4db556f935ec7f7de52-detail-0113.webp",
+          "width": 906,
+          "height": 1400,
+          "alt": "与敌人合作：进入局中的自我反思",
+          "page": 113,
+          "caption": "进入局中的自我反思 · PDF 第 113 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "与敌人合作｜英文原版电子书 · 书径",
+      "seoDescription": "讨论在分歧和不信任仍然存在时如何开展协作，适合面对复杂组织问题、需要推动共同行动的读者。 查看原书信息、封面和电子书资源。",
+      "year": "2017",
+      "edition": "第一版",
+      "isbn": "9781626568235"
+    },
+    {
+      "id": "4f30dc14c7fcbb7eed32bf4a60292547",
+      "slug": "wood-and-wood-joints-building-traditions-of-europe-japan-and-china",
+      "title": "木材与木接合：欧洲、日本和中国的建筑传统",
+      "originalTitle": "Wood and Wood Joints: Building Traditions of Europe, Japan and China",
+      "authors": [
+        "Klaus Zwerger"
+      ],
+      "categorySlug": "craft-engineering",
+      "subcategory": "传统木构建筑与榫卯",
+      "tags": [
+        "木构建筑",
+        "榫卯",
+        "建筑史"
+      ],
+      "summary": "比较不同地区的木构建筑与接合方式，把构造细节、材料特性和建筑传统联系起来。",
+      "introduction": "比较不同地区的木构建筑与接合方式，把构造细节、材料特性和建筑传统联系起来。",
+      "audience": [
+        "建筑学习者、木工匠人和传统构造研究者"
+      ],
+      "highlights": [
+        "木材与构造特性",
+        "木接合和节点形式",
+        "三地区建筑传统比较"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 340,
+      "sizeMB": 218.2,
+      "cover": {
+        "src": "/books/4f30dc14c7fcbb7eed32bf4a60292547-cover.webp",
+        "width": 456,
+        "height": 600,
+        "alt": "木材与木接合：欧洲、日本和中国的建筑传统原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/4f30dc14c7fcbb7eed32bf4a60292547-detail-0230.webp",
+          "width": 1062,
+          "height": 1400,
+          "alt": "木材与木接合：欧洲、日本和中国的建筑传统：接头防雨与木材保护实例",
+          "page": 230,
+          "caption": "接头防雨与木材保护实例 · PDF 第 230 页"
+        },
+        {
+          "src": "/books/4f30dc14c7fcbb7eed32bf4a60292547-detail-0308.webp",
+          "width": 1062,
+          "height": 1400,
+          "alt": "木材与木接合：欧洲、日本和中国的建筑传统：中国寺庙斗拱构造细部",
+          "page": 308,
+          "caption": "中国寺庙斗拱构造细部 · PDF 第 308 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "木材与木接合：欧洲、日本和中国的建筑传统｜英文原版电子书 · 书径",
+      "seoDescription": "比较不同地区的木构建筑与接合方式，把构造细节、材料特性和建筑传统联系起来。 查看原书信息、封面和电子书资源。",
+      "year": "2023",
+      "edition": "第四修订扩充版",
+      "isbn": "9783035624847"
+    },
+    {
+      "id": "74d926778b91ba3ce9809b0a3a95c6c6",
+      "slug": "total-heart-rate-training-customize-and-maximize-your-workout-using-a-heart-rate-moni",
+      "title": "全面心率训练",
+      "originalTitle": "Total heart rate training: customize and maximize your workout using a heart rate monitor",
+      "authors": [
+        "Friel, Joe"
+      ],
+      "categorySlug": "fitness-dance",
+      "subcategory": "耐力与心率训练",
+      "tags": [
+        "心率训练",
+        "耐力运动",
+        "训练计划"
+      ],
+      "summary": "围绕心率监测与训练强度组织耐力训练知识，适合希望把运动数据转化为日常计划的读者。",
+      "introduction": "围绕心率监测与训练强度组织耐力训练知识，适合希望把运动数据转化为日常计划的读者。",
+      "audience": [
+        "耐力运动爱好者、教练和训练数据学习者"
+      ],
+      "highlights": [
+        "心率与训练强度",
+        "个体化训练安排",
+        "监测数据与恢复"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 177,
+      "sizeMB": 4.7,
+      "cover": {
+        "src": "/books/74d926778b91ba3ce9809b0a3a95c6c6-cover.webp",
+        "width": 489,
+        "height": 600,
+        "alt": "全面心率训练原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/74d926778b91ba3ce9809b0a3a95c6c6-detail-0039.webp",
+          "width": 1143,
+          "height": 1400,
+          "alt": "全面心率训练：主观用力感与训练强度表",
+          "page": 39,
+          "caption": "主观用力感与训练强度表 · PDF 第 39 页"
+        },
+        {
+          "src": "/books/74d926778b91ba3ce9809b0a3a95c6c6-detail-0139.webp",
+          "width": 1143,
+          "height": 1400,
+          "alt": "全面心率训练：训练心率区间表",
+          "page": 139,
+          "caption": "训练心率区间表 · PDF 第 139 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "全面心率训练｜英文原版电子书 · 书径",
+      "seoDescription": "围绕心率监测与训练强度组织耐力训练知识，适合希望把运动数据转化为日常计划的读者。 查看原书信息、封面和电子书资源。",
+      "year": "2006",
+      "isbn": "9781569755624"
+    },
+    {
+      "id": "b64bc354a821ad50e6e822107de6816e",
+      "slug": "desert-uniforms-patches-and-insignia-of-the-us-armed-forces",
+      "title": "美军沙漠制服、臂章与徽章",
+      "originalTitle": "Desert Uniforms, Patches, and Insignia of the US Armed Forces",
+      "authors": [
+        "Kevin M. Born",
+        "Alexander F. Barnes"
+      ],
+      "categorySlug": "history-collections",
+      "subcategory": "军服徽章与模型参考",
+      "tags": [
+        "军服",
+        "徽章",
+        "收藏图鉴"
+      ],
+      "summary": "以沙漠制服及配套标识为研究对象，适合比较式样、年代与细节，并为收藏和模型制作提供参考。",
+      "introduction": "以沙漠制服及配套标识为研究对象，适合比较式样、年代与细节，并为收藏和模型制作提供参考。",
+      "audience": [
+        "军服收藏者、军事历史读者和模型使用者"
+      ],
+      "highlights": [
+        "沙漠制服的式样",
+        "臂章徽章与变体",
+        "实物细节和历史参考"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 344,
+      "sizeMB": 32.9,
+      "cover": {
+        "src": "/books/b64bc354a821ad50e6e822107de6816e-cover.webp",
+        "width": 464,
+        "height": 600,
+        "alt": "美军沙漠制服、臂章与徽章原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/b64bc354a821ad50e6e822107de6816e-detail-0087.webp",
+          "width": 1082,
+          "height": 1400,
+          "alt": "美军沙漠制服、臂章与徽章：部队臂章与单位背景",
+          "page": 87,
+          "caption": "部队臂章与单位背景 · PDF 第 87 页"
+        },
+        {
+          "src": "/books/b64bc354a821ad50e6e822107de6816e-detail-0232.webp",
+          "width": 1082,
+          "height": 1400,
+          "alt": "美军沙漠制服、臂章与徽章：空军沙漠制服与标识",
+          "page": 232,
+          "caption": "空军沙漠制服与标识 · PDF 第 232 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "美军沙漠制服、臂章与徽章｜英文原版电子书 · 书径",
+      "seoDescription": "以沙漠制服及配套标识为研究对象，适合比较式样、年代与细节，并为收藏和模型制作提供参考。 查看原书信息、封面和电子书资源。",
+      "year": "2016",
+      "isbn": "9780764352065",
+      "authorTypes": [
+        "Person",
+        "Person"
+      ]
+    },
+    {
+      "id": "afeca761c5790e38c29a4cab699ab563",
+      "slug": "the-police-sniper-a-complete-handbook",
+      "title": "警务狙击手手册：历史职业训练参考",
+      "originalTitle": "The Police Sniper: A Complete Handbook",
+      "authors": [
+        "Burt Rapp"
+      ],
+      "categorySlug": "security-working-dogs",
+      "subcategory": "警务历史训练资料",
+      "tags": [
+        "警务史",
+        "职业训练",
+        "历史资料"
+      ],
+      "summary": "这部1988年的职业训练书可用于了解当时相关岗位的职责框架和训练语境。",
+      "introduction": "这部1988年的职业训练书可用于了解当时相关岗位的职责框架和训练语境。",
+      "audience": [
+        "执法史、职业训练和装备研究者"
+      ],
+      "highlights": [
+        "岗位职责与训练范围",
+        "装备主题与情境判断",
+        "1980年代训练资料背景"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 101,
+      "sizeMB": 12.3,
+      "cover": {
+        "src": "/books/afeca761c5790e38c29a4cab699ab563-cover.webp",
+        "width": 423,
+        "height": 600,
+        "alt": "警务狙击手手册：历史职业训练参考原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/afeca761c5790e38c29a4cab699ab563-detail-0009.webp",
+          "width": 1400,
+          "height": 991,
+          "alt": "警务狙击手手册：历史职业训练参考：城市警务场景与周边条件",
+          "page": 9,
+          "caption": "城市警务场景与周边条件 · PDF 第 9 页"
+        },
+        {
+          "src": "/books/afeca761c5790e38c29a4cab699ab563-detail-0060.webp",
+          "width": 1400,
+          "height": 991,
+          "alt": "警务狙击手手册：历史职业训练参考：人员训练与能力保持主题",
+          "page": 60,
+          "caption": "人员训练与能力保持主题 · PDF 第 60 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "警务狙击手手册：历史职业训练参考｜英文原版电子书 · 书径",
+      "seoDescription": "这部1988年的职业训练书可用于了解当时相关岗位的职责框架和训练语境。 查看原书信息、封面和电子书资源。",
+      "year": "1988",
+      "isbn": "0915179776"
+    },
+    {
+      "id": "ba0836fd87f650a70278cf3b0021ff2e",
+      "slug": "the-chainbreaker-bike-book-a-rough-guide-to-bicycle-maintenance",
+      "title": "Chainbreaker自行车维护指南",
+      "originalTitle": "the CHAINBREAKER BIKE BOOK : a rough guide to bicycle maintenance.",
+      "authors": [
+        "Ethan Clark",
+        "Shelley Lynn Jackson"
+      ],
+      "categorySlug": "cycling-riding-snow",
+      "subcategory": "自行车维护",
+      "tags": [
+        "自行车",
+        "维护维修",
+        "工具"
+      ],
+      "summary": "以自行车维护为中心，把车辆部件、工具和日常检修联系起来，适合学习理解自己的车。",
+      "introduction": "以自行车维护为中心，把车辆部件、工具和日常检修联系起来，适合学习理解自己的车。",
+      "audience": [
+        "骑行爱好者、家庭维修学习者和自行车手作爱好者"
+      ],
+      "highlights": [
+        "自行车部件与工具",
+        "日常维护主题",
+        "维修问题的查阅思路"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 225,
+      "sizeMB": 159.2,
+      "cover": {
+        "src": "/books/ba0836fd87f650a70278cf3b0021ff2e-cover.webp",
+        "width": 492,
+        "height": 600,
+        "alt": "Chainbreaker自行车维护指南原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/ba0836fd87f650a70278cf3b0021ff2e-detail-0024.webp",
+          "width": 1167,
+          "height": 1400,
+          "alt": "Chainbreaker自行车维护指南：花鼓调整与维护正文",
+          "page": 24,
+          "caption": "花鼓调整与维护正文 · PDF 第 24 页"
+        },
+        {
+          "src": "/books/ba0836fd87f650a70278cf3b0021ff2e-detail-0062.webp",
+          "width": 1167,
+          "height": 1400,
+          "alt": "Chainbreaker自行车维护指南：曲柄与五通结构说明",
+          "page": 62,
+          "caption": "曲柄与五通结构说明 · PDF 第 62 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "Chainbreaker自行车维护指南｜英文原版电子书 · 书径",
+      "seoDescription": "以自行车维护为中心，把车辆部件、工具和日常检修联系起来，适合学习理解自己的车。 查看原书信息、封面和电子书资源。",
+      "year": "2010",
+      "edition": "第二版",
+      "isbn": "9780977055739"
+    },
+    {
+      "id": "40bed337c6c785cc4e4cbda157644f48",
+      "slug": "armies-of-the-gulf-war",
+      "title": "海湾战争参战军队",
+      "originalTitle": "Armies of the Gulf War",
+      "authors": [
+        "Gordon L. Rottman"
+      ],
+      "categorySlug": "history-collections",
+      "subcategory": "现代军服与战争史",
+      "tags": [
+        "海湾战争",
+        "军史",
+        "模型参考"
+      ],
+      "summary": "围绕海湾战争中的参战军队展开，适合了解相关部队与装备形象，并补充历史和模型参考资料。",
+      "introduction": "围绕海湾战争中的参战军队展开，适合了解相关部队与装备形象，并补充历史和模型参考资料。",
+      "audience": [
+        "军事历史读者、模型玩家和装备资料研究者"
+      ],
+      "highlights": [
+        "参战军队与历史背景",
+        "制服和装备资料",
+        "部队形象与图像参考"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 66,
+      "sizeMB": 11.8,
+      "cover": {
+        "src": "/books/40bed337c6c785cc4e4cbda157644f48-cover.webp",
+        "width": 449,
+        "height": 600,
+        "alt": "海湾战争参战军队原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/40bed337c6c785cc4e4cbda157644f48-detail-0007.webp",
+          "width": 1053,
+          "height": 1400,
+          "alt": "海湾战争参战军队：美军第七军团编制与车辆照片",
+          "page": 7,
+          "caption": "美军第七军团编制与车辆照片 · PDF 第 7 页"
+        },
+        {
+          "src": "/books/40bed337c6c785cc4e4cbda157644f48-detail-0037.webp",
+          "width": 1047,
+          "height": 1400,
+          "alt": "海湾战争参战军队：参战人员彩色人物图版",
+          "page": 37,
+          "caption": "参战人员彩色人物图版 · PDF 第 37 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "海湾战争参战军队｜英文原版电子书 · 书径",
+      "seoDescription": "围绕海湾战争中的参战军队展开，适合了解相关部队与装备形象，并补充历史和模型参考资料。 查看原书信息、封面和电子书资源。",
+      "year": "1993",
+      "edition": "Elite系列第45册，1996年重印",
+      "isbn": "1855322773"
+    },
+    {
+      "id": "8ac09a9a9b43570e064a9978e8f34840",
+      "slug": "gun-camera-world-war-ii-photography-from-allied-fighters-and-bombers-over-occupied-eu",
+      "title": "枪机摄影：二战盟军航空影像",
+      "originalTitle": "Gun Camera - World War II: Photography from Allied Fighters and Bombers over Occupied Europe",
+      "authors": [
+        "L. Douglas Keeney"
+      ],
+      "categorySlug": "history-collections",
+      "subcategory": "航空历史影像",
+      "tags": [
+        "二战",
+        "航空史",
+        "历史影像"
+      ],
+      "summary": "以二战期间盟军战斗机与轰炸机在欧洲战场拍摄的影像为主题，适合从航空摄影的视角阅读战争史。",
+      "introduction": "以二战期间盟军战斗机与轰炸机在欧洲战场拍摄的影像为主题，适合从航空摄影的视角阅读战争史。",
+      "audience": [
+        "航空历史读者、历史影像研究者和模型参考使用者"
+      ],
+      "highlights": [
+        "盟军航空摄影记录",
+        "二战欧洲战场背景",
+        "历史影像的资料价值"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 132,
+      "sizeMB": 18.1,
+      "cover": {
+        "src": "/books/8ac09a9a9b43570e064a9978e8f34840-cover.webp",
+        "width": 493,
+        "height": 600,
+        "alt": "枪机摄影：二战盟军航空影像原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/8ac09a9a9b43570e064a9978e8f34840-detail-0034.webp",
+          "width": 1151,
+          "height": 1400,
+          "alt": "枪机摄影：二战盟军航空影像：欧洲空战航空影像",
+          "page": 34,
+          "caption": "欧洲空战航空影像 · PDF 第 34 页"
+        },
+        {
+          "src": "/books/8ac09a9a9b43570e064a9978e8f34840-detail-0073.webp",
+          "width": 1151,
+          "height": 1400,
+          "alt": "枪机摄影：二战盟军航空影像：盟军航空任务照片",
+          "page": 73,
+          "caption": "盟军航空任务照片 · PDF 第 73 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "枪机摄影：二战盟军航空影像｜英文原版电子书 · 书径",
+      "seoDescription": "以二战期间盟军战斗机与轰炸机在欧洲战场拍摄的影像为主题，适合从航空摄影的视角阅读战争史。 查看原书信息、封面和电子书资源。",
+      "year": "2000",
+      "edition": "MBI版；原作版权1999",
+      "isbn": "0760310130"
+    },
+    {
+      "id": "54e3f72eebb8c9dfd170d1fb5ec6d8e2",
+      "slug": "jeep-action-january-february-2019",
+      "title": "Jeep Action：2019年1—2月合刊",
+      "originalTitle": "Jeep Action — January–February 2019",
+      "authors": [],
+      "categorySlug": "history-collections",
+      "subcategory": "汽车文化杂志",
+      "tags": [
+        "Jeep",
+        "汽车文化",
+        "杂志"
+      ],
+      "summary": "本期以Jeep Gladiator为封面车型，兼收越野车型、车展与户外驾驶内容，适合Jeep爱好者和汽车文化读者翻阅。",
+      "introduction": "本期以Jeep Gladiator为封面车型，兼收越野车型、车展与户外驾驶内容，适合Jeep爱好者和汽车文化读者翻阅。",
+      "audience": [
+        "Jeep爱好者、汽车文化读者和杂志资料收藏者"
+      ],
+      "highlights": [
+        "Jeep Gladiator封面专题",
+        "越野车型与车展",
+        "户外驾驶与汽车文化"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 100,
+      "sizeMB": 41.5,
+      "cover": {
+        "src": "/books/54e3f72eebb8c9dfd170d1fb5ec6d8e2-cover.webp",
+        "width": 425,
+        "height": 600,
+        "alt": "Jeep Action：2019年1—2月合刊原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/54e3f72eebb8c9dfd170d1fb5ec6d8e2-detail-0010.webp",
+          "width": 990,
+          "height": 1400,
+          "alt": "Jeep Action：2019年1—2月合刊：Jeep Gladiator座舱与内饰介绍",
+          "page": 10,
+          "caption": "Jeep Gladiator座舱与内饰介绍 · PDF 第 10 页"
+        },
+        {
+          "src": "/books/54e3f72eebb8c9dfd170d1fb5ec6d8e2-detail-0055.webp",
+          "width": 990,
+          "height": 1400,
+          "alt": "Jeep Action：2019年1—2月合刊：2018年SEMA改装车展",
+          "page": 55,
+          "caption": "2018年SEMA改装车展 · PDF 第 55 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "Jeep Action：2019年1—2月合刊｜英文原版电子书 · 书径",
+      "seoDescription": "本期以Jeep Gladiator为封面车型，兼收越野车型、车展与户外驾驶内容，适合Jeep爱好者和汽车文化读者翻阅。 查看原书信息、封面和电子书资源。",
+      "year": "2019",
+      "edition": "2019年1—2月合刊",
+      "resourceKind": "magazine",
+      "periodicalTitle": "Jeep Action"
+    },
+    {
+      "id": "413b683488859dbbfb74acbd56b49e27",
+      "slug": "classic-handguns-of-the-20th-century-a-shooter-s-and-collector-s-guide",
+      "title": "20世纪经典手枪：射手与藏家指南",
+      "originalTitle": "Classic Handguns of the 20th Century. A Shooter's and Collector's Guide",
+      "authors": [
+        "David W. Arnold"
+      ],
+      "categorySlug": "history-collections",
+      "subcategory": "枪械史与收藏",
+      "tags": [
+        "枪械史",
+        "装备图鉴",
+        "收藏"
+      ],
+      "summary": "围绕20世纪手枪的型号与收藏阅读，适合把装备辨识、技术沿革和历史背景联系起来。",
+      "introduction": "围绕20世纪手枪的型号与收藏阅读，适合把装备辨识、技术沿革和历史背景联系起来。",
+      "audience": [
+        "枪械史读者、藏家和装备资料研究者"
+      ],
+      "highlights": [
+        "经典型号与时代背景",
+        "设计和外观特征",
+        "收藏阅读与资料对照"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 146,
+      "sizeMB": 20.9,
+      "cover": {
+        "src": "/books/413b683488859dbbfb74acbd56b49e27-cover.webp",
+        "width": 452,
+        "height": 600,
+        "alt": "20世纪经典手枪：射手与藏家指南原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/413b683488859dbbfb74acbd56b49e27-detail-0025.webp",
+          "width": 1063,
+          "height": 1400,
+          "alt": "20世纪经典手枪：射手与藏家指南：经典手枪型号与设计照片",
+          "page": 25,
+          "caption": "经典手枪型号与设计照片 · PDF 第 25 页"
+        },
+        {
+          "src": "/books/413b683488859dbbfb74acbd56b49e27-detail-0078.webp",
+          "width": 1063,
+          "height": 1400,
+          "alt": "20世纪经典手枪：射手与藏家指南：Colt Python的历史与设计",
+          "page": 78,
+          "caption": "Colt Python的历史与设计 · PDF 第 78 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "20世纪经典手枪：射手与藏家指南｜英文原版电子书 · 书径",
+      "seoDescription": "围绕20世纪手枪的型号与收藏阅读，适合把装备辨识、技术沿革和历史背景联系起来。 查看原书信息、封面和电子书资源。",
+      "year": "2004",
+      "isbn": "0873495764"
+    },
+    {
+      "id": "2713ac7b12bbce7ef37dadaa1ba1a6e9",
+      "slug": "my-first-yoga-fun-and-simple-yoga-poses-for-babies-and-toddlers",
+      "title": "我的第一本瑜伽：婴幼儿活动",
+      "originalTitle": "My First Yoga: Fun and Simple Yoga Poses for Babies and Toddlers",
+      "authors": [
+        "DK Publishing"
+      ],
+      "categorySlug": "fitness-dance",
+      "subcategory": "婴幼儿瑜伽",
+      "tags": [
+        "婴幼儿",
+        "瑜伽",
+        "亲子活动"
+      ],
+      "summary": "面向婴幼儿的简明瑜伽主题读物，适合家长与孩子一起认识身体动作并开展轻松的亲子活动。",
+      "introduction": "面向婴幼儿的简明瑜伽主题读物，适合家长与孩子一起认识身体动作并开展轻松的亲子活动。",
+      "audience": [
+        "婴幼儿家长和亲子活动组织者"
+      ],
+      "highlights": [
+        "婴幼儿动作主题",
+        "简明的图文引导",
+        "亲子身体活动"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 34,
+      "sizeMB": 8.5,
+      "cover": {
+        "src": "/books/2713ac7b12bbce7ef37dadaa1ba1a6e9-cover.webp",
+        "width": 600,
+        "height": 600,
+        "alt": "我的第一本瑜伽：婴幼儿活动原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/2713ac7b12bbce7ef37dadaa1ba1a6e9-detail-0007.webp",
+          "width": 1400,
+          "height": 1400,
+          "alt": "我的第一本瑜伽：婴幼儿活动：幼儿树式的图画提示",
+          "page": 7,
+          "caption": "幼儿树式的图画提示 · PDF 第 7 页"
+        },
+        {
+          "src": "/books/2713ac7b12bbce7ef37dadaa1ba1a6e9-detail-0017.webp",
+          "width": 1400,
+          "height": 1400,
+          "alt": "我的第一本瑜伽：婴幼儿活动：下犬式的亲子活动页面",
+          "page": 17,
+          "caption": "下犬式的亲子活动页面 · PDF 第 17 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "我的第一本瑜伽：婴幼儿活动｜英文原版电子书 · 书径",
+      "seoDescription": "面向婴幼儿的简明瑜伽主题读物，适合家长与孩子一起认识身体动作并开展轻松的亲子活动。 查看原书信息、封面和电子书资源。",
+      "year": "2020"
+    },
+    {
+      "id": "270dd825d80b0e5e3aae14138909094c",
+      "slug": "winning-women-s-lacrosse",
+      "title": "女子长曲棍球：技术与比赛",
+      "originalTitle": "Winning women's lacrosse",
+      "authors": [
+        "Kelly Amonte Hiller",
+        "Ashley Gersuk",
+        "Ann Elliott"
+      ],
+      "categorySlug": "ball-sports",
+      "subcategory": "长曲棍球",
+      "tags": [
+        "长曲棍球",
+        "女子运动",
+        "教练"
+      ],
+      "summary": "以女子长曲棍球为专项，组织技术、比赛与训练主题，适合补充这一项目的教学资料。",
+      "introduction": "以女子长曲棍球为专项，组织技术、比赛与训练主题，适合补充这一项目的教学资料。",
+      "audience": [
+        "长曲棍球球员、教练和体育教学学习者"
+      ],
+      "highlights": [
+        "专项技术主题",
+        "比赛战术与团队协作",
+        "训练和教学安排"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 208,
+      "sizeMB": 39.0,
+      "cover": {
+        "src": "/books/270dd825d80b0e5e3aae14138909094c-cover.webp",
+        "width": 420,
+        "height": 600,
+        "alt": "女子长曲棍球：技术与比赛原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/270dd825d80b0e5e3aae14138909094c-detail-0100.webp",
+          "width": 980,
+          "height": 1400,
+          "alt": "女子长曲棍球：技术与比赛：女子长曲棍球快攻跑位示意",
+          "page": 100,
+          "caption": "女子长曲棍球快攻跑位示意 · PDF 第 100 页"
+        },
+        {
+          "src": "/books/270dd825d80b0e5e3aae14138909094c-detail-0161.webp",
+          "width": 980,
+          "height": 1400,
+          "alt": "女子长曲棍球：技术与比赛：守门员Ball Toss练习照片与说明",
+          "page": 161,
+          "caption": "守门员Ball Toss练习照片与说明 · PDF 第 161 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "女子长曲棍球：技术与比赛｜英文原版电子书 · 书径",
+      "seoDescription": "以女子长曲棍球为专项，组织技术、比赛与训练主题，适合补充这一项目的教学资料。 查看原书信息、封面和电子书资源。",
+      "year": "2010",
+      "isbn": "9780736086172"
+    },
+    {
+      "id": "44c1932ed989cbbf62f828f711b1c808",
+      "slug": "submarines-and-the-world-wars-the-history-of-submarine-warfare-in-world-war-i-and-wor",
+      "title": "潜艇与两次世界大战",
+      "originalTitle": "Submarines and the World Wars: The History of Submarine Warfare in World War I and World War II",
+      "authors": [
+        "Charles River Editors"
+      ],
+      "categorySlug": "history-collections",
+      "subcategory": "海军与潜艇历史",
+      "tags": [
+        "海军史",
+        "潜艇",
+        "世界大战"
+      ],
+      "summary": "以第一次和第二次世界大战的潜艇作战史为阅读范围，适合了解潜艇在海军战争中的角色变化。",
+      "introduction": "以第一次和第二次世界大战的潜艇作战史为阅读范围，适合了解潜艇在海军战争中的角色变化。",
+      "audience": [
+        "海军历史读者和潜艇题材爱好者"
+      ],
+      "highlights": [
+        "第一次世界大战背景",
+        "第二次世界大战背景",
+        "潜艇战的历史变化"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 93,
+      "sizeMB": 4.9,
+      "cover": {
+        "src": "/books/44c1932ed989cbbf62f828f711b1c808-cover.webp",
+        "width": 400,
+        "height": 600,
+        "alt": "潜艇与两次世界大战原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/44c1932ed989cbbf62f828f711b1c808-detail-0038.webp",
+          "width": 990,
+          "height": 1400,
+          "alt": "潜艇与两次世界大战：一战航空力量与潜艇战争",
+          "page": 38,
+          "caption": "一战航空力量与潜艇战争 · PDF 第 38 页"
+        },
+        {
+          "src": "/books/44c1932ed989cbbf62f828f711b1c808-detail-0065.webp",
+          "width": 990,
+          "height": 1400,
+          "alt": "潜艇与两次世界大战：大西洋反潜与情报叙述",
+          "page": 65,
+          "caption": "大西洋反潜与情报叙述 · PDF 第 65 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "潜艇与两次世界大战｜英文原版电子书 · 书径",
+      "seoDescription": "以第一次和第二次世界大战的潜艇作战史为阅读范围，适合了解潜艇在海军战争中的角色变化。 查看原书信息、封面和电子书资源。"
+    },
+    {
+      "id": "ca322432cfa1b017534cb591bae81419",
+      "slug": "strength-training-for-basketball",
+      "title": "篮球力量训练",
+      "originalTitle": "Strength Training for Basketball",
+      "authors": [
+        "National Strength and Conditioning Association (NSCA)"
+      ],
+      "categorySlug": "ball-sports",
+      "subcategory": "篮球专项力量",
+      "tags": [
+        "篮球",
+        "专项力量",
+        "NSCA"
+      ],
+      "summary": "以篮球专项力量需求为出发点，讨论身体素质、训练组织与场上表现之间的关系。",
+      "introduction": "以篮球专项力量需求为出发点，讨论身体素质、训练组织与场上表现之间的关系。",
+      "audience": [
+        "篮球教练、体能训练人员和球员"
+      ],
+      "highlights": [
+        "篮球专项力量需求",
+        "训练计划的组织",
+        "力量与运动表现"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 426,
+      "sizeMB": 60.8,
+      "cover": {
+        "src": "/books/ca322432cfa1b017534cb591bae81419-cover.webp",
+        "width": 464,
+        "height": 600,
+        "alt": "篮球力量训练原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/ca322432cfa1b017534cb591bae81419-detail-0206.webp",
+          "width": 1082,
+          "height": 1400,
+          "alt": "篮球力量训练：Drop Step Squat动作照片",
+          "page": 206,
+          "caption": "Drop Step Squat动作照片 · PDF 第 206 页"
+        },
+        {
+          "src": "/books/ca322432cfa1b017534cb591bae81419-detail-0267.webp",
+          "width": 1082,
+          "height": 1400,
+          "alt": "篮球力量训练：Wood Chop核心训练的动作照片",
+          "page": 267,
+          "caption": "Wood Chop核心训练的动作照片 · PDF 第 267 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "篮球力量训练｜英文原版电子书 · 书径",
+      "seoDescription": "以篮球专项力量需求为出发点，讨论身体素质、训练组织与场上表现之间的关系。 查看原书信息、封面和电子书资源。",
+      "year": "2020",
+      "isbn": "9781492571506",
+      "authorTypes": [
+        "Organization"
+      ],
+      "editors": [
+        "Javair Gillett",
+        "Bill Burgos"
+      ]
+    },
+    {
+      "id": "8ed41c87768c1b777c2eebd1e8d91491",
+      "slug": "regional-missile-defense-from-a-global-perspective",
+      "title": "全球视角下的区域导弹防御",
+      "originalTitle": "Regional Missile Defense from a Global Perspective",
+      "authors": [
+        "Catherine McArdle Kelleher",
+        "Peter Dombrowski"
+      ],
+      "categorySlug": "security-working-dogs",
+      "subcategory": "国际安全与战略研究",
+      "tags": [
+        "国际关系",
+        "安全政策",
+        "战略研究"
+      ],
+      "summary": "从国际与区域层面讨论导弹防御，适合了解安全政策、战略选择和不同地区之间的关系。",
+      "introduction": "从国际与区域层面讨论导弹防御，适合了解安全政策、战略选择和不同地区之间的关系。",
+      "audience": [
+        "国际关系、战略研究和安全政策学习者"
+      ],
+      "highlights": [
+        "区域防御政策",
+        "国际关系与安全议题",
+        "全球视角下的比较"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 328,
+      "sizeMB": 1.9,
+      "cover": {
+        "src": "/books/8ed41c87768c1b777c2eebd1e8d91491-cover.webp",
+        "width": 400,
+        "height": 600,
+        "alt": "全球视角下的区域导弹防御原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/8ed41c87768c1b777c2eebd1e8d91491-detail-0078.webp",
+          "width": 934,
+          "height": 1400,
+          "alt": "全球视角下的区域导弹防御：导弹防御技术有效性争论",
+          "page": 78,
+          "caption": "导弹防御技术有效性争论 · PDF 第 78 页"
+        },
+        {
+          "src": "/books/8ed41c87768c1b777c2eebd1e8d91491-detail-0212.webp",
+          "width": 934,
+          "height": 1400,
+          "alt": "全球视角下的区域导弹防御：中国对导弹防御的战略视角",
+          "page": 212,
+          "caption": "中国对导弹防御的战略视角 · PDF 第 212 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "全球视角下的区域导弹防御｜英文原版电子书 · 书径",
+      "seoDescription": "从国际与区域层面讨论导弹防御，适合了解安全政策、战略选择和不同地区之间的关系。 查看原书信息、封面和电子书资源。",
+      "year": "2015",
+      "isbn": "9780804796569",
+      "authorRole": "editor"
+    },
+    {
+      "id": "96b591a4f02e5014a4323ee94540ada9",
+      "slug": "studio-photography-essential-skills",
+      "title": "摄影棚摄影：核心技能",
+      "originalTitle": "Studio Photography: Essential Skills",
+      "authors": [
+        "John Child"
+      ],
+      "categorySlug": "photography",
+      "subcategory": "摄影棚与照明",
+      "tags": [
+        "摄影",
+        "影棚",
+        "布光"
+      ],
+      "summary": "围绕摄影棚中的照明、布置与拍摄组织，适合从环境可控的练习开始理解摄影技术。",
+      "introduction": "围绕摄影棚中的照明、布置与拍摄组织，适合从环境可控的练习开始理解摄影技术。",
+      "audience": [
+        "摄影学习者、影棚工作者和视觉创作者"
+      ],
+      "highlights": [
+        "影棚环境与拍摄准备",
+        "照明和画面控制",
+        "核心技术的练习组织"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 226,
+      "sizeMB": 15.1,
+      "cover": {
+        "src": "/books/96b591a4f02e5014a4323ee94540ada9-cover.webp",
+        "width": 462,
+        "height": 600,
+        "alt": "摄影棚摄影：核心技能原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/96b591a4f02e5014a4323ee94540ada9-detail-0140.webp",
+          "width": 1077,
+          "height": 1400,
+          "alt": "摄影棚摄影：核心技能：静物光线与材质练习",
+          "page": 140,
+          "caption": "静物光线与材质练习 · PDF 第 140 页"
+        },
+        {
+          "src": "/books/96b591a4f02e5014a4323ee94540ada9-detail-0163.webp",
+          "width": 1077,
+          "height": 1400,
+          "alt": "摄影棚摄影：核心技能：高调人像布光对比",
+          "page": 163,
+          "caption": "高调人像布光对比 · PDF 第 163 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "摄影棚摄影：核心技能｜英文原版电子书 · 书径",
+      "seoDescription": "围绕摄影棚中的照明、布置与拍摄组织，适合从环境可控的练习开始理解摄影技术。 查看原书信息、封面和电子书资源。",
+      "year": "2008",
+      "edition": "第4版",
+      "isbn": "9780240520964"
+    },
+    {
+      "id": "33e89a740d9a525c74ab5afa12364253",
+      "slug": "speedlights-and-speedlites-creative-flash-photography-at-the-speed-of-light",
+      "title": "机顶闪光灯创意摄影",
+      "originalTitle": "Speedlights & Speedlites: Creative Flash Photography at Lightspeed",
+      "authors": [
+        "Lou Jones",
+        "Bob Keenan",
+        "Steve Ostrowski"
+      ],
+      "categorySlug": "photography",
+      "subcategory": "闪光灯与外拍",
+      "tags": [
+        "摄影",
+        "闪光灯",
+        "外拍",
+        "离机闪光"
+      ],
+      "summary": "以便携闪光灯为工具，讨论光线控制与拍摄创意，适合把闪光灯加入人像和外拍工作流程。",
+      "introduction": "以便携闪光灯为工具，讨论光线控制与拍摄创意，适合把闪光灯加入人像和外拍工作流程。",
+      "audience": [
+        "摄影爱好者、人像摄影师和灯光学习者"
+      ],
+      "highlights": [
+        "闪光灯与环境光",
+        "照明选择和画面效果",
+        "便携设备的创意应用"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 225,
+      "sizeMB": 9.6,
+      "cover": {
+        "src": "/books/33e89a740d9a525c74ab5afa12364253-cover.webp",
+        "width": 461,
+        "height": 600,
+        "alt": "机顶闪光灯创意摄影原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/33e89a740d9a525c74ab5afa12364253-detail-0124.webp",
+          "width": 1076,
+          "height": 1400,
+          "alt": "机顶闪光灯创意摄影：制琴师闪光摄影实例",
+          "page": 124,
+          "caption": "制琴师闪光摄影实例 · PDF 第 124 页"
+        },
+        {
+          "src": "/books/33e89a740d9a525c74ab5afa12364253-detail-0191.webp",
+          "width": 1076,
+          "height": 1400,
+          "alt": "机顶闪光灯创意摄影：婚礼蛋糕的灯位图",
+          "page": 191,
+          "caption": "婚礼蛋糕的灯位图 · PDF 第 191 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "机顶闪光灯创意摄影｜英文原版电子书 · 书径",
+      "seoDescription": "以便携闪光灯为工具，讨论光线控制与拍摄创意，适合把闪光灯加入人像和外拍工作流程。 查看原书信息、封面和电子书资源。",
+      "year": "2009",
+      "isbn": "9780240812076"
+    },
+    {
+      "id": "791e08e11422dfb4c7ffc3bf8afb1044",
+      "slug": "choose-your-enemies-wisely",
+      "title": "明智地选择你的敌人",
+      "originalTitle": "Choose Your Enemies Wisely: Business Planning for the Audacious Few",
+      "authors": [
+        "Patrick Bet-David",
+        "Greg Dinkin"
+      ],
+      "categorySlug": "science-family-management",
+      "subcategory": "商业规划与经营",
+      "tags": [
+        "商业规划",
+        "经营",
+        "竞争"
+      ],
+      "summary": "从商业竞争与规划的角度讨论目标、动机和行动，适合希望整理经营思路的读者。",
+      "introduction": "从商业竞争与规划的角度讨论目标、动机和行动，适合希望整理经营思路的读者。",
+      "audience": [
+        "创业者、经营者和商业规划学习者"
+      ],
+      "highlights": [
+        "竞争与目标思考",
+        "经营规划与行动",
+        "长期方向和个人动机"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 279,
+      "sizeMB": 7.9,
+      "cover": {
+        "src": "/books/791e08e11422dfb4c7ffc3bf8afb1044-cover.webp",
+        "width": 464,
+        "height": 600,
+        "alt": "明智地选择你的敌人原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/791e08e11422dfb4c7ffc3bf8afb1044-detail-0154.webp",
+          "width": 1082,
+          "height": 1400,
+          "alt": "明智地选择你的敌人：梦想与系统的规划要素",
+          "page": 154,
+          "caption": "梦想与系统的规划要素 · PDF 第 154 页"
+        },
+        {
+          "src": "/books/791e08e11422dfb4c7ffc3bf8afb1044-detail-0196.webp",
+          "width": 1082,
+          "height": 1400,
+          "alt": "明智地选择你的敌人：愿景与资本章节",
+          "page": 196,
+          "caption": "愿景与资本章节 · PDF 第 196 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "明智地选择你的敌人｜英文原版电子书 · 书径",
+      "seoDescription": "从商业竞争与规划的角度讨论目标、动机和行动，适合希望整理经营思路的读者。 查看原书信息、封面和电子书资源。",
+      "year": "2023",
+      "isbn": "9780593712856"
+    },
+    {
+      "id": "59913a21018efcbcc20eece81914322a",
+      "slug": "wall-pilates-workouts-the-ultimate-home-workout-guide-for-flexibility-core-strength-a",
+      "title": "墙式普拉提：居家训练指南",
+      "originalTitle": "Wall Pilates Workouts: The Ultimate Home Workout Guide for Flexibility, Core Strength, and Balance | Suitable for Women, Seniors, and Beginners | 30-Day Wall Pilates Challenge",
+      "authors": [
+        "Clark, Gloria"
+      ],
+      "categorySlug": "fitness-dance",
+      "subcategory": "普拉提与居家训练",
+      "tags": [
+        "普拉提",
+        "居家训练",
+        "核心力量"
+      ],
+      "summary": "以墙面为辅助开展居家普拉提练习，围绕柔韧性、核心力量和平衡组织30天训练挑战，适合初学者按计划了解动作与练习安排。",
+      "introduction": "以墙面为辅助开展居家普拉提练习，围绕柔韧性、核心力量和平衡组织30天训练挑战，适合初学者按计划了解动作与练习安排。",
+      "audience": [
+        "居家训练初学者及关注核心和平衡的读者"
+      ],
+      "highlights": [
+        "墙面辅助练习",
+        "柔韧性核心和平衡",
+        "30天居家练习安排"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 84,
+      "sizeMB": 6.2,
+      "cover": {
+        "src": "/books/59913a21018efcbcc20eece81914322a-cover.webp",
+        "width": 400,
+        "height": 600,
+        "alt": "墙式普拉提：居家训练指南原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/59913a21018efcbcc20eece81914322a-detail-0019.webp",
+          "width": 990,
+          "height": 1400,
+          "alt": "墙式普拉提：居家训练指南：墙桥与提踵动作说明",
+          "page": 19,
+          "caption": "墙桥与提踵动作说明 · PDF 第 19 页"
+        },
+        {
+          "src": "/books/59913a21018efcbcc20eece81914322a-detail-0040.webp",
+          "width": 990,
+          "height": 1400,
+          "alt": "墙式普拉提：居家训练指南：Wall Angels靠墙上肢动作图解",
+          "page": 40,
+          "caption": "Wall Angels靠墙上肢动作图解 · PDF 第 40 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "墙式普拉提：居家训练指南｜英文原版电子书 · 书径",
+      "seoDescription": "以墙面为辅助开展居家普拉提练习，围绕柔韧性、核心力量和平衡组织30天训练挑战，适合初学者按计划了解动作与练习安排。 查看原书信息、封面和电子书资源。",
+      "year": "2023",
+      "isbn": "9798858404736"
+    },
+    {
+      "id": "cdff2f632c54381b710726507f01f7e7",
+      "slug": "national-geographic-kids-uk-april-2020",
+      "title": "国家地理少儿英国版：2020年5月号",
+      "originalTitle": "National Geographic Kids UK, May 2020",
+      "authors": [],
+      "categorySlug": "science-family-management",
+      "subcategory": "科普英语杂志",
+      "tags": [
+        "少儿科普",
+        "英语阅读",
+        "杂志"
+      ],
+      "summary": "本期关注动物保护与物种恢复，结合自然知识、历史人物和趣味活动，适合儿童开展英语科普阅读。",
+      "introduction": "本期关注动物保护与物种恢复，结合自然知识、历史人物和趣味活动，适合儿童开展英语科普阅读。",
+      "audience": [
+        "儿童英语阅读者、家长和科普阅读组织者"
+      ],
+      "highlights": [
+        "动物保护与物种恢复",
+        "历史人物与趣味活动",
+        "少儿英语科普阅读"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 52,
+      "sizeMB": 35.1,
+      "cover": {
+        "src": "/books/cdff2f632c54381b710726507f01f7e7-cover.webp",
+        "width": 459,
+        "height": 600,
+        "alt": "国家地理少儿英国版：2020年5月号原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/cdff2f632c54381b710726507f01f7e7-detail-0010.webp",
+          "width": 1070,
+          "height": 1400,
+          "alt": "国家地理少儿英国版：2020年5月号：大熊猫保护专题",
+          "page": 10,
+          "caption": "大熊猫保护专题 · PDF 第 10 页"
+        },
+        {
+          "src": "/books/cdff2f632c54381b710726507f01f7e7-detail-0039.webp",
+          "width": 1070,
+          "height": 1400,
+          "alt": "国家地理少儿英国版：2020年5月号：亲子活动与趣味任务",
+          "page": 39,
+          "caption": "亲子活动与趣味任务 · PDF 第 39 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "国家地理少儿英国版：2020年5月号｜英文原版电子书 · 书径",
+      "seoDescription": "本期关注动物保护与物种恢复，结合自然知识、历史人物和趣味活动，适合儿童开展英语科普阅读。 查看原书信息、封面和电子书资源。",
+      "year": "2020",
+      "edition": "英国版，2020年5月号",
+      "resourceKind": "magazine",
+      "periodicalTitle": "National Geographic Kids"
+    },
+    {
+      "id": "3aea12bcf1f773d5a9d54bd874672fc0",
+      "slug": "the-navy-seal-weight-training-workout-the-complete-guide-to-navy-seal-fitness-phase-2",
+      "title": "海豹体能重量训练：第二阶段计划",
+      "originalTitle": "The Navy SEAL Weight Training Workout: The Complete Guide to Navy SEAL Fitness - Phase 2 Program",
+      "authors": [
+        "Stewart Smith"
+      ],
+      "categorySlug": "fitness-dance",
+      "subcategory": "军事风格体能",
+      "tags": [
+        "力量训练",
+        "军事健身",
+        "训练计划"
+      ],
+      "summary": "以重量训练为专项，讨论力量练习与军事风格体能准备之间的关系，适合补充已有的耐力训练。",
+      "introduction": "以重量训练为专项，讨论力量练习与军事风格体能准备之间的关系，适合补充已有的耐力训练。",
+      "audience": [
+        "体能训练爱好者、教练和军事健身研究者"
+      ],
+      "highlights": [
+        "重量训练专项",
+        "力量与综合体能",
+        "分阶段训练安排"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 143,
+      "sizeMB": 18.5,
+      "cover": {
+        "src": "/books/3aea12bcf1f773d5a9d54bd874672fc0-cover.webp",
+        "width": 465,
+        "height": 600,
+        "alt": "海豹体能重量训练：第二阶段计划原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/3aea12bcf1f773d5a9d54bd874672fc0-detail-0032.webp",
+          "width": 990,
+          "height": 1400,
+          "alt": "海豹体能重量训练：第二阶段计划：腹部与髋部动作照片",
+          "page": 32,
+          "caption": "腹部与髋部动作照片 · PDF 第 32 页"
+        },
+        {
+          "src": "/books/3aea12bcf1f773d5a9d54bd874672fc0-detail-0069.webp",
+          "width": 990,
+          "height": 1400,
+          "alt": "海豹体能重量训练：第二阶段计划：全身体能动作示范",
+          "page": 69,
+          "caption": "全身体能动作示范 · PDF 第 69 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "海豹体能重量训练：第二阶段计划｜英文原版电子书 · 书径",
+      "seoDescription": "以重量训练为专项，讨论力量练习与军事风格体能准备之间的关系，适合补充已有的耐力训练。 查看原书信息、封面和电子书资源。",
+      "year": "2013",
+      "isbn": "9781578264773"
+    },
+    {
+      "id": "3493ac81f59e0bcafba62da79f54a7f8",
+      "slug": "handbook-of-sports-medicine-and-science-road-cycling",
+      "title": "公路自行车：运动医学与科学手册",
+      "originalTitle": "Handbook of Sports Medicine and Science: Road Cycling",
+      "authors": [
+        "Robert J. Gregor",
+        "Francesco Conconi"
+      ],
+      "categorySlug": "cycling-riding-snow",
+      "subcategory": "自行车运动科学与姿态优化",
+      "tags": [
+        "公路自行车",
+        "运动科学",
+        "生物力学"
+      ],
+      "summary": "围绕公路骑行的运动科学与医学问题，讨论身体、骑姿和自行车之间的关系，适合深入专项训练背景。",
+      "introduction": "围绕公路骑行的运动科学与医学问题，讨论身体、骑姿和自行车之间的关系，适合深入专项训练背景。",
+      "audience": [
+        "骑行教练、进阶骑手和运动科学学习者"
+      ],
+      "highlights": [
+        "骑姿与生物力学",
+        "身体负荷与运动损伤",
+        "公路骑行的训练科学"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 139,
+      "sizeMB": 3.2,
+      "cover": {
+        "src": "/books/3493ac81f59e0bcafba62da79f54a7f8-cover.webp",
+        "width": 437,
+        "height": 600,
+        "alt": "公路自行车：运动医学与科学手册原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/3493ac81f59e0bcafba62da79f54a7f8-detail-0030.webp",
+          "width": 1019,
+          "height": 1400,
+          "alt": "公路自行车：运动医学与科学手册：骑行踏板反力示意",
+          "page": 30,
+          "caption": "骑行踏板反力示意 · PDF 第 30 页"
+        },
+        {
+          "src": "/books/3493ac81f59e0bcafba62da79f54a7f8-detail-0049.webp",
+          "width": 1019,
+          "height": 1400,
+          "alt": "公路自行车：运动医学与科学手册：公路骑行测试装置",
+          "page": 49,
+          "caption": "公路骑行测试装置 · PDF 第 49 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "公路自行车：运动医学与科学手册｜英文原版电子书 · 书径",
+      "seoDescription": "围绕公路骑行的运动科学与医学问题，讨论身体、骑姿和自行车之间的关系，适合深入专项训练背景。 查看原书信息、封面和电子书资源。",
+      "year": "2000",
+      "isbn": "086542912X",
+      "authorRole": "editor"
+    },
+    {
+      "id": "0d284af41e60a34d081cbb01e09d4a24",
+      "slug": "high-intensity-military-urban-combat-close-quarters-battle-and-street-combat-in-conve",
+      "title": "高强度城市作战研究",
+      "originalTitle": "High-Intensity Military Urban Combat: Close Quarters Battle and Street Combat in Conventional Urban War",
+      "authors": [
+        "Special Tactics"
+      ],
+      "categorySlug": "security-working-dogs",
+      "subcategory": "军事作战条令与组织",
+      "tags": [
+        "军事理论",
+        "城市战争",
+        "研究资料"
+      ],
+      "summary": "围绕常规战争中的城市环境展开，适合了解这一类军事文献的问题范围和组织层次。",
+      "introduction": "围绕常规战争中的城市环境展开，适合了解这一类军事文献的问题范围和组织层次。",
+      "audience": [
+        "军事史、军事理论和职业训练研究者"
+      ],
+      "highlights": [
+        "城市环境的作战特征",
+        "小单位组织与协同",
+        "常规战争的研究语境"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 136,
+      "sizeMB": 16.2,
+      "cover": {
+        "src": "/books/0d284af41e60a34d081cbb01e09d4a24-cover.webp",
+        "width": 480,
+        "height": 600,
+        "alt": "高强度城市作战研究原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/0d284af41e60a34d081cbb01e09d4a24-detail-0008.webp",
+          "width": 1120,
+          "height": 1400,
+          "alt": "高强度城市作战研究：常规城市战争的环境背景",
+          "page": 8,
+          "caption": "常规城市战争的环境背景 · PDF 第 8 页"
+        },
+        {
+          "src": "/books/0d284af41e60a34d081cbb01e09d4a24-detail-0135.webp",
+          "width": 1120,
+          "height": 1400,
+          "alt": "高强度城市作战研究：城市环境中的伤员搬运图",
+          "page": 135,
+          "caption": "城市环境中的伤员搬运图 · PDF 第 135 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "高强度城市作战研究｜英文原版电子书 · 书径",
+      "seoDescription": "围绕常规战争中的城市环境展开，适合了解这一类军事文献的问题范围和组织层次。 查看原书信息、封面和电子书资源。",
+      "year": "2022",
+      "isbn": "9798985595024"
+    },
+    {
+      "id": "45c9bf1844218f9c5f100b9f17525dfb",
+      "slug": "nols-wilderness-medicine-how-to-recognize-treat-and-prevent-emergencies-in-the-backco",
+      "title": "NOLS野外医学",
+      "originalTitle": "NOLS Wilderness Medicine: How to Recognize, Treat, and Prevent Emergencies in the Backcountry",
+      "authors": [
+        "Tod Schimelpfenig"
+      ],
+      "categorySlug": "rescue-medicine",
+      "subcategory": "野外急救",
+      "tags": [
+        "野外医学",
+        "户外",
+        "救援"
+      ],
+      "summary": "围绕远离医疗设施的户外环境，组织伤病识别、评估和撤离判断等知识，适合补充正式课程阅读。",
+      "introduction": "围绕远离医疗设施的户外环境，组织伤病识别、评估和撤离判断等知识，适合补充正式课程阅读。",
+      "audience": [
+        "户外领队、野外医学学习者和搜救人员"
+      ],
+      "highlights": [
+        "野外伤病的评估",
+        "环境相关急症",
+        "救护组织与转运判断"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 249,
+      "sizeMB": 10.9,
+      "cover": {
+        "src": "/books/45c9bf1844218f9c5f100b9f17525dfb-cover.webp",
+        "width": 375,
+        "height": 600,
+        "alt": "NOLS野外医学原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/45c9bf1844218f9c5f100b9f17525dfb-detail-0026.webp",
+          "width": 990,
+          "height": 1400,
+          "alt": "NOLS野外医学：野外患者评估的生命体征说明",
+          "page": 26,
+          "caption": "野外患者评估的生命体征说明 · PDF 第 26 页"
+        },
+        {
+          "src": "/books/45c9bf1844218f9c5f100b9f17525dfb-detail-0236.webp",
+          "width": 990,
+          "height": 1400,
+          "alt": "NOLS野外医学：压力与救援响应者专题",
+          "page": 236,
+          "caption": "压力与救援响应者专题 · PDF 第 236 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "NOLS野外医学｜英文原版电子书 · 书径",
+      "seoDescription": "围绕远离医疗设施的户外环境，组织伤病识别、评估和撤离判断等知识，适合补充正式课程阅读。 查看原书信息、封面和电子书资源。",
+      "year": "2021",
+      "edition": "第七版",
+      "isbn": "9780811769815"
+    },
+    {
+      "id": "685aeca16dd5826796bcc61a3fac4074",
+      "slug": "archery-anatomy-an-introduction-to-techniques-for-improved-performance",
+      "title": "射箭解剖学：技术与身体结构",
+      "originalTitle": "Archery Anatomy: An Introduction to Techniques for Improved Performance",
+      "authors": [
+        "Ray Axford"
+      ],
+      "categorySlug": "martial-arts",
+      "subcategory": "射箭与人体力学",
+      "tags": [
+        "射箭",
+        "人体解剖",
+        "生物力学"
+      ],
+      "summary": "把射箭动作与身体结构联系起来，帮助读者理解姿态、肌肉协同和稳定性对运动表现的影响。",
+      "introduction": "把射箭动作与身体结构联系起来，帮助读者理解姿态、肌肉协同和稳定性对运动表现的影响。",
+      "audience": [
+        "射箭爱好者、教练和动作研究者"
+      ],
+      "highlights": [
+        "射箭动作与身体结构",
+        "姿态和稳定性",
+        "技术表现与肌肉协同"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 121,
+      "sizeMB": 24.7,
+      "cover": {
+        "src": "/books/685aeca16dd5826796bcc61a3fac4074-cover.webp",
+        "width": 429,
+        "height": 600,
+        "alt": "射箭解剖学：技术与身体结构原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/685aeca16dd5826796bcc61a3fac4074-detail-0020.webp",
+          "width": 1400,
+          "height": 746,
+          "alt": "射箭解剖学：技术与身体结构：肩带的机械受力示意",
+          "page": 20,
+          "caption": "肩带的机械受力示意 · PDF 第 20 页"
+        },
+        {
+          "src": "/books/685aeca16dd5826796bcc61a3fac4074-detail-0035.webp",
+          "width": 1400,
+          "height": 746,
+          "alt": "射箭解剖学：技术与身体结构：弓臂应力与动态平衡",
+          "page": 35,
+          "caption": "弓臂应力与动态平衡 · PDF 第 35 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "射箭解剖学：技术与身体结构｜英文原版电子书 · 书径",
+      "seoDescription": "把射箭动作与身体结构联系起来，帮助读者理解姿态、肌肉协同和稳定性对运动表现的影响。 查看原书信息、封面和电子书资源。"
+    },
+    {
+      "id": "e9f1a6035abab24c3878b7639349a18c",
+      "slug": "knots-ropes-for-climbers",
+      "title": "攀登者的绳结与绳索",
+      "originalTitle": "Knots & Ropes for Climbers",
+      "authors": [
+        "Duane Raleigh"
+      ],
+      "categorySlug": "climbing-outdoors",
+      "subcategory": "攀登绳结",
+      "tags": [
+        "攀登",
+        "绳结",
+        "绳索"
+      ],
+      "summary": "围绕攀登中常见的绳索和绳结主题，帮助读者建立分类、应用场景与材料特性的知识框架。",
+      "introduction": "围绕攀登中常见的绳索和绳结主题，帮助读者建立分类、应用场景与材料特性的知识框架。",
+      "audience": [
+        "攀登学习者、教练和绳索知识读者"
+      ],
+      "highlights": [
+        "绳结类型与用途",
+        "绳索材料和特性",
+        "攀登场景中的查阅"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 68,
+      "sizeMB": 2.7,
+      "cover": {
+        "src": "/books/e9f1a6035abab24c3878b7639349a18c-cover.webp",
+        "width": 425,
+        "height": 600,
+        "alt": "攀登者的绳结与绳索标题页",
+        "kind": "title-page"
+      },
+      "previews": [
+        {
+          "src": "/books/e9f1a6035abab24c3878b7639349a18c-detail-0033.webp",
+          "width": 990,
+          "height": 1400,
+          "alt": "攀登者的绳结与绳索：Prusik摩擦结的图示",
+          "page": 33,
+          "caption": "Prusik摩擦结的图示 · PDF 第 33 页"
+        },
+        {
+          "src": "/books/e9f1a6035abab24c3878b7639349a18c-detail-0052.webp",
+          "width": 990,
+          "height": 1400,
+          "alt": "攀登者的绳结与绳索：绳索边缘保护与护理",
+          "page": 52,
+          "caption": "绳索边缘保护与护理 · PDF 第 52 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "攀登者的绳结与绳索｜英文原版电子书 · 书径",
+      "seoDescription": "围绕攀登中常见的绳索和绳结主题，帮助读者建立分类、应用场景与材料特性的知识框架。 查看原书信息、封面和电子书资源。",
+      "year": "1998",
+      "edition": "第一版",
+      "isbn": "0811728714"
+    },
+    {
+      "id": "1b439a927cdedaeff6885615b7e74048",
+      "slug": "brazilian-jiu-jitsu-the-ultimate-guide-to-dominating-brazilian-jiu-jitsu",
+      "title": "巴西柔术：技术体系指南",
+      "originalTitle": "Brazilian Jiu-Jitsu: The Ultimate Guide to Dominating Brazilian Jiu-Jitsu and Mixed Martial Arts Combat",
+      "authors": [
+        "Alexandre Paiva"
+      ],
+      "categorySlug": "martial-arts",
+      "subcategory": "地面格斗与绞技",
+      "tags": [
+        "巴西柔术",
+        "地面格斗",
+        "训练"
+      ],
+      "summary": "以位置控制和技术之间的关系组织巴西柔术内容，适合已有练习基础的读者进行体系化复习。",
+      "introduction": "以位置控制和技术之间的关系组织巴西柔术内容，适合已有练习基础的读者进行体系化复习。",
+      "audience": [
+        "巴西柔术习练者、教练和格斗运动研究者"
+      ],
+      "highlights": [
+        "位置与控制关系",
+        "技术体系的连接",
+        "练习和技术复盘"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 202,
+      "sizeMB": 28.1,
+      "cover": {
+        "src": "/books/1b439a927cdedaeff6885615b7e74048-cover.webp",
+        "width": 450,
+        "height": 600,
+        "alt": "巴西柔术：技术体系指南原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/1b439a927cdedaeff6885615b7e74048-detail-0017.webp",
+          "width": 990,
+          "height": 1400,
+          "alt": "巴西柔术：技术体系指南：柔术的位置、逻辑与运动理念",
+          "page": 17,
+          "caption": "柔术的位置、逻辑与运动理念 · PDF 第 17 页"
+        },
+        {
+          "src": "/books/1b439a927cdedaeff6885615b7e74048-detail-0185.webp",
+          "width": 990,
+          "height": 1400,
+          "alt": "巴西柔术：技术体系指南：半防守到控制的位置转换",
+          "page": 185,
+          "caption": "半防守到控制的位置转换 · PDF 第 185 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "巴西柔术：技术体系指南｜英文原版电子书 · 书径",
+      "seoDescription": "以位置控制和技术之间的关系组织巴西柔术内容，适合已有练习基础的读者进行体系化复习。 查看原书信息、封面和电子书资源。",
+      "year": "2012",
+      "edition": "第一版",
+      "isbn": "9781462910007"
+    },
+    {
+      "id": "7c2c0dfbb30f901878e1e55b843245f6",
+      "slug": "100-yoga-activities-for-children-easy-to-follow-poses-and-meditation-exercises",
+      "title": "儿童瑜伽：100个动作与冥想活动",
+      "originalTitle": "100 Yoga Activities for Children: Easy-to-Follow Poses and Meditation Exercises",
+      "authors": [
+        "Shobana R. Vinay"
+      ],
+      "categorySlug": "fitness-dance",
+      "subcategory": "儿童体操与身体活动",
+      "tags": [
+        "儿童瑜伽",
+        "亲子",
+        "身体活动"
+      ],
+      "summary": "把瑜伽姿势、呼吸和安静活动转化为儿童可参与的练习，适合家长与教师组织身体活动。",
+      "introduction": "把瑜伽姿势、呼吸和安静活动转化为儿童可参与的练习，适合家长与教师组织身体活动。",
+      "audience": [
+        "家长、教师和儿童瑜伽指导者"
+      ],
+      "highlights": [
+        "儿童瑜伽姿势",
+        "呼吸与冥想活动",
+        "易于组织的练习主题"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 256,
+      "sizeMB": 18.6,
+      "cover": {
+        "src": "/books/7c2c0dfbb30f901878e1e55b843245f6-cover.webp",
+        "width": 550,
+        "height": 600,
+        "alt": "儿童瑜伽：100个动作与冥想活动原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/7c2c0dfbb30f901878e1e55b843245f6-detail-0123.webp",
+          "width": 990,
+          "height": 1400,
+          "alt": "儿童瑜伽：100个动作与冥想活动：Star站立姿态活动",
+          "page": 123,
+          "caption": "Star站立姿态活动 · PDF 第 123 页"
+        },
+        {
+          "src": "/books/7c2c0dfbb30f901878e1e55b843245f6-detail-0194.webp",
+          "width": 990,
+          "height": 1400,
+          "alt": "儿童瑜伽：100个动作与冥想活动：Bow卧姿活动的图示与步骤",
+          "page": 194,
+          "caption": "Bow卧姿活动的图示与步骤 · PDF 第 194 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "儿童瑜伽：100个动作与冥想活动｜英文原版电子书 · 书径",
+      "seoDescription": "把瑜伽姿势、呼吸和安静活动转化为儿童可参与的练习，适合家长与教师组织身体活动。 查看原书信息、封面和电子书资源。",
+      "year": "2017",
+      "edition": "英语译本",
+      "isbn": "9781510719606"
+    },
+    {
+      "id": "a9cacb4c23b9a5cb8695580901b71174",
+      "slug": "plyometric-anatomy",
+      "title": "增强式训练解剖学",
+      "originalTitle": "Plyometric Anatomy",
+      "authors": [
+        "Derek Hansen",
+        "Steve Kennelly"
+      ],
+      "categorySlug": "fitness-dance",
+      "subcategory": "科学增肌与自重训练",
+      "tags": [
+        "爆发力",
+        "增强式训练",
+        "人体解剖"
+      ],
+      "summary": "从动作与肌肉的关系理解爆发力练习，适合把弹跳、快速力量和专项体能放在同一框架中学习。",
+      "introduction": "从动作与肌肉的关系理解爆发力练习，适合把弹跳、快速力量和专项体能放在同一框架中学习。",
+      "audience": [
+        "运动员、体能教练和爆发力训练学习者"
+      ],
+      "highlights": [
+        "增强式动作与肌肉",
+        "上下肢和核心力量",
+        "练习进度与训练组织"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 266,
+      "sizeMB": 9.7,
+      "cover": {
+        "src": "/books/a9cacb4c23b9a5cb8695580901b71174-cover.webp",
+        "width": 421,
+        "height": 600,
+        "alt": "增强式训练解剖学原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/a9cacb4c23b9a5cb8695580901b71174-detail-0058.webp",
+          "width": 980,
+          "height": 1400,
+          "alt": "增强式训练解剖学：台阶跳的肌群与动作图解",
+          "page": 58,
+          "caption": "台阶跳的肌群与动作图解 · PDF 第 58 页"
+        },
+        {
+          "src": "/books/a9cacb4c23b9a5cb8695580901b71174-detail-0202.webp",
+          "width": 980,
+          "height": 1400,
+          "alt": "增强式训练解剖学：核心肌群的前后解剖图",
+          "page": 202,
+          "caption": "核心肌群的前后解剖图 · PDF 第 202 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "增强式训练解剖学｜英文原版电子书 · 书径",
+      "seoDescription": "从动作与肌肉的关系理解爆发力练习，适合把弹跳、快速力量和专项体能放在同一框架中学习。 查看原书信息、封面和电子书资源。",
+      "year": "2017",
+      "isbn": "9781492535591"
+    },
+    {
+      "id": "a2f337ad1a306e6351c3cf963d6de1fd",
+      "slug": "a-radar-history-of-world-war-ii-technical-and-military-imperatives",
+      "title": "二战雷达史：技术与军事需求",
+      "originalTitle": "A radar history of World War II : technical and military imperatives",
+      "authors": [
+        "Louis Brown"
+      ],
+      "categorySlug": "history-collections",
+      "subcategory": "军用通信技术史",
+      "tags": [
+        "雷达",
+        "技术史",
+        "二战"
+      ],
+      "summary": "以雷达的发展与应用为线索，连接技术演进和第二次世界大战的军事需求。",
+      "introduction": "以雷达的发展与应用为线索，连接技术演进和第二次世界大战的军事需求。",
+      "audience": [
+        "技术史读者、军事历史研究者和电子工程爱好者"
+      ],
+      "highlights": [
+        "雷达技术的历史演进",
+        "战争需求与设备应用",
+        "不同国家的发展背景"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 579,
+      "sizeMB": 7.0,
+      "cover": {
+        "src": "/books/a2f337ad1a306e6351c3cf963d6de1fd-cover.webp",
+        "width": 399,
+        "height": 600,
+        "alt": "二战雷达史：技术与军事需求原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/a2f337ad1a306e6351c3cf963d6de1fd-detail-0046.webp",
+          "width": 990,
+          "height": 1400,
+          "alt": "二战雷达史：技术与军事需求：战前雷达与历史图像",
+          "page": 46,
+          "caption": "战前雷达与历史图像 · PDF 第 46 页"
+        },
+        {
+          "src": "/books/a2f337ad1a306e6351c3cf963d6de1fd-detail-0492.webp",
+          "width": 990,
+          "height": 1400,
+          "alt": "二战雷达史：技术与军事需求：雷达显示器基本原理图",
+          "page": 492,
+          "caption": "雷达显示器基本原理图 · PDF 第 492 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "二战雷达史：技术与军事需求｜英文原版电子书 · 书径",
+      "seoDescription": "以雷达的发展与应用为线索，连接技术演进和第二次世界大战的军事需求。 查看原书信息、封面和电子书资源。",
+      "year": "1999",
+      "isbn": "0750306599"
+    },
+    {
+      "id": "4311cab6bf469c5fc198cbcc03488199",
+      "slug": "alpine-skills-summer",
+      "title": "高山夏季技能",
+      "originalTitle": "Alpine skills: Summer",
+      "authors": [
+        "UIAA International Climbing and Mountaineering Federation"
+      ],
+      "categorySlug": "climbing-outdoors",
+      "subcategory": "登山综合技能",
+      "tags": [
+        "高山",
+        "登山",
+        "UIAA"
+      ],
+      "summary": "围绕夏季高山活动的知识体系，连接环境判断、行进技能、绳索和团队管理，适合按主题补充学习。",
+      "introduction": "围绕夏季高山活动的知识体系，连接环境判断、行进技能、绳索和团队管理，适合按主题补充学习。",
+      "audience": [
+        "高山活动学习者、户外领队和攀登教练"
+      ],
+      "highlights": [
+        "高山环境与活动规划",
+        "行进和攀登技能",
+        "团队组织与安全判断"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 357,
+      "sizeMB": 56.8,
+      "cover": {
+        "src": "/books/4311cab6bf469c5fc198cbcc03488199-cover.webp",
+        "width": 424,
+        "height": 600,
+        "alt": "高山夏季技能原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/4311cab6bf469c5fc198cbcc03488199-detail-0046.webp",
+          "width": 988,
+          "height": 1400,
+          "alt": "高山夏季技能：解释高山天气报告",
+          "page": 46,
+          "caption": "解释高山天气报告 · PDF 第 46 页"
+        },
+        {
+          "src": "/books/4311cab6bf469c5fc198cbcc03488199-detail-0251.webp",
+          "width": 988,
+          "height": 1400,
+          "alt": "高山夏季技能：下降抽绳的正确与危险对比",
+          "page": 251,
+          "caption": "下降抽绳的正确与危险对比 · PDF 第 251 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "高山夏季技能｜英文原版电子书 · 书径",
+      "seoDescription": "围绕夏季高山活动的知识体系，连接环境判断、行进技能、绳索和团队管理，适合按主题补充学习。 查看原书信息、封面和电子书资源。",
+      "edition": "英语第二版，夏季卷",
+      "year": "2015",
+      "isbn": "9780920330692"
+    },
+    {
+      "id": "5295d655b18c913d6e9f05f6e10fc867",
+      "slug": "uniforms-insignia-of-the-navies-of-world-war-ii",
+      "title": "二战海军制服与徽章",
+      "originalTitle": "Uniforms & Insignia of the Navies of World War II",
+      "authors": [
+        "United States. Office of Naval Intelligence"
+      ],
+      "categorySlug": "history-collections",
+      "subcategory": "军服徽章与模型参考",
+      "tags": [
+        "海军",
+        "军服徽章",
+        "二战"
+      ],
+      "summary": "以不同海军的制服与标识为资料对象，适合查阅军衔、徽章和历史服装形象。",
+      "introduction": "以不同海军的制服与标识为资料对象，适合查阅军衔、徽章和历史服装形象。",
+      "audience": [
+        "海军历史读者、军服收藏者和模型参考使用者"
+      ],
+      "highlights": [
+        "海军制服类别",
+        "军衔与徽章标识",
+        "二战历史图像参考"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": null,
+      "sizeMB": 92.8,
+      "cover": {
+        "src": "/books/5295d655b18c913d6e9f05f6e10fc867-placeholder.svg",
+        "width": 400,
+        "height": 600,
+        "alt": "二战海军制服与徽章书籍题名"
+      },
+      "previews": [],
+      "resourceStatus": "unavailable",
+      "featured": false,
+      "seoTitle": "二战海军制服与徽章｜英文原版电子书 · 书径",
+      "seoDescription": "以不同海军的制服与标识为资料对象，适合查阅军衔、徽章和历史服装形象。 查看原书信息、封面和电子书资源。"
+    },
+    {
+      "id": "422e116dac0beeff5e1a3970bd9c2f14",
+      "slug": "squash-skills-techniques-tactics",
+      "title": "壁球：技能、技术与战术",
+      "originalTitle": "Squash: Skills, Techniques, Tactics",
+      "authors": [
+        "Peter A. Hirst"
+      ],
+      "categorySlug": "ball-sports",
+      "subcategory": "壁球技术与训练",
+      "tags": [
+        "壁球",
+        "技术训练",
+        "比赛战术"
+      ],
+      "summary": "从击球与移动延伸到比赛策略，帮助读者理解技术练习如何连接到壁球场上的实际表现。",
+      "introduction": "从击球与移动延伸到比赛策略，帮助读者理解技术练习如何连接到壁球场上的实际表现。",
+      "audience": [
+        "壁球爱好者、球员和教练"
+      ],
+      "highlights": [
+        "击球与步法",
+        "球路选择和场地控制",
+        "训练与比赛战术"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 377,
+      "sizeMB": 20.6,
+      "cover": {
+        "src": "/books/422e116dac0beeff5e1a3970bd9c2f14-cover.webp",
+        "width": 464,
+        "height": 600,
+        "alt": "壁球：技能、技术与战术原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/422e116dac0beeff5e1a3970bd9c2f14-detail-0081.webp",
+          "width": 1082,
+          "height": 1400,
+          "alt": "壁球：技能、技术与战术：反手长球的击球照片与说明",
+          "page": 81,
+          "caption": "反手长球的击球照片与说明 · PDF 第 81 页"
+        },
+        {
+          "src": "/books/422e116dac0beeff5e1a3970bd9c2f14-detail-0287.webp",
+          "width": 1082,
+          "height": 1400,
+          "alt": "壁球：技能、技术与战术：壁球专项核心稳定训练",
+          "page": 287,
+          "caption": "壁球专项核心稳定训练 · PDF 第 287 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "壁球：技能、技术与战术｜英文原版电子书 · 书径",
+      "seoDescription": "从击球与移动延伸到比赛策略，帮助读者理解技术练习如何连接到壁球场上的实际表现。 查看原书信息、封面和电子书资源。",
+      "year": "2014",
+      "edition": "2014年电子版，纸版初版2011",
+      "isbn": "9781847978608"
+    },
+    {
+      "id": "65449a376f04d2e3e15dbdd1763fb8b5",
+      "slug": "volleyball-skills-drills",
+      "title": "排球技能与专项练习",
+      "originalTitle": "Volleyball skills & drills",
+      "authors": [
+        "American Volleyball Coaches Association"
+      ],
+      "categorySlug": "ball-sports",
+      "subcategory": "排球教练与训练",
+      "tags": [
+        "排球",
+        "教练",
+        "专项练习"
+      ],
+      "summary": "围绕排球核心技术组织练习，适合教练和教学者把技术目标转化为训练安排。",
+      "introduction": "围绕排球核心技术组织练习，适合教练和教学者把技术目标转化为训练安排。",
+      "audience": [
+        "排球教练、体育教师和球员"
+      ],
+      "highlights": [
+        "排球核心技术",
+        "专项练习的设计",
+        "攻防配合与训练组织"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 208,
+      "sizeMB": 6.1,
+      "cover": {
+        "src": "/books/65449a376f04d2e3e15dbdd1763fb8b5-cover.webp",
+        "width": 464,
+        "height": 600,
+        "alt": "排球技能与专项练习原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/65449a376f04d2e3e15dbdd1763fb8b5-detail-0097.webp",
+          "width": 1082,
+          "height": 1400,
+          "alt": "排球技能与专项练习：拦网识别对方进攻的练习图",
+          "page": 97,
+          "caption": "拦网识别对方进攻的练习图 · PDF 第 97 页"
+        },
+        {
+          "src": "/books/65449a376f04d2e3e15dbdd1763fb8b5-detail-0162.webp",
+          "width": 1082,
+          "height": 1400,
+          "alt": "排球技能与专项练习：攻防转换中的基本位置变化",
+          "page": 162,
+          "caption": "攻防转换中的基本位置变化 · PDF 第 162 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "排球技能与专项练习｜英文原版电子书 · 书径",
+      "seoDescription": "围绕排球核心技术组织练习，适合教练和教学者把技术目标转化为训练安排。 查看原书信息、封面和电子书资源。",
+      "year": "2006",
+      "isbn": "0736058621",
+      "authorTypes": [
+        "Organization"
+      ],
+      "editors": [
+        "Kinda S. Lenberg"
+      ]
+    },
+    {
+      "id": "c23b3eecb2c2851ead74fb7faef59729",
+      "slug": "cricket-for-dummies",
+      "title": "板球入门",
+      "originalTitle": "Cricket For Dummies",
+      "authors": [
+        "Julian Knight"
+      ],
+      "categorySlug": "ball-sports",
+      "subcategory": "板球规则入门",
+      "tags": [
+        "板球",
+        "入门",
+        "比赛规则"
+      ],
+      "summary": "面向初学者解释板球的比赛、术语与基本技能，适合希望看懂比赛或开始学习这项运动的读者。",
+      "introduction": "面向初学者解释板球的比赛、术语与基本技能，适合希望看懂比赛或开始学习这项运动的读者。",
+      "audience": [
+        "板球初学者、球迷和体育文化读者"
+      ],
+      "highlights": [
+        "比赛规则与术语",
+        "基本技术和流程",
+        "板球文化与观赛"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 346,
+      "sizeMB": 7.4,
+      "cover": {
+        "src": "/books/c23b3eecb2c2851ead74fb7faef59729-cover.webp",
+        "width": 479,
+        "height": 600,
+        "alt": "板球入门原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/c23b3eecb2c2851ead74fb7faef59729-detail-0047.webp",
+          "width": 1117,
+          "height": 1400,
+          "alt": "板球入门：板球投球区与场上角色示意",
+          "page": 47,
+          "caption": "板球投球区与场上角色示意 · PDF 第 47 页"
+        },
+        {
+          "src": "/books/c23b3eecb2c2851ead74fb7faef59729-detail-0165.webp",
+          "width": 1117,
+          "height": 1400,
+          "alt": "板球入门：近距离接球的动作图解",
+          "page": 165,
+          "caption": "近距离接球的动作图解 · PDF 第 165 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "板球入门｜英文原版电子书 · 书径",
+      "seoDescription": "面向初学者解释板球的比赛、术语与基本技能，适合希望看懂比赛或开始学习这项运动的读者。 查看原书信息、封面和电子书资源。",
+      "year": "2006",
+      "isbn": "9780470034545"
+    },
+    {
+      "id": "5ae68ac17f7de36829ec94aa4f65670f",
+      "slug": "knots-in-use-knots-bends-hitches-whippings-and-splices",
+      "title": "实用绳结：接绳、固定与编接",
+      "originalTitle": "Knots in Use: Knots, Bends, Hitches, Whippings and Splices",
+      "authors": [
+        "Colin Jarman"
+      ],
+      "categorySlug": "water-sailing",
+      "subcategory": "航海绳结",
+      "tags": [
+        "航海",
+        "绳结",
+        "索具"
+      ],
+      "summary": "以绳结的类别和用途组织内容，适合在航海学习中按任务查阅接绳、固定和索具相关知识。",
+      "introduction": "以绳结的类别和用途组织内容，适合在航海学习中按任务查阅接绳、固定和索具相关知识。",
+      "audience": [
+        "航海爱好者、船主和绳结学习者"
+      ],
+      "highlights": [
+        "绳结与接绳结",
+        "固定缠绕与编接",
+        "航海应用的主题查阅"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 97,
+      "sizeMB": 8.2,
+      "cover": {
+        "src": "/books/5ae68ac17f7de36829ec94aa4f65670f-cover.webp",
+        "width": 376,
+        "height": 600,
+        "alt": "实用绳结：接绳、固定与编接原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/5ae68ac17f7de36829ec94aa4f65670f-detail-0022.webp",
+          "width": 871,
+          "height": 1400,
+          "alt": "实用绳结：接绳、固定与编接：Reef Knot的图示",
+          "page": 22,
+          "caption": "Reef Knot的图示 · PDF 第 22 页"
+        },
+        {
+          "src": "/books/5ae68ac17f7de36829ec94aa4f65670f-detail-0047.webp",
+          "width": 871,
+          "height": 1400,
+          "alt": "实用绳结：接绳、固定与编接：Carrick Bend接绳结构",
+          "page": 47,
+          "caption": "Carrick Bend接绳结构 · PDF 第 47 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "实用绳结：接绳、固定与编接｜英文原版电子书 · 书径",
+      "seoDescription": "以绳结的类别和用途组织内容，适合在航海学习中按任务查阅接绳、固定和索具相关知识。 查看原书信息、封面和电子书资源。",
+      "year": "2013",
+      "edition": "第四版",
+      "isbn": "9781472905468"
+    },
+    {
+      "id": "61bf73c74c77a3a1c1571a6287d3ff41",
+      "slug": "practical-seamanship-essential-skills-for-the-modern-sailor",
+      "title": "实用航海术：现代船员技能",
+      "originalTitle": "Practical Seamanship: Essential Skills for the Modern Sailor",
+      "authors": [
+        "Steve Dashew; Linda Dashew"
+      ],
+      "categorySlug": "water-sailing",
+      "subcategory": "航海船长技能与导航",
+      "tags": [
+        "航海",
+        "船员技能",
+        "实用指南"
+      ],
+      "summary": "把船上日常工作、船舶操纵与复杂环境下的判断联系起来，适合建立较完整的航海技能框架。",
+      "introduction": "把船上日常工作、船舶操纵与复杂环境下的判断联系起来，适合建立较完整的航海技能框架。",
+      "audience": [
+        "船员、船主和进阶航海爱好者"
+      ],
+      "highlights": [
+        "操船与甲板工作",
+        "维护和日常船务",
+        "天气环境与航行判断"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 646,
+      "sizeMB": 24.7,
+      "cover": {
+        "src": "/books/61bf73c74c77a3a1c1571a6287d3ff41-cover.webp",
+        "width": 398,
+        "height": 600,
+        "alt": "实用航海术：现代船员技能原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/61bf73c74c77a3a1c1571a6287d3ff41-detail-0311.webp",
+          "width": 924,
+          "height": 1400,
+          "alt": "实用航海术：现代船员技能：Port Sandwich进港的海图与观察",
+          "page": 311,
+          "caption": "Port Sandwich进港的海图与观察 · PDF 第 311 页"
+        },
+        {
+          "src": "/books/61bf73c74c77a3a1c1571a6287d3ff41-detail-0491.webp",
+          "width": 924,
+          "height": 1400,
+          "alt": "实用航海术：现代船员技能：并靠船舶的缆绳与环境",
+          "page": 491,
+          "caption": "并靠船舶的缆绳与环境 · PDF 第 491 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "实用航海术：现代船员技能｜英文原版电子书 · 书径",
+      "seoDescription": "把船上日常工作、船舶操纵与复杂环境下的判断联系起来，适合建立较完整的航海技能框架。 查看原书信息、封面和电子书资源。",
+      "year": "2001",
+      "edition": "CD-ROM版2.1，2001年2月"
+    },
+    {
+      "id": "6ec42dc4d2d5e5037d6818e27ac7c9e0",
+      "slug": "surfing-illustrated-a-visual-guide-to-wave-riding",
+      "title": "图解冲浪：逐浪入门",
+      "originalTitle": "Surfing Illustrated: An Illustrated Guide to Wave Riding",
+      "authors": [
+        "John Robison"
+      ],
+      "categorySlug": "water-sailing",
+      "subcategory": "冲浪与风筝冲浪",
+      "tags": [
+        "冲浪",
+        "图解",
+        "入门"
+      ],
+      "summary": "用视觉化方式组织冲浪学习主题，从装备和浪况认识延伸到身体动作，适合初学者建立整体概念。",
+      "introduction": "用视觉化方式组织冲浪学习主题，从装备和浪况认识延伸到身体动作，适合初学者建立整体概念。",
+      "audience": [
+        "冲浪初学者、水上运动爱好者和教练"
+      ],
+      "highlights": [
+        "浪况与冲浪环境",
+        "装备和基础动作",
+        "图解式学习与练习"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 177,
+      "sizeMB": 10.8,
+      "cover": {
+        "src": "/books/6ec42dc4d2d5e5037d6818e27ac7c9e0-cover.webp",
+        "width": 486,
+        "height": 600,
+        "alt": "图解冲浪：逐浪入门原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/6ec42dc4d2d5e5037d6818e27ac7c9e0-detail-0085.webp",
+          "width": 1133,
+          "height": 1400,
+          "alt": "图解冲浪：逐浪入门：冲浪入水地点与路线选择",
+          "page": 85,
+          "caption": "冲浪入水地点与路线选择 · PDF 第 85 页"
+        },
+        {
+          "src": "/books/6ec42dc4d2d5e5037d6818e27ac7c9e0-detail-0135.webp",
+          "width": 1133,
+          "height": 1400,
+          "alt": "图解冲浪：逐浪入门：不同破浪阶段的起乘时机",
+          "page": 135,
+          "caption": "不同破浪阶段的起乘时机 · PDF 第 135 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "图解冲浪：逐浪入门｜英文原版电子书 · 书径",
+      "seoDescription": "用视觉化方式组织冲浪学习主题，从装备和浪况认识延伸到身体动作，适合初学者建立整体概念。 查看原书信息、封面和电子书资源。",
+      "year": "2010",
+      "isbn": "9780071748148"
+    },
+    {
+      "id": "9ecba67cdcca6bde5941b36ca073cedd",
+      "slug": "advanced-modern-arnis-a-road-to-mastery",
+      "title": "进阶Modern Arnis：菲律宾武术训练",
+      "originalTitle": "Advanced Modern Arnis: A Road to Mastery",
+      "authors": [
+        "Dan Anderson"
+      ],
+      "categorySlug": "martial-arts",
+      "subcategory": "菲律宾器械武术",
+      "tags": [
+        "菲律宾武术",
+        "Modern Arnis",
+        "进阶训练"
+      ],
+      "summary": "以Modern Arnis为研究对象，关注训练体系与技术连接，适合已有武术习练基础的读者进一步阅读。",
+      "introduction": "以Modern Arnis为研究对象，关注训练体系与技术连接，适合已有武术习练基础的读者进一步阅读。",
+      "audience": [
+        "菲律宾武术习练者、教练和武术研究者"
+      ],
+      "highlights": [
+        "Modern Arnis训练体系",
+        "技术之间的连接",
+        "进阶练习与理解"
+      ],
+      "language": "英语",
+      "format": "PDF",
+      "pages": 210,
+      "sizeMB": 51.9,
+      "cover": {
+        "src": "/books/9ecba67cdcca6bde5941b36ca073cedd-cover.webp",
+        "width": 480,
+        "height": 600,
+        "alt": "进阶Modern Arnis：菲律宾武术训练原书封面"
+      },
+      "previews": [
+        {
+          "src": "/books/9ecba67cdcca6bde5941b36ca073cedd-detail-0095.webp",
+          "width": 1120,
+          "height": 1400,
+          "alt": "进阶Modern Arnis：菲律宾武术训练：手臂感知专题",
+          "page": 95,
+          "caption": "手臂感知专题 · PDF 第 95 页"
+        },
+        {
+          "src": "/books/9ecba67cdcca6bde5941b36ca073cedd-detail-0201.webp",
+          "width": 1120,
+          "height": 1400,
+          "alt": "进阶Modern Arnis：菲律宾武术训练：Modern Arnis的流动与理解",
+          "page": 201,
+          "caption": "Modern Arnis的流动与理解 · PDF 第 201 页"
+        }
+      ],
+      "resourceStatus": "ready",
+      "featured": false,
+      "seoTitle": "进阶Modern Arnis：菲律宾武术训练｜英文原版电子书 · 书径",
+      "seoDescription": "以Modern Arnis为研究对象，关注训练体系与技术连接，适合已有武术习练基础的读者进一步阅读。 查看原书信息、封面和电子书资源。",
+      "year": "2002",
+      "edition": "2002年5月首次发行"
+    }
+  ]
+}
