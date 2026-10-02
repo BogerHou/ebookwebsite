@@ -43,7 +43,7 @@ node scripts/test-resource-api.mjs
 
 ## 域名与DNS
 
-Namecheap 负责注册，Cloudflare 负责 DNS，Vercel 承载网站。将域名加入 Vercel 项目，再按项目实际要求在 Cloudflare 配置根域和 www 记录，使用 DNS-only 模式。以 Vercel 控制台显示的记录为准，保留域名现有邮件记录。
+Namecheap 负责注册，Cloudflare 负责 DNS 与网站代理，Vercel 承载网站。将域名加入 Vercel 项目，再按项目实际要求在 Cloudflare 配置根域和 www 记录。当前生产配置中，这两条网站记录均开启代理（Proxied），SSL/TLS 使用 Full (strict)，并由 Cloudflare 与 Vercel 分别提供边缘和源站证书。以 Vercel 控制台显示的记录为准，保留域名现有邮件记录。
 
 根域 `ebooknest.store` 为 canonical，`www.ebooknest.store` 重定向到根域。Cloudflare 分配的两条 nameserver 需配置到 Namecheap Custom DNS。全部变更完成后核对 HTTPS、DNS、站点与资源接口。
 
