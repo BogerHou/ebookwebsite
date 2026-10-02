@@ -45,7 +45,9 @@ node scripts/test-resource-api.mjs
 
 为 `https://ebooknest.store` 配置独立的 GA4 网站数据流，并将该数据流的 `G-...` 衡量 ID 写入 Vercel **Production** 环境变量 `NEXT_PUBLIC_GA_MEASUREMENT_ID`。此 ID 是公开的标签标识，不是 API 密钥。修改后重新构建部署。
 
-通过与 Next.js 同版本的 `@next/third-parties` 加载 Google tag，在页面完成 hydration 后开始统计。代码只在 Vercel Production 构建和实际生产域名上启用，本地开发、localhost 运行的生产构建、Vercel Preview 和部署预览地址都不向正式数据流发送事件。
+通过 Next.js 官方 `next/script` 的 `afterInteractive` 策略加载 Google tag，在页面完成 hydration 后开始统计。代码只在 Vercel Production 构建和实际生产域名上启用，本地开发、localhost 运行的生产构建、Vercel Preview 和部署预览地址都不向正式数据流发送事件。
+
+可选启用 Cloudflare 官方 Google tag gateway：在该域名的 Cloudflare 控制台中绑定相同的衡量 ID 与未占用的路径 `/metrics`，关闭自动“Set up tag”（由应用初始化，防止重复统计）。Vercel **Production** 增加 `NEXT_PUBLIC_GOOGLE_TAG_PATH=/metrics` 后重新部署。脚本将从本站 `/metrics/` 加载，后续衡量请求由 Cloudflare 转发至 Google；这不是 `/metrics/gtag/js`。确认 `/metrics/healthy` 和 `/metrics/?validate_geo=healthy` 返回 `ok`，并在浏览器及 GA4 实时报告中验收实际事件。未配置路径时，脚本使用标准 Google 地址。
 
 数据流的增强型衡量保留“网页浏览”，并勾选其高级设置中的“根据浏览器历史记录事件进行的网页更改”。由 GA 自动记录首次访问和 Next.js 页面导航，代码不额外发送 `page_view`，避免重复计数。
 

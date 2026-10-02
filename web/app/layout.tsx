@@ -27,9 +27,13 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   if (measurementId && !/^G-[A-Z0-9]+$/.test(measurementId)) {
     throw new Error("NEXT_PUBLIC_GA_MEASUREMENT_ID must be a valid GA4 measurement ID (G-...).");
   }
+  const googleTagPath = process.env.NEXT_PUBLIC_GOOGLE_TAG_PATH?.trim() || undefined;
+  if (measurementId && googleTagPath && (googleTagPath.length > 100 || !/^\/[A-Za-z0-9_-]+(?:\/[A-Za-z0-9_-]+)*\/?$/.test(googleTagPath))) {
+    throw new Error("NEXT_PUBLIC_GOOGLE_TAG_PATH must be a reserved same-origin path such as /metrics (maximum 100 characters).");
+  }
   return <html lang="zh-CN" className={geist.variable}><body>
     <a href="#main-content" className="skip-link">跳到主要内容</a>
     <Header /><main id="main-content">{children}</main><Footer />
-    {measurementId && <SiteGoogleAnalytics measurementId={measurementId} productionOrigin={siteUrl()} />}
+    {measurementId && <SiteGoogleAnalytics measurementId={measurementId} productionOrigin={siteUrl()} googleTagPath={googleTagPath} />}
   </body></html>;
 }
