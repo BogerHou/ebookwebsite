@@ -99,7 +99,8 @@ button, input, select { border-radius: 6px; }
 .footer-inner { display: flex; justify-content: space-between; align-items: center; padding-block: 30px; gap: 24px; }
 .footer-brand { color: var(--accent); font-weight: 650; font-size: 20px; }
 .footer-inner p { color: var(--muted); font-size: 12px; margin-top: 3px; }
-.footer-links { display: flex; gap: 26px; font-size: 12px; color: var(--muted); }
+.footer-links { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 12px 26px; font-size: 12px; color: var(--muted); }
+.footer-links a { white-space: nowrap; }
 .footer-links a:hover { color: var(--accent); }
 .page-introduction { padding-block: 10px 32px; }
 .categories-page, .category-page { padding-block: 40px 72px; }
@@ -128,6 +129,10 @@ button, input, select { border-radius: 6px; }
 .book-basic-fields { display: flex; flex-wrap: wrap; margin: 23px 0 19px; gap: 18px 29px; }
 .book-basic-fields dt { font-size: 11px; color: var(--muted); margin-bottom: 2px; }
 .book-basic-fields dd { margin: 0; font-size: 13px; font-weight: 550; }
+.book-file-information { margin-top: 23px; }
+.book-file-information h2 { font-size: 15px; font-weight: 600; }
+.book-file-information .book-basic-fields { margin-block: 12px 8px; }
+.file-information-note { color: var(--muted); font-size: 11px; }
 .detail-summary { font-size: 14px; line-height: 1.9; color: #526259; }
 .resource-panel { margin-top: 25px; border-top: 1px solid var(--line); padding-top: 20px; }
 .resource-title { display: flex; align-items: center; gap: 12px; }
@@ -137,6 +142,8 @@ button, input, select { border-radius: 6px; }
 .resource-panel .button { margin-top: 15px; min-width: 192px; }
 .resource-panel p.resource-note { font-size: 11px; color: var(--muted); margin-top: 10px; }
 .resource-panel p.resource-error { color: var(--accent-hover); background: var(--surface-accent); border-left: 2px solid var(--accent); padding: 10px 12px; font-size: 13px; margin-top: 14px; }
+.resource-support { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-top: 15px; color: var(--muted); font-size: 12px; }
+.resource-support a:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 4px; }
 .button-loading-bar { width: 16px; height: 4px; border-radius: 2px; background: #fff; opacity: .8; }
 .extraction-code { margin-top: 15px; display: flex; align-items: center; gap: 15px; color: var(--muted); font-size: 12px; }
 .extraction-code strong { color: var(--text); font-size: 17px; letter-spacing: .1em; }
@@ -177,6 +184,31 @@ button, input, select { border-radius: 6px; }
 .about-prose p { font-size: 16px; line-height: 2.1; color: #526259; margin-bottom: 30px; }
 .about-prose h2 { font-size: 24px; line-height: 1.6; font-weight: 600; margin: 40px 0 12px; }
 .about-prose .button { margin-top: 13px; }
+.support-page .about-prose h2:first-child { margin-top: 0; }
+.support-page .about-prose h3 { font-size: 17px; font-weight: 600; margin: 23px 0 7px; }
+.support-page .about-prose ol { list-style: decimal; padding-left: 23px; color: #526259; font-size: 16px; line-height: 2; }
+.support-page .about-prose li { padding-left: 5px; margin-bottom: 15px; }
+.support-page .about-prose p a, .contact-reading-links a { color: var(--accent); text-decoration: underline; text-underline-offset: 4px; }
+.contact-composer { max-width: 680px; }
+.contact-email { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; margin-bottom: 28px; }
+.contact-email > a { font-size: 20px; font-weight: 550; color: var(--accent); overflow-wrap: anywhere; }
+.contact-email button { display: inline-flex; align-items: center; gap: 6px; background: transparent; border: 0; padding: 7px 0; color: var(--accent); font-size: 12px; }
+.contact-email svg { width: 14px; height: 14px; }
+.contact-book { border-left: 2px solid var(--accent); background: var(--surface); padding: 14px 18px; margin-bottom: 25px; }
+.contact-book > span { display: block; color: var(--muted); font-size: 12px; margin-bottom: 5px; }
+.contact-book > a { color: var(--accent); font-weight: 550; }
+.contact-book > p { font-size: 12px; margin-top: 4px; color: var(--muted); overflow-wrap: anywhere; }
+.contact-field { display: grid; gap: 8px; margin-bottom: 23px; }
+.contact-field label { font-size: 14px; font-weight: 550; }
+.contact-field select, .contact-field textarea { width: 100%; font: inherit; border: 1px solid #cbd6ce; border-radius: 6px; background: #fff; color: var(--text); padding: 11px 13px; }
+.contact-field select { max-width: 280px; }
+.contact-field textarea { resize: vertical; min-height: 150px; line-height: 1.8; }
+.contact-field textarea::placeholder { color: var(--muted); }
+.contact-hint, .contact-status { color: var(--muted); font-size: 12px; line-height: 1.9; }
+.contact-composer > .contact-hint { margin-top: 13px; }
+.contact-status { margin-bottom: 20px; }
+.contact-reading-links { margin-top: 35px; border-top: 1px solid var(--line); padding-top: 22px; color: var(--muted); font-size: 13px; }
+.contact-reading-links p + p { margin-top: 8px; }
 .not-found { min-height: 65dvh; padding-block: 100px; text-align: center; }
 .not-found-code { font-size: 13px; color: var(--accent); margin-bottom: 16px; }
 .not-found h1 { font-size: 29px; font-weight: 600; }
@@ -427,7 +459,7 @@ button, input, select { border-radius: 6px; }
   .book-card-meta span + span { padding-left: 7px; }
   .book-card-more { font-size: 11px; margin-top: 9px; }
   .footer-inner { align-items: flex-start; padding-block: 25px; }
-  .footer-links { gap: 17px; padding-top: 6px; font-size: 11px; }
+  .footer-links { gap: 12px 17px; padding-top: 6px; font-size: 11px; max-width: 250px; }
   .category-directory { grid-template-columns: 1fr; }
   .categories-page, .category-page { padding-block: 27px 54px; }
   .category-directory-item { padding-block: 23px; }
@@ -458,13 +490,14 @@ button, input, select { border-radius: 6px; }
   .about-page { padding-block: 30px 55px; }
   .about-prose p { font-size: 15px; }
   .about-prose h2 { font-size: 23px; }
+  .support-page .about-prose ol { font-size: 15px; }
   .not-found { padding-block: 90px; }
   .skeleton-cover { height: 235px; }
 }
 @media (max-width: 420px) {
   .site-header nav a[href="/about"] { display: none; }
   .footer-inner { flex-direction: column; gap: 15px; }
-  .footer-links { padding-top: 0; gap: 22px; }
+  .footer-links { padding-top: 0; gap: 12px 22px; max-width: none; justify-content: flex-start; }
   .home-editorial-hero h1 { font-size: 27px; }
   .hero-actions { gap: 16px; }
   .hero-actions .text-link { font-size: 12px; }

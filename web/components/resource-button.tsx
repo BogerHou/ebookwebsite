@@ -1,9 +1,15 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { CheckIcon, CopyIcon, DownloadIcon, ExternalLinkIcon } from "@radix-ui/react-icons";
 import type { ResourceClaim } from "@/lib/types";
 import { trackResourceClaim } from "@/components/google-analytics";
+import { contactHref } from "@/lib/contact";
+
+function ResourceSupport({ id, available }: { id: string; available: boolean }) {
+  return <div className="resource-support"><Link href="/help">下载帮助</Link>{available && <Link href={contactHref("broken-link", id)}>链接失效</Link>}<Link href={contactHref("book-correction", id)}>信息纠错</Link></div>;
+}
 
 export function ResourceButton({ id, resourceStatus }: {
   id: string; resourceStatus: "ready" | "preparing" | "unavailable";
@@ -28,7 +34,7 @@ export function ResourceButton({ id, resourceStatus }: {
     try { await navigator.clipboard.writeText(claim.extractionCode); setCopied(true); }
     catch { setError("无法自动复制，请手动复制下方提取码。"); }
   }
-  if (resourceStatus !== "ready") return <div className="resource-panel"><div className="resource-title"><h2>电子书下载</h2></div><p>此书暂不提供下载。</p></div>;
+  if (resourceStatus !== "ready") return <div className="resource-panel"><div className="resource-title"><h2>电子书下载</h2></div><p>此书暂不提供下载。</p><ResourceSupport id={id} available={false} /></div>;
   return <div className="resource-panel">
     <div className="resource-title"><h2>获取这本书</h2><span>免费</span></div>
     <p>通过百度网盘打开原版文件，保存后即可阅读。</p>
@@ -43,5 +49,6 @@ export function ResourceButton({ id, resourceStatus }: {
       </button>
     </>}
     {error && <p className="resource-error" role="alert">{error}</p>}
+    <ResourceSupport id={id} available />
   </div>;
 }

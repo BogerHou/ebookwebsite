@@ -10,6 +10,7 @@ import { absoluteUrl, jsonLd } from "@/lib/site";
 import { bookImageAlt } from "@/lib/book-images";
 import { getBookReadingNote, getGuidesForBook } from "@/lib/editorial";
 import { getBookBibliography, getBookDescription, getBookDetail } from "@/lib/book-details";
+import { getBookFileInfo, getBookFileSize, getBookTextSearchLabel } from "@/lib/book-file-info";
 import { bookLanguageCode } from "@/lib/book-language";
 import { GuideLink } from "@/components/guide-link";
 import type { Book } from "@/lib/types";
@@ -34,6 +35,9 @@ export default async function BookPage({ params }: { params: Promise<{ slug: str
   const category = getCategory(book.categorySlug);
   const detail = getBookDetail(book.id);
   const bibliography = getBookBibliography(book, detail);
+  const fileInfo = getBookFileInfo(book.id);
+  const fileSize = getBookFileSize(book, fileInfo);
+  const pdfPages = fileInfo?.pageCount ?? book.pages;
   const contributorHeading = book.authorRole === "editor" ? "编者简介" : "作者简介";
   const readingNote = getBookReadingNote(book.id);
   const readingGuides = getGuidesForBook(book.id);
@@ -99,11 +103,23 @@ export default async function BookPage({ params }: { params: Promise<{ slug: str
             {bibliography.year && <div><dt>出版年份</dt><dd>{bibliography.year}</dd></div>}
             {bibliography.edition && <div><dt>版本</dt><dd>{bibliography.edition}</dd></div>}
             {bibliography.isbn && <div><dt>ISBN</dt><dd>{bibliography.isbn}</dd></div>}
-            <div><dt>语言</dt><dd>{book.language}</dd></div><div><dt>文件格式</dt><dd>{book.format}</dd></div>
-            {book.pages && <div><dt>PDF页数</dt><dd>{book.pages} 页</dd></div>}
             {bibliography.printPages && <div><dt>原书页数</dt><dd>{bibliography.printPages} 页</dd></div>}
           </dl>
           <p className="detail-summary">{book.summary}</p>
+          <section className="book-file-information" aria-labelledby="book-file-information-heading">
+            <h2 id="book-file-information-heading">文件信息</h2>
+            <dl className="book-basic-fields">
+              <div><dt>文件格式</dt><dd>{book.format}</dd></div>
+              <div><dt>文件语言</dt><dd>{book.language}</dd></div>
+              {fileSize && <div><dt>文件大小</dt><dd>{fileSize}</dd></div>}
+              {pdfPages && <div><dt>PDF页数</dt><dd>{pdfPages} 页</dd></div>}
+              {fileInfo && <>
+                <div><dt>文字检索</dt><dd>{getBookTextSearchLabel(fileInfo)}</dd></div>
+                <div><dt>PDF书签</dt><dd>{fileInfo.bookmarkCount ? `${fileInfo.bookmarkCount} 项书签` : "无内嵌书签"}</dd></div>
+              </>}
+            </dl>
+            {fileInfo && fileInfo.pagesWithText > 0 && <p className="file-information-note">配图中的文字可能无法搜索。</p>}
+          </section>
           <ResourceButton id={book.id} resourceStatus={book.resourceStatus} />
         </div>
       </div>

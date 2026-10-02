@@ -92,6 +92,14 @@ export interface BookDetail {
   questions: EditorialQuestion[];
   sources?: { label: string; url: string }[];
 }
+/** Public properties verified from the downloadable PDF; never include a source path or checksum. */
+export interface BookFileInfo {
+  sizeBytes: number;
+  pageCount: number;
+  /** Pages with meaningful extracted text and a confirmed PDF text-search match. */
+  pagesWithText: number;
+  bookmarkCount: number;
+}
 /** Private server data. This type must never be serialized into a client prop. */
 export interface ResourceLink {
   url: string;

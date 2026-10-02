@@ -178,7 +178,7 @@ async function inspectHttpContent() {
     expect(`${path}: out-of-range catalog page returns 404`, result.response.status === 404);
   }
 
-  const allContentPaths = ["/categories", "/about", "/guides", ...catalog.categories.map((category) => `/categories/${category.slug}`), ...guides.map((guide) => `/guides/${guide.slug}`), ...catalog.books.map((book) => `/books/${book.slug}`)];
+  const allContentPaths = ["/categories", "/about", "/guides", "/help", "/contact", "/privacy", ...catalog.categories.map((category) => `/categories/${category.slug}`), ...guides.map((guide) => `/guides/${guide.slug}`), ...catalog.books.map((book) => `/books/${book.slug}`)];
   // Keep concurrent requests bounded so this also works against a small preview.
   for (let offset = 0; offset < allContentPaths.length; offset += 6) {
     await Promise.all(allContentPaths.slice(offset, offset + 6).map((path) => inspect(path)));

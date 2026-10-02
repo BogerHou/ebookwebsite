@@ -41,6 +41,14 @@ node scripts/test-resource-api.mjs
 
 修改域名或环境变量后重新部署。Production 使用真实HTTPS origin，Preview 也使用生产 canonical 并设置 noindex。不要将含本地地址的预构建目录上传作为生产版本。
 
+## 阅读帮助与反馈
+
+`/help` 提供百度网盘文件夹领取与原文 PDF 阅读步骤，`/privacy` 说明访问统计和邮件反馈的数据处理方式。`/contact` 在读者的邮件应用中准备反馈，不向本站提交或保存正文。书籍页的反馈入口只携带公开书籍 ID 与问题类型，邮件自动附上书名和生产页面地址，不包含网盘链接或提取码。
+
+公开联系邮箱在 `lib/contact.ts` 中维护。发布联系页前，应在邮件服务商配置这个地址，并确认可以实际收信；转发接收地址无需写入网站代码。更换地址时需更新代码并重新部署。
+
+`data/book-file-info.json` 保存实际 PDF 检查结果：字节大小、页数、原生搜索确认含可检索文字的页数和内嵌书签数。更新文件时应重新检查，保留书籍 ID 对应关系，不将本机路径、文件散列或完整 PDF 加入公开数据。文件语言和书目版次来自书籍目录；没有检查结果时不宣称支持文字搜索或含书签。
+
 ## Google Analytics 4
 
 为 `https://ebooknest.store` 配置独立的 GA4 网站数据流，并将该数据流的 `G-...` 衡量 ID 写入 Vercel **Production** 环境变量 `NEXT_PUBLIC_GA_MEASUREMENT_ID`。此 ID 是公开的标签标识，不是 API 密钥。修改后重新构建部署。
@@ -65,7 +73,7 @@ Namecheap 负责注册，Cloudflare 负责 DNS 与网站代理，Vercel 承载�
 node scripts/validate-seo.mjs --base https://ebooknest.store --canonical-origin https://ebooknest.store
 ```
 
-该检查覆盖105个规范页面、搜索和排序变体、canonical、结构化数据、初始HTML、分页、sitemap与robots。资源接口可按私有映射另行验证，不输出真实分享地址或提取码。检查 Preview 时将 `--base` 改为预览地址，保持生产 canonical-origin，并增加 `--preview`。
+该检查覆盖108个规范页面、搜索和排序变体、canonical、结构化数据、初始HTML、分页、sitemap与robots。资源接口可按私有映射另行验证，不输出真实分享地址或提取码。检查 Preview 时将 `--base` 改为预览地址，保持生产 canonical-origin，并增加 `--preview`。
 
 `/sitemap.xml` 只含公开规范页面，`/robots.txt` 排除资源API。站点可公开访问后可提交 sitemap 到 Search Console，再依据实际索引和性能数据迭代。
 

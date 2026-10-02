@@ -1,0 +1,480 @@
+{
+  "schemaVersion": "1.0",
+  "checkedAt": "2026-10-03",
+  "books": {
+    "f3b481c0082b19be66b48a368a6104bd": {
+      "sizeBytes": 11771187,
+      "pageCount": 343,
+      "pagesWithText": 287,
+      "bookmarkCount": 0
+    },
+    "15770f38f8795d488f401bb6a36cef2e": {
+      "sizeBytes": 17430635,
+      "pageCount": 119,
+      "pagesWithText": 108,
+      "bookmarkCount": 0
+    },
+    "01bb7f87ca4f747dc572cc999891ddbf": {
+      "sizeBytes": 48308134,
+      "pageCount": 322,
+      "pagesWithText": 0,
+      "bookmarkCount": 0
+    },
+    "92bd8cf6d46be0f6d6b84167e0a65878": {
+      "sizeBytes": 5640400,
+      "pageCount": 298,
+      "pagesWithText": 296,
+      "bookmarkCount": 18
+    },
+    "cc6e5b5d2e0758996e3554cfc1817182": {
+      "sizeBytes": 26022743,
+      "pageCount": 569,
+      "pagesWithText": 564,
+      "bookmarkCount": 59
+    },
+    "35ee2ad4fee1da204a14d367edae2952": {
+      "sizeBytes": 19153414,
+      "pageCount": 273,
+      "pagesWithText": 272,
+      "bookmarkCount": 22
+    },
+    "ecff489405989263e4743349a47f0897": {
+      "sizeBytes": 64808969,
+      "pageCount": 130,
+      "pagesWithText": 101,
+      "bookmarkCount": 0
+    },
+    "7b5cde153dc9c7728e32f190ed9c6a6b": {
+      "sizeBytes": 6573759,
+      "pageCount": 357,
+      "pagesWithText": 357,
+      "bookmarkCount": 0
+    },
+    "7801ff37ba5b1b155000f36122c9350c": {
+      "sizeBytes": 18119608,
+      "pageCount": 148,
+      "pagesWithText": 147,
+      "bookmarkCount": 0
+    },
+    "c308ef582da3654f1bb488ab13b3e8b6": {
+      "sizeBytes": 59767855,
+      "pageCount": 405,
+      "pagesWithText": 404,
+      "bookmarkCount": 85
+    },
+    "bfed6198065b35fc87197f8299c2c110": {
+      "sizeBytes": 4494236,
+      "pageCount": 112,
+      "pagesWithText": 112,
+      "bookmarkCount": 92
+    },
+    "73dcf7745f1a3b4be9f7ac18cf146c8d": {
+      "sizeBytes": 5665432,
+      "pageCount": 47,
+      "pagesWithText": 44,
+      "bookmarkCount": 17
+    },
+    "96d6bf5b0a35a8b84b2ea7d44351b51c": {
+      "sizeBytes": 101219533,
+      "pageCount": 402,
+      "pagesWithText": 380,
+      "bookmarkCount": 142
+    },
+    "a5a2fd0e808c3d5d28a042d471c0e1c0": {
+      "sizeBytes": 5403855,
+      "pageCount": 247,
+      "pagesWithText": 240,
+      "bookmarkCount": 20
+    },
+    "4c9e6190c8a08583a0d5adec9c9e8054": {
+      "sizeBytes": 1855794,
+      "pageCount": 96,
+      "pagesWithText": 91,
+      "bookmarkCount": 21
+    },
+    "beb8dfe615ea3b94416a63d7927e7f8c": {
+      "sizeBytes": 17083515,
+      "pageCount": 228,
+      "pagesWithText": 213,
+      "bookmarkCount": 203
+    },
+    "49972d24fcefe645548a61fa656b5a4b": {
+      "sizeBytes": 11802151,
+      "pageCount": 124,
+      "pagesWithText": 0,
+      "bookmarkCount": 124
+    },
+    "d122fd2f0d705b63ff7ebc6ae7d0b326": {
+      "sizeBytes": 14828136,
+      "pageCount": 120,
+      "pagesWithText": 119,
+      "bookmarkCount": 0
+    },
+    "6b7f92d97f3d2fed1dec3f0750a69137": {
+      "sizeBytes": 11738710,
+      "pageCount": 162,
+      "pagesWithText": 162,
+      "bookmarkCount": 14
+    },
+    "9114c887d40d58b6aad0345081cf1e20": {
+      "sizeBytes": 59423683,
+      "pageCount": 449,
+      "pagesWithText": 448,
+      "bookmarkCount": 386
+    },
+    "0627acaeed009c6f7f5d4579d7819ab5": {
+      "sizeBytes": 5027889,
+      "pageCount": 257,
+      "pagesWithText": 253,
+      "bookmarkCount": 26
+    },
+    "2f046b1a616e85f6efacbdae33a4f46e": {
+      "sizeBytes": 153785777,
+      "pageCount": 209,
+      "pagesWithText": 204,
+      "bookmarkCount": 33
+    },
+    "1ebabdd45bf5255380283979ea4f801e": {
+      "sizeBytes": 26417565,
+      "pageCount": 251,
+      "pagesWithText": 250,
+      "bookmarkCount": 38
+    },
+    "e2faac3e151af0ce32bffcf8e8cdae06": {
+      "sizeBytes": 11105926,
+      "pageCount": 416,
+      "pagesWithText": 375,
+      "bookmarkCount": 42
+    },
+    "659cd68a768afd5c7d2970524ea2f6be": {
+      "sizeBytes": 2735870,
+      "pageCount": 168,
+      "pagesWithText": 165,
+      "bookmarkCount": 41
+    },
+    "bf801bd55df8c6de7d56e22d21793c3e": {
+      "sizeBytes": 11418757,
+      "pageCount": 322,
+      "pagesWithText": 310,
+      "bookmarkCount": 166
+    },
+    "eca58837b7e967f69bc4d1fa183791e6": {
+      "sizeBytes": 56215946,
+      "pageCount": 97,
+      "pagesWithText": 81,
+      "bookmarkCount": 109
+    },
+    "a5f9be5c819474a210a63c9197b542e8": {
+      "sizeBytes": 22322789,
+      "pageCount": 352,
+      "pagesWithText": 352,
+      "bookmarkCount": 0
+    },
+    "b4c29a9117ad538fb9054cd62f6ba185": {
+      "sizeBytes": 1221439,
+      "pageCount": 19,
+      "pagesWithText": 19,
+      "bookmarkCount": 17
+    },
+    "1017f9d4b84924460ef51d4a648b2dcc": {
+      "sizeBytes": 63963071,
+      "pageCount": 130,
+      "pagesWithText": 0,
+      "bookmarkCount": 0
+    },
+    "3c73bd307b7d16dc5988aa2189469d54": {
+      "sizeBytes": 2085017,
+      "pageCount": 224,
+      "pagesWithText": 214,
+      "bookmarkCount": 14
+    },
+    "03e541e24ca8f9a50217868c47ff07bc": {
+      "sizeBytes": 157336558,
+      "pageCount": 258,
+      "pagesWithText": 0,
+      "bookmarkCount": 0
+    },
+    "b90255f60dd31d32aa2f835e67d4ec74": {
+      "sizeBytes": 22275699,
+      "pageCount": 241,
+      "pagesWithText": 224,
+      "bookmarkCount": 41
+    },
+    "4adcd4c88ae7e12480291c1191b77582": {
+      "sizeBytes": 11327029,
+      "pageCount": 538,
+      "pagesWithText": 538,
+      "bookmarkCount": 16
+    },
+    "117f45fabb2391930cc02b3c4c08f370": {
+      "sizeBytes": 10604454,
+      "pageCount": 245,
+      "pagesWithText": 214,
+      "bookmarkCount": 50
+    },
+    "22f9ed97dbfb75de057e5966bf6630cb": {
+      "sizeBytes": 6121004,
+      "pageCount": 254,
+      "pagesWithText": 252,
+      "bookmarkCount": 14
+    },
+    "de5f63bf4734d52cefcbe6c17fb7f409": {
+      "sizeBytes": 4829622,
+      "pageCount": 76,
+      "pagesWithText": 76,
+      "bookmarkCount": 59
+    },
+    "4acd7643c055e1911eb78b7e8ccbf541": {
+      "sizeBytes": 26803309,
+      "pageCount": 227,
+      "pagesWithText": 227,
+      "bookmarkCount": 0
+    },
+    "18adca3c74e8375b31ce5ea5b29f0f37": {
+      "sizeBytes": 36845687,
+      "pageCount": 296,
+      "pagesWithText": 0,
+      "bookmarkCount": 0
+    },
+    "4b67b73077775b7668415484b16b8670": {
+      "sizeBytes": 6835048,
+      "pageCount": 242,
+      "pagesWithText": 233,
+      "bookmarkCount": 15
+    },
+    "0cc2f631bcefafdf29925da05f7f6ed7": {
+      "sizeBytes": 25708442,
+      "pageCount": 201,
+      "pagesWithText": 200,
+      "bookmarkCount": 20
+    },
+    "e4afb17b9cb0e4db556f935ec7f7de52": {
+      "sizeBytes": 2133028,
+      "pageCount": 161,
+      "pagesWithText": 160,
+      "bookmarkCount": 71
+    },
+    "4f30dc14c7fcbb7eed32bf4a60292547": {
+      "sizeBytes": 228850738,
+      "pageCount": 340,
+      "pagesWithText": 333,
+      "bookmarkCount": 15
+    },
+    "74d926778b91ba3ce9809b0a3a95c6c6": {
+      "sizeBytes": 4896574,
+      "pageCount": 177,
+      "pagesWithText": 164,
+      "bookmarkCount": 17
+    },
+    "b64bc354a821ad50e6e822107de6816e": {
+      "sizeBytes": 34451017,
+      "pageCount": 344,
+      "pagesWithText": 343,
+      "bookmarkCount": 0
+    },
+    "afeca761c5790e38c29a4cab699ab563": {
+      "sizeBytes": 12873394,
+      "pageCount": 101,
+      "pagesWithText": 100,
+      "bookmarkCount": 2
+    },
+    "ba0836fd87f650a70278cf3b0021ff2e": {
+      "sizeBytes": 166932829,
+      "pageCount": 225,
+      "pagesWithText": 87,
+      "bookmarkCount": 103
+    },
+    "40bed337c6c785cc4e4cbda157644f48": {
+      "sizeBytes": 12384986,
+      "pageCount": 66,
+      "pagesWithText": 0,
+      "bookmarkCount": 0
+    },
+    "8ac09a9a9b43570e064a9978e8f34840": {
+      "sizeBytes": 19003716,
+      "pageCount": 132,
+      "pagesWithText": 74,
+      "bookmarkCount": 0
+    },
+    "54e3f72eebb8c9dfd170d1fb5ec6d8e2": {
+      "sizeBytes": 43536838,
+      "pageCount": 100,
+      "pagesWithText": 0,
+      "bookmarkCount": 0
+    },
+    "413b683488859dbbfb74acbd56b49e27": {
+      "sizeBytes": 21938584,
+      "pageCount": 146,
+      "pagesWithText": 146,
+      "bookmarkCount": 29
+    },
+    "2713ac7b12bbce7ef37dadaa1ba1a6e9": {
+      "sizeBytes": 8866559,
+      "pageCount": 34,
+      "pagesWithText": 32,
+      "bookmarkCount": 0
+    },
+    "270dd825d80b0e5e3aae14138909094c": {
+      "sizeBytes": 40878926,
+      "pageCount": 208,
+      "pagesWithText": 191,
+      "bookmarkCount": 26
+    },
+    "44c1932ed989cbbf62f828f711b1c808": {
+      "sizeBytes": 5111502,
+      "pageCount": 93,
+      "pagesWithText": 92,
+      "bookmarkCount": 0
+    },
+    "ca322432cfa1b017534cb591bae81419": {
+      "sizeBytes": 63716619,
+      "pageCount": 426,
+      "pagesWithText": 385,
+      "bookmarkCount": 25
+    },
+    "8ed41c87768c1b777c2eebd1e8d91491": {
+      "sizeBytes": 2032518,
+      "pageCount": 328,
+      "pagesWithText": 317,
+      "bookmarkCount": 27
+    },
+    "96b591a4f02e5014a4323ee94540ada9": {
+      "sizeBytes": 15871900,
+      "pageCount": 226,
+      "pagesWithText": 192,
+      "bookmarkCount": 167
+    },
+    "33e89a740d9a525c74ab5afa12364253": {
+      "sizeBytes": 10050733,
+      "pageCount": 225,
+      "pagesWithText": 224,
+      "bookmarkCount": 116
+    },
+    "791e08e11422dfb4c7ffc3bf8afb1044": {
+      "sizeBytes": 8274131,
+      "pageCount": 279,
+      "pagesWithText": 275,
+      "bookmarkCount": 27
+    },
+    "59913a21018efcbcc20eece81914322a": {
+      "sizeBytes": 6524763,
+      "pageCount": 84,
+      "pagesWithText": 75,
+      "bookmarkCount": 0
+    },
+    "cdff2f632c54381b710726507f01f7e7": {
+      "sizeBytes": 36819004,
+      "pageCount": 52,
+      "pagesWithText": 0,
+      "bookmarkCount": 0
+    },
+    "3aea12bcf1f773d5a9d54bd874672fc0": {
+      "sizeBytes": 19442555,
+      "pageCount": 143,
+      "pagesWithText": 122,
+      "bookmarkCount": 0
+    },
+    "3493ac81f59e0bcafba62da79f54a7f8": {
+      "sizeBytes": 3379297,
+      "pageCount": 139,
+      "pagesWithText": 139,
+      "bookmarkCount": 0
+    },
+    "0d284af41e60a34d081cbb01e09d4a24": {
+      "sizeBytes": 16984787,
+      "pageCount": 136,
+      "pagesWithText": 135,
+      "bookmarkCount": 0
+    },
+    "45c9bf1844218f9c5f100b9f17525dfb": {
+      "sizeBytes": 11381326,
+      "pageCount": 249,
+      "pagesWithText": 243,
+      "bookmarkCount": 0
+    },
+    "685aeca16dd5826796bcc61a3fac4074": {
+      "sizeBytes": 25888798,
+      "pageCount": 121,
+      "pagesWithText": 0,
+      "bookmarkCount": 0
+    },
+    "e9f1a6035abab24c3878b7639349a18c": {
+      "sizeBytes": 2855064,
+      "pageCount": 68,
+      "pagesWithText": 65,
+      "bookmarkCount": 0
+    },
+    "1b439a927cdedaeff6885615b7e74048": {
+      "sizeBytes": 29448029,
+      "pageCount": 202,
+      "pagesWithText": 130,
+      "bookmarkCount": 0
+    },
+    "7c2c0dfbb30f901878e1e55b843245f6": {
+      "sizeBytes": 19470508,
+      "pageCount": 256,
+      "pagesWithText": 129,
+      "bookmarkCount": 0
+    },
+    "a9cacb4c23b9a5cb8695580901b71174": {
+      "sizeBytes": 10185810,
+      "pageCount": 266,
+      "pagesWithText": 265,
+      "bookmarkCount": 15
+    },
+    "a2f337ad1a306e6351c3cf963d6de1fd": {
+      "sizeBytes": 7305346,
+      "pageCount": 579,
+      "pagesWithText": 578,
+      "bookmarkCount": 252
+    },
+    "4311cab6bf469c5fc198cbcc03488199": {
+      "sizeBytes": 59586367,
+      "pageCount": 357,
+      "pagesWithText": 0,
+      "bookmarkCount": 357
+    },
+    "422e116dac0beeff5e1a3970bd9c2f14": {
+      "sizeBytes": 21636611,
+      "pageCount": 377,
+      "pagesWithText": 290,
+      "bookmarkCount": 31
+    },
+    "65449a376f04d2e3e15dbdd1763fb8b5": {
+      "sizeBytes": 6424421,
+      "pageCount": 208,
+      "pagesWithText": 199,
+      "bookmarkCount": 19
+    },
+    "c23b3eecb2c2851ead74fb7faef59729": {
+      "sizeBytes": 7798288,
+      "pageCount": 346,
+      "pagesWithText": 346,
+      "bookmarkCount": 166
+    },
+    "5ae68ac17f7de36829ec94aa4f65670f": {
+      "sizeBytes": 8582341,
+      "pageCount": 97,
+      "pagesWithText": 96,
+      "bookmarkCount": 55
+    },
+    "61bf73c74c77a3a1c1571a6287d3ff41": {
+      "sizeBytes": 25927164,
+      "pageCount": 646,
+      "pagesWithText": 645,
+      "bookmarkCount": 168
+    },
+    "6ec42dc4d2d5e5037d6818e27ac7c9e0": {
+      "sizeBytes": 11369002,
+      "pageCount": 177,
+      "pagesWithText": 175,
+      "bookmarkCount": 36
+    },
+    "9ecba67cdcca6bde5941b36ca073cedd": {
+      "sizeBytes": 54470034,
+      "pageCount": 210,
+      "pagesWithText": 209,
+      "bookmarkCount": 23
+    }
+  }
+}
