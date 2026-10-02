@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { SiteGoogleAnalytics } from "@/components/google-analytics";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_TITLE, isPreviewDeployment, siteUrl } from "@/lib/site";
 import "./globals.css";
 
@@ -21,8 +22,14 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  const measurementId = process.env.NODE_ENV === "production" && process.env.VERCEL_ENV === "production"
+    ? process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID?.trim() : undefined;
+  if (measurementId && !/^G-[A-Z0-9]+$/.test(measurementId)) {
+    throw new Error("NEXT_PUBLIC_GA_MEASUREMENT_ID must be a valid GA4 measurement ID (G-...).");
+  }
   return <html lang="zh-CN" className={geist.variable}><body>
     <a href="#main-content" className="skip-link">跳到主要内容</a>
     <Header /><main id="main-content">{children}</main><Footer />
+    {measurementId && <SiteGoogleAnalytics measurementId={measurementId} productionOrigin={siteUrl()} />}
   </body></html>;
 }

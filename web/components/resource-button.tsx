@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { CheckIcon, CopyIcon, DownloadIcon, ExternalLinkIcon } from "@radix-ui/react-icons";
 import type { ResourceClaim } from "@/lib/types";
+import { trackResourceClaim } from "@/components/google-analytics";
 
 export function ResourceButton({ id, resourceStatus }: {
   id: string; resourceStatus: "ready" | "preparing" | "unavailable";
@@ -18,6 +19,7 @@ export function ResourceButton({ id, resourceStatus }: {
       const data = await response.json();
       if (!response.ok) { setError(data.error?.message || "资源暂时无法领取，请稍后再试。"); return; }
       setClaim(data);
+      trackResourceClaim(id);
     } catch { setError("暂时无法连接，请检查网络后重试。"); }
     finally { setLoading(false); }
   }

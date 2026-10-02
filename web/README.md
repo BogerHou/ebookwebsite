@@ -41,6 +41,16 @@ node scripts/test-resource-api.mjs
 
 修改域名或环境变量后重新部署。Production 使用真实HTTPS origin，Preview 也使用生产 canonical 并设置 noindex。不要将含本地地址的预构建目录上传作为生产版本。
 
+## Google Analytics 4
+
+为 `https://ebooknest.store` 配置独立的 GA4 网站数据流，并将该数据流的 `G-...` 衡量 ID 写入 Vercel **Production** 环境变量 `NEXT_PUBLIC_GA_MEASUREMENT_ID`。此 ID 是公开的标签标识，不是 API 密钥。修改后重新构建部署。
+
+通过与 Next.js 同版本的 `@next/third-parties` 加载 Google tag，在页面完成 hydration 后开始统计。代码只在 Vercel Production 构建和实际生产域名上启用，本地开发、localhost 运行的生产构建、Vercel Preview 和部署预览地址都不向正式数据流发送事件。
+
+数据流的增强型衡量保留“网页浏览”，并勾选其高级设置中的“根据浏览器历史记录事件进行的网页更改”。由 GA 自动记录首次访问和 Next.js 页面导航，代码不额外发送 `page_view`，避免重复计数。
+
+必须关闭该数据流增强型衡量中的**出站点击**与**文件下载**：它们会自动发送 `link_url`，而领取成功后展示的百度网盘分享地址属于私有资源数据。成功领取仅发送 `resource_claim` 事件和公开书籍 `book_id`，不发送资源接口响应、网盘地址、提取码或剪贴板内容。领取失败不计为成功事件，统计加载失败不影响领取功能。可在 GA4 实时报告中检查访问和领取事件；按书籍分析时，将 `book_id` 注册为事件范围的自定义维度。
+
 ## 域名与DNS
 
 Namecheap 负责注册，Cloudflare 负责 DNS 与网站代理，Vercel 承载网站。将域名加入 Vercel 项目，再按项目实际要求在 Cloudflare 配置根域和 www 记录。当前生产配置中，这两条网站记录均开启代理（Proxied），SSL/TLS 使用 Full (strict)，并由 Cloudflare 与 Vercel 分别提供边缘和源站证书。以 Vercel 控制台显示的记录为准，保留域名现有邮件记录。
