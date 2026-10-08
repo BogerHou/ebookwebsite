@@ -15,6 +15,6 @@ export function getBookFileSize(book: Book, info?: BookFileInfo): string | undef
 }
 
 export function getBookTextSearchLabel(info: BookFileInfo): string {
-  if (info.pagesWithText === 0) return "未检测到可检索文字";
+  if (info.pagesWithText === 0) return "不支持文字检索";
   return `${info.pagesWithText} / ${info.pageCount} 页可检索`;
 }

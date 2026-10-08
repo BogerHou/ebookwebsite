@@ -17,7 +17,7 @@ export async function claimResource(id: string): Promise<ClaimResult> {
     return fail(402, "PAID_ACCESS_NOT_CONFIGURED", "此书暂不提供下载。");
   }
   if (globalMode !== "free") {
-    return fail(503, "ACCESS_NOT_CONFIGURED", "资源领取暂未开放，请稍后再试。");
+    return fail(503, "ACCESS_NOT_CONFIGURED", "资源暂时无法领取，请稍后再试。");
   }
   let links: PrivateResourceLinks;
   try {
@@ -41,7 +41,7 @@ export async function claimResource(id: string): Promise<ClaimResult> {
   }
   if ((links.access_mode && links.access_mode !== "free") ||
       (resource.access_mode && resource.access_mode !== "free")) {
-    return fail(503, "ACCESS_NOT_CONFIGURED", "资源领取暂未开放，请稍后再试。");
+    return fail(503, "ACCESS_NOT_CONFIGURED", "资源暂时无法领取，请稍后再试。");
   }
   let url: URL;
   try { url = new URL(resource.url); } catch {

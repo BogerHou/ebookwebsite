@@ -2,6 +2,7 @@ import { readFile, mkdir, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createRequire } from "node:module";
+import { publicCopyMatches, publicCopyMatchesInValue } from "./public-copy-policy.mjs";
 
 const require = createRequire(import.meta.url);
 const { parse } = require("next/dist/compiled/node-html-parser");
@@ -32,8 +33,7 @@ const sameUrl = (actual, expected) => {
   catch { return false; }
 };
 const privateUrl = /https?:\/\/(?:pan|yun)\.baidu\.com\/s\//i;
-const constructionWords = /已核验|已核对|核验前页|导读整理说明|正在整理|资源正在准备|正在补充|排版转换|非全书评测|依据原书题名|购买功能暂未开放|AI\s*辅助/;
-const constructionMatches = (text) => [...new Set([...text.matchAll(new RegExp(constructionWords.source, "g"))].map((match) => match[0]))];
+const constructionMatches = publicCopyMatches;
 const hrefPath = (href) => {
   try { return new URL(href, base).pathname; }
   catch { return ""; }
@@ -118,6 +118,8 @@ function schemas(document, path) {
     catch { expect(`${path}: JSON-LD parses`, false); }
   }
   const flattened = output.flatMap((schema) => Array.isArray(schema) ? schema : schema["@graph"] || [schema]);
+  const schemaCopyIssues = publicCopyMatchesInValue(output);
+  expect(`${path}: decoded JSON-LD contains no internal copy`, schemaCopyIssues.length === 0, schemaCopyIssues.join("、"));
   expect(`${path}: existing JSON-LD declares context and type`, output.every((schema) => schema["@context"]) && flattened.every((schema) => schema["@type"]));
   expect(`${path}: no fabricated review or irrelevant rich-result markup`, !flattened.some((schema) => ["AggregateRating", "Review", "Product", "FAQPage", "HowTo"].includes(schema["@type"])));
   return flattened;
@@ -127,13 +129,19 @@ async function inspect(path, { canonicalPath = new URL(path, base).pathname, noi
   const { response, text, elapsedMs } = await request(path);
   expect(`${path}: HTTP 200`, response.status === 200, `status ${response.status}`);
   expect(`${path}: public HTML contains no cloud share URL or local file path`, !privateUrl.test(text) && !text.includes("/Users/") && !text.includes("resource-links.json"));
+  expect(`${path}: internal evidence labels stay out of public HTML`, !text.includes("evidenceLabel"));
   const document = parse(text);
-  const readerDocument = parse(document.querySelector("main")?.outerHTML || document.outerHTML);
+  const readerDocument = parse(document.outerHTML);
   readerDocument.querySelectorAll("script, style, [hidden]").forEach((element) => element.remove());
   const visibleConstruction = constructionMatches(readerDocument.textContent);
   const rawConstruction = constructionMatches(text);
   expect(`${path}: visitor-facing text contains no construction-process wording`, visibleConstruction.length === 0, visibleConstruction.join("、"));
   expect(`${path}: raw HTML contains no hidden construction-process wording`, rawConstruction.length === 0, rawConstruction.join("、"));
+  const auxiliaryCopy = document.querySelectorAll("[alt], [aria-label], [placeholder], meta[content], title")
+    .flatMap((element) => [element.getAttribute("alt"), element.getAttribute("aria-label"), element.getAttribute("placeholder"), element.getAttribute("content"), element.tagName === "TITLE" ? element.textContent : ""])
+    .filter(Boolean).join("\n");
+  const auxiliaryIssues = constructionMatches(auxiliaryCopy);
+  expect(`${path}: metadata, image and accessible text contain no internal copy`, auxiliaryIssues.length === 0, auxiliaryIssues.join("、"));
   const head = document.querySelector("head");
   const title = head?.querySelector("title")?.textContent?.trim();
   const description = head?.querySelector('meta[name="description"]')?.getAttribute("content");

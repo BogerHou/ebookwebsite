@@ -79,6 +79,10 @@ node scripts/validate-seo.mjs --base https://ebooknest.store --canonical-origin 
 
 ## 内容与图片
 
+所有新建或修改的公开文案，必须遵守`AGENTS.md`的公开内容铁律。发布前逐条语义审查正文、问答、metadata、JSON-LD、图片说明和无障碍文案，以及领取、反馈、空状态和错误提示；内部交流、开发实现、采集核验、运营计划不得出现在网站。书籍事实、文件限制与必要隐私披露应保留并使用读者能理解的表达。
+
+`npm run check`和生产构建会运行`validate-public-copy.mjs`，检查内容数据和TS/TSX字符串中的已知内部措辞（不扫描代码注释）。HTTP SEO检查还会覆盖完整页面、metadata和无障碍文本。这些规则用于阻止已知问题回归，不能代替对新增内容的逐句阅读。
+
 - `data/catalog.json`：稳定书籍ID、URL、书目、分类与图片。
 - `data/book-details.json`：80本详细内容、真实目录选读、具体主题、作者资料、书目与选书比较。
 - `data/book-notes.json`：补充阅读建议和关联书目。
