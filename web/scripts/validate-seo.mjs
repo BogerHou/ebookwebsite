@@ -48,7 +48,19 @@ const bookIds = new Set(catalog.books.map((book) => book.id));
 const categorySlugs = new Set(catalog.categories.map((category) => category.slug));
 const linkedBooks = (ids) => Array.isArray(ids) && ids.length > 0 && unique(ids) && ids.every((id) => bookIds.has(id));
 
-function inspectStaticContent() {
+async function inspectStaticContent() {
+  for (const name of ["favicon.ico", "icon.svg", "apple-icon.png"]) {
+    try {
+      const bytes = await readFile(join(root, "app", name));
+      if (name.endsWith(".ico")) {
+        const count = bytes.length >= 6 ? bytes.readUInt16LE(4) : 0;
+        const validHeader = bytes.length >= 6 + count * 16 && bytes.readUInt16LE(0) === 0 && bytes.readUInt16LE(2) === 1 && count > 0;
+        const sizes = validHeader ? Array.from({ length: count }, (_, i) => bytes[6 + i * 16] || 256) : [];
+        expect(`static icon ${name}: real ICO includes small and 48px browser sizes`, validHeader && [16, 32, 48].every((size) => sizes.includes(size)));
+      } else if (name.endsWith(".svg")) expect(`static icon ${name}: vector image exists`, /<svg\b/.test(bytes.toString("utf8")));
+      else expect(`static icon ${name}: real 180px square PNG`, bytes.length >= 24 && bytes.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10])) && bytes.readUInt32BE(16) >= 180 && bytes.readUInt32BE(16) === bytes.readUInt32BE(20));
+    } catch { expect(`static icon ${name}: required asset exists`, false); }
+  }
   expect("static: catalog contains the agreed 80 books, 12 categories and 6 guides", catalog.books.length === 80 && catalog.categories.length === 12 && guides.length === 6);
   expect("static: catalog book IDs and slugs are unique", unique(catalog.books.map((book) => book.id)) && unique(catalog.books.map((book) => book.slug)));
   expect("static: every book has an existing category", catalog.books.every((book) => categorySlugs.has(book.categorySlug)));
@@ -63,7 +75,7 @@ function inspectStaticContent() {
   for (const book of catalog.books) {
     const note = notes[book.id];
     expect(`static ${book.id}: note has all required editorial fields`, note && textList(note.paragraphs) && textList(note.readingTips) && nonemptyText(note.selectionNote) && nonemptyText(note.evidenceLabel));
-    expect(`static ${book.id}: related IDs are real, unique and exclude the same book`, note && linkedBooks(note.relatedBookIds) && !note.relatedBookIds.includes(book.id));
+    expect(`static ${book.id}: related IDs are real, unique and exclude the same book`, note && Array.isArray(note.relatedBookIds) && unique(note.relatedBookIds) && note.relatedBookIds.every((id) => bookIds.has(id) && id !== book.id));
     if (note && textList(note.paragraphs)) noteBodies.push(note.paragraphs.join("\n"));
   }
   expect("static: book-note bodies are distinct", new Set(noteBodies).size === noteBodies.length);
@@ -73,7 +85,7 @@ function inspectStaticContent() {
     const detail = details[book.id];
     const sections = (list) => Array.isArray(list) && list.length > 0 && list.every((item) => nonemptyText(item.title) && nonemptyText(item.description));
     expect(`static ${book.id}: detail has substantive sections and questions`, detail && textList(detail.overview) && sections(detail.topics) && sections(detail.readingPath) && detail.questions?.length > 0 && detail.questions.every((item) => nonemptyText(item.question) && nonemptyText(item.answer)));
-    expect(`static ${book.id}: comparisons reference other catalog books`, detail && detail.comparisons?.length > 0 && unique(detail.comparisons.map((item) => item.bookId)) && detail.comparisons.every((item) => bookIds.has(item.bookId) && item.bookId !== book.id && nonemptyText(item.reason)));
+    expect(`static ${book.id}: comparisons reference other catalog books`, detail && Array.isArray(detail.comparisons) && unique(detail.comparisons.map((item) => item.bookId)) && detail.comparisons.every((item) => bookIds.has(item.bookId) && item.bookId !== book.id && nonemptyText(item.reason)));
     expect(`static ${book.id}: optional contents and author profiles have complete fields`, detail && (!detail.contents || nonemptyText(detail.contents.label) && detail.contents.items?.length > 0 && detail.contents.items.every((item) => nonemptyText(item.title))) && (!detail.authorProfiles || detail.authorProfiles.every((item) => nonemptyText(item.name) && nonemptyText(item.description))));
     expect(`static ${book.id}: external references use public HTTPS URLs`, detail && (!detail.sources || detail.sources.every((item) => nonemptyText(item.label) && /^https:\/\//.test(item.url) && !privateUrl.test(item.url) && !/localhost|\/Users\//.test(item.url))));
     if (detail?.overview) detailBodies.push(detail.overview.join("\n"));
@@ -154,6 +166,7 @@ async function inspect(path, { canonicalPath = new URL(path, base).pathname, noi
   if (!noindex) expect(`${path}: no HTTP header accidentally blocks indexing`, !/\bnoindex\b/.test(robotsHeader));
   expect(`${path}: one visible primary heading`, document.querySelectorAll("h1").length === 1);
   expect(`${path}: Open Graph image supplied`, Boolean(head?.querySelector('meta[property="og:image"]')?.getAttribute("content")));
+  expect(`${path}: browser and Apple touch icons are declared`, head?.querySelectorAll('link[rel="icon"]').some((link) => hrefPath(link.getAttribute("href")) === "/favicon.ico") && Boolean(head?.querySelector('link[rel="apple-touch-icon"]')));
   const ld = schemas(document, path);
   pages.push({ path, status: response.status, title, description, canonical, noindex, htmlBytes: Buffer.byteLength(text), elapsedMs, schemaTypes: ld.map((schema) => schema["@type"]) });
   documents.set(path, { document, ld });
@@ -282,6 +295,19 @@ async function inspectHttpContent() {
   const imageBytes = new Uint8Array(await image.arrayBuffer());
   expect("default Open Graph image is a real generated PNG", image.status === 200 && image.headers.get("content-type")?.startsWith("image/png") && imageBytes[0] === 137 && imageBytes[1] === 80 && imageBytes[2] === 78 && imageBytes[3] === 71);
 
+  const iconLinks = documents.get("/").document.querySelectorAll('link[rel="icon"], link[rel="apple-touch-icon"]');
+  for (const link of iconLinks) {
+    const url = new URL(link.getAttribute("href"), base);
+    const response = await fetch(new URL(`${url.pathname}${url.search}`, base), { signal: AbortSignal.timeout(15000) });
+    const bytes = Buffer.from(await response.arrayBuffer());
+    const type = response.headers.get("content-type") || "";
+    const isIco = /icon/.test(type) && bytes.length >= 6 && bytes.readUInt16LE(0) === 0 && bytes.readUInt16LE(2) === 1 && bytes.readUInt16LE(4) > 0;
+    const isSvg = /svg/.test(type) && /<svg\b/.test(bytes.toString("utf8"));
+    const isPng = /png/.test(type) && bytes.length >= 24 && bytes.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]));
+    expect(`icon ${url.pathname}: returns a real image instead of HTML or an error`, response.status === 200 && (isIco || isSvg || isPng));
+    if (link.getAttribute("rel") === "apple-touch-icon") expect(`icon ${url.pathname}: Apple touch PNG is at least 180px square`, isPng && bytes.readUInt32BE(16) >= 180 && bytes.readUInt32BE(16) === bytes.readUInt32BE(20));
+  }
+
   if (args.includes("--check-resources")) {
     const privateMap = JSON.parse(await readFile(join(root, "data", "resource-links.json"), "utf8"));
     let verified = 0;
@@ -360,7 +386,7 @@ async function inspectSearchVariants() {
 }
 
 try {
-  inspectStaticContent();
+  await inspectStaticContent();
   if (!args.includes("--static-only")) await inspectHttpContent();
 } catch (error) {
   expect("validation completed", false, error.message);

@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
-import { buildBookSearchTerms, catalogHref, filterCatalog, getCatalogQuery, CATALOG_PAGE_SIZE } from "../lib/catalog-search.ts";
+import { buildBookSearchTerms, buildBookSearchText, catalogHref, filterCatalog, getCatalogPage, getCatalogQuery, CATALOG_PAGE_SIZE } from "../lib/catalog-search.ts";
 
 const source = JSON.parse(await readFile(new URL("../data/catalog.json", import.meta.url), "utf8"));
 const details = JSON.parse(await readFile(new URL("../data/book-details.json", import.meta.url), "utf8"));
@@ -28,6 +28,17 @@ includesBook("功率计 CHEUNG", cycling);
 includesBook("Swimming Anatomy", "f3b481c0082b19be66b48a368a6104bd");
 includesBook("跑步解剖学", "0cc2f631bcefafdf29925da05f7f6ed7");
 includesBook("Agusti\u0301n Sa\u0301iz", "18adca3c74e8375b31ce5ea5b29f0f37");
+includesBook("Agustin Saiz", "18adca3c74e8375b31ce5ea5b29f0f37");
+includesBook("Jose Guilherme", "a5a2fd0e808c3d5d28a042d471c0e1c0");
+includesBook("Julio Garganta", "a5a2fd0e808c3d5d28a042d471c0e1c0");
+includesBook("Renee Mauborgne", "3c73bd307b7d16dc5988aa2189469d54");
+includesBook("Router’s Full Potential", "01bb7f87ca4f747dc572cc999891ddbf");
+
+const routerBook = books.find((book) => book.id === "01bb7f87ca4f747dc572cc999891ddbf");
+const curlyTitleBook = { ...routerBook, originalTitle: routerBook.originalTitle.replaceAll("'", "’") };
+assert.equal(filterCatalog([curlyTitleBook], { query: "Router's Full Potential", sort: "recommended" }).length, 1, "Typography folding must apply to the index as well as the query");
+assert.equal(filterCatalog([{ ...curlyTitleBook, searchText: buildBookSearchText(curlyTitleBook) }], { query: "Router’s Full Potential", sort: "recommended" }).length, 1, "Precomputed indexes must use the same normalization");
+checks += 2;
 
 includesBook("Javair Gillett", "ca322432cfa1b017534cb591bae81419");
 includesBook("BILL BURGOS", "ca322432cfa1b017534cb591bae81419");
@@ -56,9 +67,14 @@ checks += 7;
 assert.equal(catalogHref(2, { query: "功率计", sort: "pages" }), "/library/2?q=%E5%8A%9F%E7%8E%87%E8%AE%A1&sort=pages#catalog");
 assert.equal(catalogHref(1, { query: "Bike Fit", sort: "recommended" }, "cycling-riding-snow"), "/categories/cycling-riding-snow?q=Bike+Fit#catalog");
 assert.equal(catalogHref(2, { query: "", sort: "title" }, "ball-sports"), "/categories/ball-sports?sort=title&page=2#catalog");
+assert.equal(getCatalogPage("/library/2", {}), 2);
+assert.equal(getCatalogPage("/library/3", { page: "2" }), 3, "The library page belongs to the path");
+assert.equal(getCatalogPage("/categories/ball-sports", { page: ["2", "3"] }), 2);
+assert.equal(getCatalogPage("/", { page: "2" }), 1, "The first global page ignores unsupported page parameters");
+for (const page of ["0", "-1", "2.5", "text", "9007199254740992"]) assert.equal(getCatalogPage("/categories/ball-sports", { page }), 1);
 assert.equal(JSON.stringify(source), sourceBefore, "Building the public index must not mutate source records");
 assert(books.every((book) => book.searchTerms.every((term) => typeof term === "string")), "Only strings are serialized into the search index");
 assert(!JSON.stringify(books.map((book) => book.searchTerms)).match(/\/Users\/|pan\.baidu\.com|extractionCode|pdfPath/), "Search props must stay public");
-checks += 6;
+checks += 15;
 
 console.log(`Catalog search passed: ${checks} checks across ${books.length} books. Topic, title, contributor, ISBN, Unicode, sorting and pagination checks passed.`);

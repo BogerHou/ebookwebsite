@@ -20,7 +20,7 @@ export function contactHref(topic: ContactTopic, bookId?: string): string {
   return `/contact?${query.toString()}`;
 }
 
-export function contactMailto(topic: ContactTopic, message: string, book?: ContactBook): string {
+function contactContent(topic: ContactTopic, message: string, book?: ContactBook): { subject: string; body: string } {
   const label = CONTACT_TOPICS.find((item) => item.value === topic)?.label || "其他反馈";
   const subject = `书径 · ${label}${book ? ` · ${book.title}` : ""}`;
   const body = [
@@ -28,5 +28,15 @@ export function contactMailto(topic: ContactTopic, message: string, book?: Conta
     ...(book ? [`书名：${book.title}`, `原文题名：${book.originalTitle}`, `书籍页面：${book.url}`] : []),
     "", "问题描述：", message.trim(),
   ].join("\n");
+  return { subject, body };
+}
+
+export function contactDraft(topic: ContactTopic, message: string, book?: ContactBook): string {
+  const { subject, body } = contactContent(topic, message, book);
+  return [`收件人：${CONTACT_EMAIL}`, `主题：${subject}`, "", body].join("\n");
+}
+
+export function contactMailto(topic: ContactTopic, message: string, book?: ContactBook): string {
+  const { subject, body } = contactContent(topic, message, book);
   return `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }

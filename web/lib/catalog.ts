@@ -1,17 +1,21 @@
 import "server-only";
 import source from "@/data/catalog.json";
-import type { Book, Catalog } from "@/lib/types";
+import type { Book, Catalog, CatalogBook } from "@/lib/types";
 import { getBookDetail } from "@/lib/book-details";
-import { buildBookSearchTerms } from "@/lib/catalog-search";
+import { buildBookSearchTerms, buildBookSearchText } from "@/lib/catalog-search";
+import { toCatalogBook } from "@/lib/catalog-list";
+import { selectRelatedBooks } from "@/lib/related-books";
 
 const sourceCatalog = source as Catalog;
 const catalog: Catalog = {
   ...sourceCatalog,
   books: sourceCatalog.books.map((book) => ({ ...book, searchTerms: buildBookSearchTerms(book, getBookDetail(book.id)) })),
 };
+const catalogBooks = catalog.books.map((book) => toCatalogBook(book, buildBookSearchText(book)));
 
 export function getCatalog(): Catalog { return catalog; }
 export function getBooks(): Book[] { return catalog.books; }
+export function getCatalogBooks(): CatalogBook[] { return catalogBooks; }
 export function getCategoryCounts(): Record<string, number> {
   return Object.fromEntries(catalog.categories.map((category) => [category.slug, catalog.books.filter((book) => book.categorySlug === category.slug).length]));
 }
@@ -25,7 +29,5 @@ export function getCategory(slug: string) {
   return catalog.categories.find((category) => category.slug === slug);
 }
 export function getRelatedBooks(book: Book): Book[] {
-  return catalog.books.filter((other) => other.id !== book.id)
-    .sort((a, b) => Number(b.categorySlug === book.categorySlug) - Number(a.categorySlug === book.categorySlug))
-    .slice(0, 4);
+  return selectRelatedBooks(catalog.books, book);
 }

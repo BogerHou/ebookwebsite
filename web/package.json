@@ -10,7 +10,7 @@
     "build": "node scripts/validate-public-copy.mjs && node scripts/run-next.mjs build --webpack",
     "start": "node scripts/run-next.mjs start --hostname 0.0.0.0",
     "typecheck": "tsc --noEmit",
-    "check": "npm run typecheck && node scripts/validate-public-copy.mjs && node scripts/validate-catalog.mjs && node scripts/validate-book-details.mjs && node scripts/validate-seo.mjs --static-only && node scripts/test-catalog-search.mjs && node scripts/test-site-config.mjs"
+    "check": "npm run typecheck && node scripts/validate-public-copy.mjs && node scripts/validate-catalog.mjs && node scripts/validate-book-details.mjs && node scripts/validate-seo.mjs --static-only && node scripts/test-catalog-search.mjs && node scripts/test-catalog-list.mjs && node scripts/test-contact.mjs && node scripts/test-site-config.mjs"
   },
   "dependencies": {
     "@radix-ui/react-icons": "1.3.2",

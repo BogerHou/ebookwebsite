@@ -512,7 +512,7 @@ button, input, select { border-radius: 6px; }
   .catalog-introduction h1 { font-size: 24px; }
   .catalog-toolbar { flex-wrap: wrap; gap: 8px; }
   .sort-field { margin-left: auto; }
-  .sort-field select { padding-block: 1px; }
+  .sort-field select { min-height: 44px; padding-block: 10px; }
   .book-cover { height: 224px; padding: 15px; }
   .book-grid { column-gap: 13px; }
   .book-card-meta span + span { border-left: 0; padding-left: 0; }

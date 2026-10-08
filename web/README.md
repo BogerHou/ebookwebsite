@@ -77,6 +77,8 @@ node scripts/validate-seo.mjs --base https://ebooknest.store --canonical-origin 
 
 `/sitemap.xml` 只含公开规范页面，`/robots.txt` 排除资源API。站点可公开访问后可提交 sitemap 到 Search Console，再依据实际索引和性能数据迭代。
 
+浏览器图标使用`app/icon.svg`与含16、32、48像素图层的`app/favicon.ico`，iPhone主屏幕图标使用180像素的`app/apple-icon.png`。页头使用同一书本标识。HTTP检查验证每页声明图标，并请求图标地址确认文件格式与尺寸，防止链接存在却返回404或HTML。
+
 ## 内容与图片
 
 所有新建或修改的公开文案，必须遵守`AGENTS.md`的公开内容铁律。发布前逐条语义审查正文、问答、metadata、JSON-LD、图片说明和无障碍文案，以及领取、反馈、空状态和错误提示；内部交流、开发实现、采集核验、运营计划不得出现在网站。书籍事实、文件限制与必要隐私披露应保留并使用读者能理解的表达。
@@ -89,6 +91,6 @@ node scripts/validate-seo.mjs --base https://ebooknest.store --canonical-origin 
 - `data/editorial.json`：12个分类导读、6篇选书指南。
 - `public/books/`：实际封面与精选内页；不放完整电子书。
 
-作者与编者分别记录，期刊使用 PublicationIssue，图书使用 Book；缺乏可靠证据的书目信息不虚构。PDF页数与原书页数分别展示。指南的内页引用会校验实际图片页码。
+作者与编者分别记录，期刊使用 PublicationIssue，图书使用 Book；缺乏可靠证据的书目信息不虚构。PDF页数与原书页数分别展示。指南的内页引用会校验实际图片页码。比较与关联书目按实际阅读问题选择，缺少相关书时允许为空，不为凑数量引入无关主题。
 
 书页正文在初始HTML中呈现。目录仅使用24本分页，搜索、排序与页码保存在URL；分类使用独立地址。主题检索、ISBN和编者姓名使用服务端生成的平面搜索词，不向目录客户端传完整详情。

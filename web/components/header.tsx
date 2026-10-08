@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { ReaderIcon } from "@radix-ui/react-icons";
+import { BrandMark } from "@/components/brand-mark";
 
 export function Header() {
   return <header className="site-header">
     <div className="container header-inner">
       <Link className="brand" href="/" aria-label="书径首页">
-        <span className="brand-mark"><ReaderIcon aria-hidden="true" /></span>
+        <span className="brand-mark"><BrandMark /></span>
         <span>书径</span>
       </Link>
       <span className="brand-description">用中文，认识原版好书</span>

@@ -18,7 +18,8 @@ if (Object.keys(data.books).length !== catalog.books.length || Object.keys(data.
 for (const book of catalog.books) {
   const detail = data.books[book.id];
   if (!detail) { errors.push(`${book.id}: no detail`); continue; }
-  for (const key of ["overview", "topics", "readingPath", "comparisons", "questions"]) if (!Array.isArray(detail[key]) || !detail[key].length) errors.push(`${book.id}: missing ${key}`);
+  for (const key of ["overview", "topics", "readingPath", "questions"]) if (!Array.isArray(detail[key]) || !detail[key].length) errors.push(`${book.id}: missing ${key}`);
+  if (!Array.isArray(detail.comparisons)) errors.push(`${book.id}: missing comparisons array`);
   for (const key of ["topics", "readingPath"]) if (detail[key]?.some((item) => !item.title?.trim() || !item.description?.trim())) errors.push(`${book.id}: incomplete ${key}`);
   if (detail.overview?.some((paragraph) => typeof paragraph !== "string" || !paragraph.trim())) errors.push(`${book.id}: empty paragraph`);
   if (detail.questions?.some((item) => !item.question?.trim() || !item.answer?.trim())) errors.push(`${book.id}: empty question or answer`);

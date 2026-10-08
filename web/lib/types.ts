@@ -48,6 +48,11 @@ export interface Book {
   seoTitle?: string;
   seoDescription?: string;
 }
+export type CatalogBook = Pick<Book,
+  "id" | "slug" | "title" | "originalTitle" | "categorySlug" | "subcategory" |
+  "tags" | "summary" | "language" | "format" | "pages" | "cover" |
+  "resourceStatus" | "featured"
+> & { searchText: string };
 export interface Catalog {
   schemaVersion: string;
   updatedAt: string;

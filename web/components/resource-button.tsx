@@ -19,7 +19,7 @@ export function ResourceButton({ id, resourceStatus }: {
   const [error, setError] = useState("");
   const [copied, setCopied] = useState(false);
   async function getResource() {
-    setLoading(true); setError("");
+    setLoading(true); setError(""); setClaim(null); setCopied(false);
     try {
       const response = await fetch(`/api/resources/${encodeURIComponent(id)}`, { cache: "no-store" });
       const data = await response.json();
@@ -41,6 +41,7 @@ export function ResourceButton({ id, resourceStatus }: {
     {claim ? <div className="claim-result" aria-live="polite">
       {claim.extractionCode && <div className="extraction-code"><span>提取码</span><strong>{claim.extractionCode}</strong><button onClick={copyCode} aria-label={copied ? "提取码已复制" : "复制提取码"}>{copied ? <CheckIcon /> : <CopyIcon />}{copied ? "已复制" : "复制"}</button></div>}
       <a className="button button-primary" href={claim.url} target="_blank" rel="noopener noreferrer">打开百度网盘 <ExternalLinkIcon aria-hidden="true" /></a>
+      <button type="button" className="button button-secondary" onClick={getResource}>重新获取</button>
       {claim.expiry && <p className="resource-note">链接有效期至 {new Date(claim.expiry).toLocaleDateString("zh-CN")}</p>}
     </div> : <>
       <button className="button button-primary" onClick={getResource} disabled={loading} aria-busy={loading}>

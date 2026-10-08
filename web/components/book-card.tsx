@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import { BookCover } from "@/components/book-cover";
-import type { Book } from "@/lib/types";
+import type { CatalogBook } from "@/lib/types";
 
-export function BookCard({ book, priority = false }: { book: Book; priority?: boolean }) {
+export function BookCard({ book, priority = false }: { book: Omit<CatalogBook, "searchText">; priority?: boolean }) {
   return <article className="book-card">
     <Link href={`/books/${book.slug}`} className="book-card-link">
       <BookCover book={book} priority={priority} />

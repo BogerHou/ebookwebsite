@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02",
+  "updatedAt": "2026-10-08",
   "books": {
     "f3b481c0082b19be66b48a368a6104bd": {
       "overview": [
@@ -104,6 +104,12 @@
         {
           "name": "Ian McLeod",
           "description": "运动防护师与运动按摩师，曾参与2008年北京奥运会美国队医疗工作，并为大学运动队和竞技游泳选手提供支持。书中将运动解剖与游泳专项陆上训练相结合。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Human Kinetics：书籍与作者介绍",
+          "url": "https://us.humankinetics.com/products/swimming-anatomy"
         }
       ]
     },
@@ -540,6 +546,12 @@
           "name": "Mikel Zabala",
           "description": "本书主编，研究自行车运动表现与反兴奋剂教育，曾从事大学教学、自行车研究和职业车队训练工作。"
         }
+      ],
+      "sources": [
+        {
+          "label": "Human Kinetics：书籍与主编介绍",
+          "url": "https://us.humankinetics.com/products/cycling-science"
+        }
       ]
     },
     "35ee2ad4fee1da204a14d367edae2952": {
@@ -661,7 +673,13 @@
       "authorProfiles": [
         {
           "name": "Jacqui Greene Haas",
-          "description": "曾任专业舞者，自1989年起为Cincinnati Ballet提供运动防护支持。拥有南佛罗里达大学舞蹈学学士学位与辛辛那提大学运动防护资格，长期开展舞蹈伤害预防、身体筛查与体能工作坊。"
+          "description": "曾任专业舞者，长期为Cincinnati Ballet提供运动防护支持，并自1989年起从事辛辛那提地区的表演艺术运动防护工作。拥有南佛罗里达大学舞蹈学学士学位与辛辛那提大学运动防护资格，长期开展舞蹈伤害预防、身体筛查与体能工作坊。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Human Kinetics：作者简介（第三版页面）",
+          "url": "https://us.humankinetics.com/products/dance-anatomy-3rd-edition"
         }
       ]
     },
@@ -736,10 +754,6 @@
         {
           "bookId": "cdff2f632c54381b710726507f01f7e7",
           "reason": "少儿版用短句、图解和小游戏讲动物保护；本期成人版以长篇纪实与摄影深入历史和生态议题。"
-        },
-        {
-          "bookId": "117f45fabb2391930cc02b3c4c08f370",
-          "reason": "本期提供世界各地的环境报道；《儿童自然探险》把自然观察转化为家庭可以实施的季节活动。"
         }
       ],
       "questions": [
@@ -1006,16 +1020,7 @@
           "description": "具备前面模型基础后，再读车辆姿态、振动和操纵性章节，理解陀螺效应与转向力矩的讨论。"
         }
       ],
-      "comparisons": [
-        {
-          "bookId": "cc6e5b5d2e0758996e3554cfc1817182",
-          "reason": "《自行车运动科学》也讨论人车关系，但重点包含运动生理与训练；本书集中于有动力两轮车辆的工程模型。"
-        },
-        {
-          "bookId": "73dcf7745f1a3b4be9f7ac18cf146c8d",
-          "reason": "《逃脱与规避驾驶》是早期汽车驾驶主题资料；本书以摩托车受力和稳定性为主，分析方法与对象均不同。"
-        }
-      ],
+      "comparisons": [],
       "questions": [
         {
           "question": "它是骑行技巧入门书吗？",
@@ -1114,11 +1119,11 @@
       "comparisons": [
         {
           "bookId": "45c9bf1844218f9c5f100b9f17525dfb",
-          "reason": "《NOLS野外医学》侧重患者评估、野外疾病和远程照护；本手册侧重航空资源、飞行任务与救援团队。"
+          "reason": "需要补读救援等待期间的患者评估与野外照护，可选《NOLS野外医学》；本手册重点是航空资源、飞行任务与救援团队。"
         },
         {
-          "bookId": "4adcd4c88ae7e12480291c1191b77582",
-          "reason": "《军用航空电子系统》解释飞机电子设备和工程架构；本手册关注航空平台在搜救任务中的组织运用。"
+          "bookId": "4311cab6bf469c5fc198cbcc03488199",
+          "reason": "研究山地救援的环境与团队背景，可补读《高山夏季技能》的地形、行进和领队主题；航空救援任务仍以本手册为阅读主线。"
         }
       ],
       "questions": [
@@ -1178,6 +1183,16 @@
           "name": "Ken Phillips",
           "description": "本手册作者，2013年出版时任美国国家公园管理局搜救部门负责人，组织航空搜救专家和相关机构的技术经验编写培训资料。"
         }
+      ],
+      "sources": [
+        {
+          "label": "美国国家公园管理局：搜救工作与Ken Phillips",
+          "url": "https://www.nps.gov/articles/parkscience33-1_99-107_malcolm_heinrich_3864.htm"
+        },
+        {
+          "label": "美国国家公园管理局：国家搜救学院培训",
+          "url": "https://www.nps.gov/havo/learn/news/keanaaina.htm"
+        }
       ]
     },
     "73dcf7745f1a3b4be9f7ac18cf146c8d": {
@@ -1219,10 +1234,6 @@
         }
       ],
       "comparisons": [
-        {
-          "bookId": "c308ef582da3654f1bb488ab13b3e8b6",
-          "reason": "《摩托车动力学》用几何、轮胎和方程解释两轮车辆响应；本书是早期汽车情境式训练资料。"
-        },
         {
           "bookId": "7801ff37ba5b1b155000f36122c9350c",
           "reason": "《VIP移动保护》研究团队、车辆和任务分工；本书更偏驾驶主题与1980年代器材背景。"
@@ -1324,16 +1335,7 @@
           "description": "专项章节之后，阅读马匹和骑手的体能、心理与团队建设，理解比赛表现依赖哪些配套条件。"
         }
       ],
-      "comparisons": [
-        {
-          "bookId": "685aeca16dd5826796bcc61a3fac4074",
-          "reason": "《射箭解剖学》专注人体与器材的生物力学；本书同样重视平衡，但还需要同时理解马的行为、体能和专项训练。"
-        },
-        {
-          "bookId": "cc6e5b5d2e0758996e3554cfc1817182",
-          "reason": "《自行车运动科学》按研究主题组织训练知识；本书以照片、骑乘场景和分级练习呈现马术学习。"
-        }
-      ],
+      "comparisons": [],
       "questions": [
         {
           "question": "书里包含哪些马术方向？",
@@ -1464,12 +1466,8 @@
       ],
       "comparisons": [
         {
-          "bookId": "65449a376f04d2e3e15dbdd1763fb8b5",
-          "reason": "排球卷同样连接个人技能与团队转换，但以专项练习和轮转位置为中心；本书更强调战术原则与行为评估。"
-        },
-        {
-          "bookId": "ca322432cfa1b017534cb591bae81419",
-          "reason": "篮球力量训练卷分析项目与位置的身体需求，能对照“专项表现”的另一面；足球智能主要分析战术决策。"
+          "bookId": "beb8dfe615ea3b94416a63d7927e7f8c",
+          "reason": "本书围绕足球战术决策与训练评估；若还要了解足球损伤类型、康复背景和预防主题，可另读《足球损伤预防与处理指南》。"
         }
       ],
       "questions": [
@@ -1494,6 +1492,12 @@
         {
           "name": "Júlio Garganta",
           "description": "体育科学博士，长期在波尔图大学从事足球与团队运动教学研究，参与体育研究、教育与创新机构的工作。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Routledge：书籍与作者介绍",
+          "url": "https://www.routledge.com/Football-Intelligence-Training-and-Tactics-for-Soccer-Success/Teoldo-Guilherme-Garganta/p/book/9781032121604"
         }
       ]
     },
@@ -1539,10 +1543,6 @@
         {
           "bookId": "1b439a927cdedaeff6885615b7e74048",
           "reason": "《巴西柔术》按站立、防守、过防守和控制等位置构建有衣与无衣体系；本书只深入绞技专题。"
-        },
-        {
-          "bookId": "1ebabdd45bf5255380283979ea4f801e",
-          "reason": "《空手道型的应用解析》从套路与历史解释动作含义；本书是按地面位置编排的照片教材。"
         }
       ],
       "questions": [
@@ -1598,6 +1598,16 @@
           "name": "Geoff Thompson",
           "description": "武术教练与作家，著作涉及地面格斗、自我保护及个人经历；曾从事夜间场所安保工作，并把这段经历写入其自传和技术读物。"
         }
+      ],
+      "sources": [
+        {
+          "label": "Hachette：书籍介绍",
+          "url": "https://www.hachette.co.uk/titles/geoff-thompson/chokes-and-strangles/9781840241723/"
+        },
+        {
+          "label": "Summersdale：Geoff Thompson的安保经历",
+          "url": "https://summersdale.com/titles/geoff-thompson/watch-my-back/9781848391536/"
+        }
       ]
     },
     "beb8dfe615ea3b94416a63d7927e7f8c": {
@@ -1644,12 +1654,12 @@
       ],
       "comparisons": [
         {
-          "bookId": "3493ac81f59e0bcafba62da79f54a7f8",
-          "reason": "《公路自行车手册》侧重骑行生理和专项医学；本书针对足球跑动、跳跃和接触带来的损伤。"
+          "bookId": "0cc2f631bcefafdf29925da05f7f6ed7",
+          "reason": "想补充理解跑动中的肌群、步态和陆上力量练习，可读《跑步解剖学》；足球接触性损伤和康复背景以本书的专项讨论为主。"
         },
         {
-          "bookId": "45c9bf1844218f9c5f100b9f17525dfb",
-          "reason": "《NOLS野外医学》重点是远离医疗资源的评估与照护；本书围绕足球损伤、康复理解与训练预防。"
+          "bookId": "a5a2fd0e808c3d5d28a042d471c0e1c0",
+          "reason": "本书讨论球员健康与损伤预防；《足球智能》另从战术决策和训练评估解释比赛表现，适合足球教练按不同任务分开阅读。"
         }
       ],
       "questions": [
@@ -1709,6 +1719,12 @@
           "name": "John Gallucci Jr.",
           "description": "运动防护与物理治疗专业人士。本书出版时曾任MLS医疗协调员，并经营JAG Physical Therapy，著作结合其足球医疗和不同年龄患者的工作经验。"
         }
+      ],
+      "sources": [
+        {
+          "label": "JAG Physical Therapy：John Gallucci的专业背景与著作",
+          "url": "https://www.jagpt.com/blog/news/jag-physical-therapy-john-gallucci-jr-releases-pickleball-pickleball-pickleball-dont-get-hurt/"
+        }
       ]
     },
     "49972d24fcefe645548a61fa656b5a4b": {
@@ -1750,10 +1766,6 @@
         }
       ],
       "comparisons": [
-        {
-          "bookId": "1b439a927cdedaeff6885615b7e74048",
-          "reason": "《巴西柔术》按运动位置组织有衣、无衣技术；本书是战时主题分类的历史手册。"
-        },
         {
           "bookId": "1ebabdd45bf5255380283979ea4f801e",
           "reason": "《空手道型的应用解析》讨论传统套路、历史与解释；本书呈现另一种以战时任务为中心的教学方式。"
@@ -1798,6 +1810,12 @@
         {
           "name": "W. E. Fairbairn",
           "description": "曾任上海公共租界警务机构职务，并参与英美部队徒手格斗教学；本书序言回顾了他在上海及军事训练中的经历。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Naval & Military Press：作者与书籍介绍（彩色再版）",
+          "url": "https://www.naval-military-press.com/product/get-tough-in-colourhow-to-win-in-hand-to-hand-fighting-combat-edition/"
         }
       ]
     },
@@ -2016,6 +2034,16 @@
           "name": "Graham Blackburn",
           "description": "木工作者与绘图者，写作多部工具、木工技法、家具设计和建筑主题著作。本书以其木工学习、实践和与其他工匠合作的经验为背景。"
         }
+      ],
+      "sources": [
+        {
+          "label": "日本国立信息学研究所：第一版书目",
+          "url": "https://ci.nii.ac.jp/ncid/BB22155205"
+        },
+        {
+          "label": "Graham Blackburn：木工教学与著作",
+          "url": "https://www.blackburnbooks.com/"
+        }
       ]
     },
     "9114c887d40d58b6aad0345081cf1e20": {
@@ -2134,6 +2162,12 @@
           "name": "Frank Bethwaite",
           "description": "帆船设计与操控研究作者。本书结合他参与的船型开发、风场观察、航行比较和模拟器工作，讨论表观风航行的发展。"
         }
+      ],
+      "sources": [
+        {
+          "label": "World Sailing：Frank Bethwaite的研究与帆船设计",
+          "url": "https://www.sailing.org/2012/05/14/obituary-vale-frank-bethwaite/"
+        }
       ]
     },
     "0627acaeed009c6f7f5d4579d7819ab5": {
@@ -2182,10 +2216,6 @@
         {
           "bookId": "22f9ed97dbfb75de057e5966bf6630cb",
           "reason": "《工作犬行为基础》解释沟通、发展与操作性条件作用；本书把这些基础放入IPO三个阶段。"
-        },
-        {
-          "bookId": "d122fd2f0d705b63ff7ebc6ae7d0b326",
-          "reason": "《家庭防护与住宅安全》只把工作犬作为安全系统的一部分；本书是专门的犬运动学习资料。"
         }
       ],
       "questions": [
@@ -2249,6 +2279,12 @@
         {
           "name": "Ruud Haak",
           "description": "工作犬作者和训导员，写作多部犬类著作；长期参与追踪、救援及警犬教学，并与Resi Gerritsen共同发展相关课程。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "UTP Distribution：作者简介（IGP新版页面）",
+          "url": "https://utpdistribution.com/9781550598711/k9-schutzhund-training/"
         }
       ]
     },
@@ -2381,6 +2417,12 @@
           "name": "Alison Noice 与 Roger Seymour",
           "description": "本书原由Alison Noice构思并撰写，Roger Seymour在第四版前言中说明了自己的修订工作，保留原作的实用讲解风格并更新技术内容。"
         }
+      ],
+      "sources": [
+        {
+          "label": "Bloomsbury：2023年第四版目录与作者介绍",
+          "url": "https://www.bloomsbury.com/media/drdpiqor/bloomsadults23catalogrev2.pdf"
+        }
       ]
     },
     "1ebabdd45bf5255380283979ea4f801e": {
@@ -2484,6 +2526,12 @@
           "name": "Helmut Kogel",
           "description": "医学博士和空手道研究者，1973年开始空手道训练，随后学习柔术、Arnis和古武道；曾多次赴日本学习，并与Tetsuhiro Hokama合作研究套路与身体知识。"
         }
+      ],
+      "sources": [
+        {
+          "label": "Kono Verlag：Helmut Kogel作者简介",
+          "url": "https://www.kono-verlag.de/autoren"
+        }
       ]
     },
     "e2faac3e151af0ce32bffcf8e8cdae06": {
@@ -2530,12 +2578,8 @@
       ],
       "comparisons": [
         {
-          "bookId": "9ecba67cdcca6bde5941b36ca073cedd",
-          "reason": "《Advanced Modern Arnis》主要讨论武术原则和流动训练；本书把体能、恢复与备赛计划放在中心。"
-        },
-        {
-          "bookId": "685aeca16dd5826796bcc61a3fac4074",
-          "reason": "《射箭解剖学》侧重动作的生物力学；本书更偏泰拳课程、体能和周期安排。"
+          "bookId": "a9cacb4c23b9a5cb8695580901b71174",
+          "reason": "想进一步理解弹跳、投掷与快速力量的肌群和进阶关系，可补读《增强式训练解剖学》；本书把体能、恢复和周期安排放回泰拳备赛。"
         }
       ],
       "questions": [
@@ -2582,6 +2626,16 @@
         {
           "name": "Christoph Delp",
           "description": "泰拳作者，1995年赴泰国拳馆学习，之后在多个地区继续训练和记录；著作与影像作品以泰拳训练、技术及其文化背景为主题。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Penguin Random House：书籍与作者介绍",
+          "url": "https://www.penguinrandomhouse.com/books/226414/muay-thai-training-exercises-by-christoph-delp/"
+        },
+        {
+          "label": "Christoph Delp：作者与训练经历",
+          "url": "https://www.christophdelp.com/profil.html"
         }
       ]
     },
@@ -2668,10 +2722,6 @@
         {
           "bookId": "ca322432cfa1b017534cb591bae81419",
           "reason": "《篮球力量训练》讨论球员力量、测试和赛季训练安排；本书研究球与人体动作的力学，主线是投篮和反弹。"
-        },
-        {
-          "bookId": "92bd8cf6d46be0f6d6b84167e0a65878",
-          "reason": "两书都从运动现象解释物理。帆船卷更多是流体、受力平衡与波浪，篮球卷更多是抛体、碰撞和能量。"
         }
       ],
       "questions": [
@@ -2688,6 +2738,12 @@
         {
           "name": "John J. Fontanella",
           "description": "物理学作者，也有从中学到大学的篮球训练经历。他把篮球经验与物理教学相结合，用运动方程、受力分析和简单实验解释投篮与球场现象。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Hopkins Press：书籍与作者介绍",
+          "url": "https://www.press.jhu.edu/books/title/9147/physics-basketball"
         }
       ]
     },
@@ -2729,16 +2785,7 @@
           "description": "最后看训练章节和人物背景，了解技术呈现与教师传承、课程组织的联系。"
         }
       ],
-      "comparisons": [
-        {
-          "bookId": "49972d24fcefe645548a61fa656b5a4b",
-          "reason": "《Get Tough》保留战时徒手格斗教案；本书是2012年Krav Maga专项教材，分类和照片呈现更详细。"
-        },
-        {
-          "bookId": "1ebabdd45bf5255380283979ea4f801e",
-          "reason": "《Kata Bunkai》从传统套路解释应用；本书以对象和情境进行专项分类，阅读入口不同。"
-        }
-      ],
+      "comparisons": [],
       "questions": [
         {
           "question": "它是Krav Maga综合入门书吗？",
@@ -2790,7 +2837,17 @@
       "authorProfiles": [
         {
           "name": "David Kahn",
-          "description": "Krav Maga作者与教练，本书出版时担任IKMA美国首席教练，曾为军事及执法机构提供训练，并写作Krav Maga与Advanced Krav Maga等著作。"
+          "description": "Krav Maga作者与教练，担任IKMA美国首席教练，并为军事及执法机构提供训练；著有Krav Maga、Advanced Krav Maga和本书。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "David Kahn：教学背景与著作",
+          "url": "https://www.davidkahnkravmaga.com/articles/2019/1/11/david-kahn-selected-to-fima-board-of-directors"
+        },
+        {
+          "label": "普林斯顿校友刊：《Krav Maga Weapon Defenses》",
+          "url": "https://paw.princeton.edu/new-books/krav-maga-weapon-defenses"
         }
       ]
     },
@@ -3053,10 +3110,6 @@
         {
           "bookId": "7b5cde153dc9c7728e32f190ed9c6a6b",
           "reason": "《现代保镖》覆盖职业保护的多方面知识；本资料只集中于低光照明专题。"
-        },
-        {
-          "bookId": "afeca761c5790e38c29a4cab699ab563",
-          "reason": "《警务狙击手手册》是1988年的职业角色与装备读物；本资料为2017年短篇专题，范围和训练对象不同。"
         }
       ],
       "questions": [
@@ -3150,16 +3203,7 @@
           "description": "任务、图标和术语表一同阅读，比较活动目标与团队计划的关系。"
         }
       ],
-      "comparisons": [
-        {
-          "bookId": "0d284af41e60a34d081cbb01e09d4a24",
-          "reason": "《高强度城市作战》讨论常规战争环境；本书对象是彩弹与Airsoft团队模拟，器材和游戏条件有明确差异。"
-        },
-        {
-          "bookId": "de5f63bf4734d52cefcbe6c17fb7f409",
-          "reason": "《警务战术评估》以实验研究评价执法场景；本书偏模拟活动的术语、组织和课程表达。"
-        }
-      ],
+      "comparisons": [],
       "questions": [
         {
           "question": "它讨论的是彩弹竞赛还是MilSim？",
@@ -3330,6 +3374,16 @@
           "name": "W. Chan Kim 与 Renée Mauborgne",
           "description": "蓝海战略理论的共同提出者，也是《蓝海战略》的共同作者；两人曾在INSEAD任教并共同领导其蓝海战略研究机构。"
         }
+      ],
+      "sources": [
+        {
+          "label": "Harvard Business Review Press：书籍介绍",
+          "url": "https://store.hbr.org/product/the-w-chan-kim-and-renee-mauborgne-blue-ocean-strategy-reader/10116"
+        },
+        {
+          "label": "NewSouth Books：书目与作者介绍",
+          "url": "https://newsouthbooks.com.au/books/the-w-chan-kim-and-renee-mauborgne-blue-ocean-strategy-reader/"
+        }
       ]
     },
     "03e541e24ca8f9a50217868c47ff07bc": {
@@ -3401,8 +3455,8 @@
           "reason": "《德国士兵》扩展到食品、卫生、证件和日常物品；本书更集中于制服及配套饰物的多角度摄影。"
         },
         {
-          "bookId": "b64bc354a821ad50e6e822107de6816e",
-          "reason": "《美军沙漠制服》讨论较近时期的迷彩与部队臂章，且提供编制和使用背景；本书以二战德国实物照片为主。"
+          "bookId": "5295d655b18c913d6e9f05f6e10fc867",
+          "reason": "若要比较二战不同国家海军的制服识别图，可先看《二战海军制服与徽章》的导读；本书还包括德国陆军、空军及其他组织的实物照片。"
         }
       ],
       "questions": [
@@ -3583,12 +3637,8 @@
       ],
       "comparisons": [
         {
-          "bookId": "8ed41c87768c1b777c2eebd1e8d91491",
-          "reason": "《区域导弹防御》从政策、地区关系与成本讨论防御系统；本书更专注飞机内部的电子工程和系统架构。"
-        },
-        {
-          "bookId": "bfed6198065b35fc87197f8299c2c110",
-          "reason": "《直升机救援技术》关注航空救援的任务与团队管理；本书解释飞行平台的电子系统，两者阅读目的不同。"
+          "bookId": "a2f337ad1a306e6351c3cf963d6de1fd",
+          "reason": "本书的雷达章节侧重工程原理与机载系统；若想追踪探测、导航和电子设备在战争中如何发展，可补读《二战雷达史》。"
         }
       ],
       "questions": [
@@ -3760,6 +3810,20 @@
           "name": "Ken Keffer",
           "description": "自然观察者与环境教育工作者，曾参与大提顿国家公园、阿拉斯加及蒙古等地的野生动物研究和监测。"
         }
+      ],
+      "sources": [
+        {
+          "label": "Simon & Schuster：书籍介绍",
+          "url": "https://www.simonandschuster.biz/books/Kids-Outdoor-Adventure-Book/Stacy-Tornio/9780762783526"
+        },
+        {
+          "label": "The Nature Conservancy：Ken Keffer作者简介",
+          "url": "https://blog.nature.org/author/ken-keffer/"
+        },
+        {
+          "label": "Hachette：Stacy Tornio作者简介",
+          "url": "https://www.hachettebookgroup.com/contributor/stacy-tornio/"
+        }
       ]
     },
     "22f9ed97dbfb75de057e5966bf6630cb": {
@@ -3808,10 +3872,6 @@
         {
           "bookId": "0627acaeed009c6f7f5d4579d7819ab5",
           "reason": "《K9 Schutzhund Training》围绕IPO追踪、服从与防护项目；本书是更广的行为、沟通和学习理论基础。"
-        },
-        {
-          "bookId": "d122fd2f0d705b63ff7ebc6ae7d0b326",
-          "reason": "《家庭防护与住宅安全》把犬作为住宅系统要素；本书从犬本身的行为与学习出发。"
         }
       ],
       "questions": [
@@ -3876,6 +3936,12 @@
           "name": "Simon Prins",
           "description": "曾任警犬训导员，参与工作犬远程引导、探测与搜救训练的开发，后来研究并推广操作性条件作用在工作犬中的运用。"
         }
+      ],
+      "sources": [
+        {
+          "label": "UTP Distribution：书籍与作者介绍",
+          "url": "https://utpdistribution.com/9781550594515/k9-behavior-basics/"
+        }
       ]
     },
     "de5f63bf4734d52cefcbe6c17fb7f409": {
@@ -3924,10 +3990,6 @@
         {
           "bookId": "4acd7643c055e1911eb78b7e8ccbf541",
           "reason": "《VIP室内保护》以角色、场景和图示说明团队协作；本书以实验方法和数据比较评价房间进入方式。"
-        },
-        {
-          "bookId": "0d284af41e60a34d081cbb01e09d4a24",
-          "reason": "《高强度城市作战》讨论常规战争背景中的训练概念；本书对象是执法研究，任务与证据方式不同。"
         }
       ],
       "questions": [
@@ -3981,6 +4043,16 @@
         {
           "name": "M. Hunter Martaindale",
           "description": "本书出版时在Texas State University学习刑事司法并担任ALERRT及Texas School Safety Center研究助理，参与警务效率与事件分析研究。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Texas State University：Hunter Martaindale著作目录",
+          "url": "https://faculty.txst.edu/profile/2179752/activity/scholarly-creative"
+        },
+        {
+          "label": "Texas State University：J. Pete Blair简介",
+          "url": "https://faculty.txst.edu/profile/2073843"
         }
       ]
     },
@@ -4311,6 +4383,12 @@
           "name": "Creek Stewart",
           "description": "野外生存主题作者，将长期学习、教学交流与动手试验中的日常物品改造方法汇集成书。"
         }
+      ],
+      "sources": [
+        {
+          "label": "Simon & Schuster：书籍与作者介绍",
+          "url": "https://www.simonandschuster.com/books/Survival-Hacks/Creek-Stewart/Life-Hacks-Series/9781440593345"
+        }
       ]
     },
     "0cc2f631bcefafdf29925da05f7f6ed7": {
@@ -4434,6 +4512,12 @@
           "name": "Joe Puleo 与 Patrick Milroy",
           "description": "Joe Puleo是跑步教练，至第二版出版时已有约30年的执教经历。Patrick Milroy是医生，在曼彻斯特大学学习解剖学，曾为Runner’s World英国版担任25年医学顾问。两人结合跑步训练与运动解剖撰写本书。"
         }
+      ],
+      "sources": [
+        {
+          "label": "Human Kinetics：第二版与作者介绍",
+          "url": "https://us.humankinetics.com/products/running-anatomy-2nd-edition"
+        }
       ]
     },
     "e4afb17b9cb0e4db556f935ec7f7de52": {
@@ -4513,12 +4597,12 @@
       ],
       "comparisons": [
         {
-          "bookId": "791e08e11422dfb4c7ffc3bf8afb1044",
-          "reason": "两本都使用“敌人”一词；本书讨论必须共同行动的分歧方，《明智地选择你的敌人》更重视竞争和创业驱动力。"
+          "bookId": "3c73bd307b7d16dc5988aa2189469d54",
+          "reason": "蓝海读本的公平过程与领导力文章讨论组织战略执行；本书关注参与者无法统一立场时，如何继续共同行动。"
         },
         {
-          "bookId": "3c73bd307b7d16dc5988aa2189469d54",
-          "reason": "蓝海读本的公平过程与领导力偏重组织战略执行；本书关注无法统一立场时的合作关系。"
+          "bookId": "791e08e11422dfb4c7ffc3bf8afb1044",
+          "reason": "需要整理竞争目标、创业动机和商业计划，可选《明智地选择你的敌人》；本书面对的是必须合作、却存在分歧的参与者。"
         }
       ],
       "questions": [
@@ -4541,6 +4625,20 @@
         {
           "name": "Adam Kahane",
           "description": "Reos Partners共同创办人，曾在Royal Dutch Shell负责全球社会、政治、经济、环境与技术情景研究。1991年参与南非政治转型相关情景规划后，转向支持多方参与者协作解决复杂问题。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Reos Partners：Adam Kahane的情景合作案例",
+          "url": "https://reospartners.com/peace-democracy-justice"
+        },
+        {
+          "label": "Reos Partners：作者与书籍介绍（第二版页面）",
+          "url": "https://reospartners.com/resource-library/collaborating-with-the-enemy"
+        },
+        {
+          "label": "Reos Partners：Adam Kahane作者简介",
+          "url": "https://reospartners.com/our-people/adam-kahane"
         }
       ]
     },
@@ -4650,6 +4748,12 @@
           "name": "Klaus Zwerger",
           "description": "维也纳出生的木构研究者，长期从事木工实践和设计理论研究，并在欧洲与亚洲调查传统木构建筑。本书多数实地照片由其拍摄。"
         }
+      ],
+      "sources": [
+        {
+          "label": "Birkhäuser：书籍与作者介绍",
+          "url": "https://birkhauser.com/en/book/9783035624847"
+        }
       ]
     },
     "74d926778b91ba3ce9809b0a3a95c6c6": {
@@ -4742,11 +4846,11 @@
       "comparisons": [
         {
           "bookId": "0cc2f631bcefafdf29925da05f7f6ed7",
-          "reason": "跑步解剖学帮助理解肌肉与动作、选择力量练习；本书更集中安排耐力强度、恢复和周期。"
+          "reason": "《跑步解剖学》帮助理解肌肉与跑步动作、选择陆上力量练习；本书集中讨论耐力强度、恢复和训练周期。"
         },
         {
-          "bookId": "3aea12bcf1f773d5a9d54bd874672fc0",
-          "reason": "海豹重量训练给出较固定的18周分阶段计划；本书强调从个人能力、比赛与心率区间建立耐力训练安排。"
+          "bookId": "cc6e5b5d2e0758996e3554cfc1817182",
+          "reason": "希望把心率与功率数据、骑行环境及比赛项目一起理解，可补读《自行车运动科学》；本书围绕心率监测组织个人耐力训练。"
         }
       ],
       "questions": [
@@ -4763,6 +4867,16 @@
         {
           "name": "Joe Friel",
           "description": "耐力训练作者与教练，拥有运动科学硕士学位。2006年本书出版时，他已取得USA Triathlon与USA Cycling的Elite级教练资格，并出版多部耐力训练著作。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Joe Friel：书籍介绍",
+          "url": "https://joefrieltraining.com/book/total-heart-rate-training/"
+        },
+        {
+          "label": "Joe Friel：作者简介",
+          "url": "https://joefrieltraining.com/biography/"
         }
       ]
     },
@@ -4853,10 +4967,6 @@
         {
           "bookId": "40bed337c6c785cc4e4cbda157644f48",
           "reason": "《海湾战争参战军队》把1990—1991年的各国部队放在一起；本书更细致地研究美军沙漠制服和臂章变体。"
-        },
-        {
-          "bookId": "03e541e24ca8f9a50217868c47ff07bc",
-          "reason": "《第三帝国军服》以二战德国服装的多视图摄影为主；本书还把臂章与现代美军单位编制联系起来。"
         }
       ],
       "questions": [
@@ -4918,10 +5028,6 @@
         }
       ],
       "comparisons": [
-        {
-          "bookId": "de5f63bf4734d52cefcbe6c17fb7f409",
-          "reason": "《警务战术评估》为2014年实验研究专著；本书是1988年以职业职责和经验论述组织的手册。"
-        },
         {
           "bookId": "b4c29a9117ad538fb9054cd62f6ba185",
           "reason": "《低光环境射击研究》只讲照明器材专题；本书覆盖岗位、团队、训练和装备的更广范围。"
@@ -5098,6 +5204,12 @@
           "name": "Ethan Clark与Shelley Lynn Jackson",
           "description": "两位作者都在开篇讲述自己的维修经历。Shelley的经验包括新奥尔良自行车店及志愿旧车回收空间，Ethan的自述同时比较了实用通勤车与高端车店的维修环境。"
         }
+      ],
+      "sources": [
+        {
+          "label": "Microcosm：作者维修经历与新版书目",
+          "url": "https://microcosmpublishing.com/catalog/books/2077"
+        }
       ]
     },
     "40bed337c6c785cc4e4cbda157644f48": {
@@ -5249,10 +5361,6 @@
         {
           "bookId": "a2f337ad1a306e6351c3cf963d6de1fd",
           "reason": "《二战雷达史》解释探测、导航和电子技术在战争中的作用；本书从机上影像呈现飞行任务的可见现场。"
-        },
-        {
-          "bookId": "96b591a4f02e5014a4323ee94540ada9",
-          "reason": "《摄影棚摄影》研究可控制的布光与构图；本书展示高风险任务中受到视角和时间限制的纪实图像。"
         }
       ],
       "questions": [
@@ -5355,16 +5463,7 @@
           "description": "连读SEMA 2018与技术栏目，对比展示照片、使用场景和具体问题的不同写法。"
         }
       ],
-      "comparisons": [
-        {
-          "bookId": "ecff489405989263e4743349a47f0897",
-          "reason": "两本都使用纪实图像；《国家地理》着重文化与生态，本期围绕Jeep车型、路线和车友生活。"
-        },
-        {
-          "bookId": "ba0836fd87f650a70278cf3b0021ff2e",
-          "reason": "《Chainbreaker》是自行车维护指南，按维修工作组织；本刊主要是汽车新闻、越野旅行和社群专题。"
-        }
-      ],
+      "comparisons": [],
       "questions": [
         {
           "question": "这是维修手册吗？",
@@ -5468,10 +5567,6 @@
         {
           "bookId": "a5f9be5c819474a210a63c9197b542e8",
           "reason": "本书以经典手枪设计和历史为核心；《轻武器与弹药识别》覆盖更广的器材类别，并强调标记与流通资料。"
-        },
-        {
-          "bookId": "40bed337c6c785cc4e4cbda157644f48",
-          "reason": "《海湾战争参战军队》从部队编制和人物形象入手；本书按具体手枪型号追踪设计与历史。"
         }
       ],
       "questions": [
@@ -5492,7 +5587,13 @@
       "authorProfiles": [
         {
           "name": "David W. Arnold",
-          "description": "曾任G&A Handguns杂志编辑，围绕经典手枪的历史与设计撰写专题。"
+          "description": "为Handguns杂志撰写经典手枪的历史与设计专题，著作按代表型号比较20世纪手枪的演变。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Handguns：David W. Arnold的经典手枪专题",
+          "url": "https://www.handgunsmag.com/editorial/featured_handguns_po8_luger/138875"
         }
       ]
     },
@@ -5581,10 +5682,6 @@
         {
           "bookId": "7c2c0dfbb30f901878e1e55b843245f6",
           "reason": "100个儿童瑜伽活动包含更细的体式、呼吸、手势与专注游戏；这本书明确面向1至3岁幼儿，语言和页数更轻。"
-        },
-        {
-          "bookId": "35ee2ad4fee1da204a14d367edae2952",
-          "reason": "舞蹈解剖学面向舞蹈动作与身体结构的学习；这本图画活动书以幼儿模仿与亲子游戏为中心。"
         }
       ],
       "questions": [
@@ -5695,12 +5792,8 @@
       ],
       "comparisons": [
         {
-          "bookId": "a5a2fd0e808c3d5d28a042d471c0e1c0",
-          "reason": "足球智能更强调战术原则和评估工具；本书以女子长曲棍球具体技术、位置任务和场上练习组织为中心。"
-        },
-        {
-          "bookId": "65449a376f04d2e3e15dbdd1763fb8b5",
-          "reason": "排球卷也把个人技能连接到团队转换，但球路、接触方式与轮转结构不同，适合比较两种团队训练的组织。"
+          "bookId": "a9cacb4c23b9a5cb8695580901b71174",
+          "reason": "如果要补充理解单腿弹跳、多方向动作和快速力量，可读《增强式训练解剖学》；本书仍以女子长曲棍球的位置任务、技术和场上练习为中心。"
         }
       ],
       "questions": [
@@ -5805,10 +5898,6 @@
         {
           "bookId": "a2f337ad1a306e6351c3cf963d6de1fd",
           "reason": "《二战雷达史》详细解释探测、海战和反潜中的电子技术；本书以两次世界大战的潜艇历史叙述为主。"
-        },
-        {
-          "bookId": "8ac09a9a9b43570e064a9978e8f34840",
-          "reason": "《枪机摄影》以欧洲航空任务的照片呈现战争现场；本书通过潜艇与海上航运建立另一条战争史线索。"
         }
       ],
       "questions": [
@@ -5984,16 +6073,7 @@
           "description": "最后阅读战略价值、机会成本和结论，把技术、地区政治与资源选择放在一起。"
         }
       ],
-      "comparisons": [
-        {
-          "bookId": "4adcd4c88ae7e12480291c1191b77582",
-          "reason": "《军用航空电子系统》从工程原理和飞机架构解释设备；本书从战略、地区和政策解释防御系统。"
-        },
-        {
-          "bookId": "de5f63bf4734d52cefcbe6c17fb7f409",
-          "reason": "《警务战术评估》展示小尺度实验研究；本书是多作者政策文集，侧重全球与地区层面的分析。"
-        }
-      ],
+      "comparisons": [],
       "questions": [
         {
           "question": "这是导弹防御技术教材吗？",
@@ -6050,6 +6130,20 @@
         {
           "name": "Peter Dombrowski",
           "description": "国际安全与海军政策研究者，本书共同主编；文集组织了美国政策、地区动态和全球战略成本等不同学者的分析。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "马里兰大学：书籍介绍",
+          "url": "https://spp.umd.edu/research-impact/publications/regional-missile-defense-global-perspective"
+        },
+        {
+          "label": "马里兰大学：Catherine Kelleher专业背景",
+          "url": "https://spp.umd.edu/our-community/faculty-staff/catherine-kelleher"
+        },
+        {
+          "label": "美国海军战争学院：Peter Dombrowski专业背景",
+          "url": "https://usnwc.edu/Faculty-and-Departments/Directory/Peter-J-Dombrowski"
         }
       ]
     },
@@ -6152,10 +6246,6 @@
         {
           "bookId": "33e89a740d9a525c74ab5afa12364253",
           "reason": "本书提供完整影棚学习体系和作业；《机顶闪光灯》集中讨论TTL、离机闪光、环境光平衡与实例灯位图。"
-        },
-        {
-          "bookId": "8ac09a9a9b43570e064a9978e8f34840",
-          "reason": "本书训练可控环境中的视觉设计；《枪机摄影》展示任务现场的历史摄影，两者可比较拍摄条件如何限制图像。"
         }
       ],
       "questions": [
@@ -6262,10 +6352,6 @@
         {
           "bookId": "96b591a4f02e5014a4323ee94540ada9",
           "reason": "《摄影棚摄影》按完整课程和静物、人像作业展开；本书专注小型闪光灯与环境光、无线TTL和实例图示。"
-        },
-        {
-          "bookId": "8ac09a9a9b43570e064a9978e8f34840",
-          "reason": "本书解释主动设计的光线与摄影结果；《枪机摄影》提供没有同等光线控制条件的历史纪实图像。"
         }
       ],
       "questions": [
@@ -6295,6 +6381,12 @@
         {
           "name": "Steve Ostrowski",
           "description": "商业、编辑、人像及活动摄影师，曾在New England School of Photography教授摄影与无线TTL闪光照明。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Routledge：作者简介（第二版页面）",
+          "url": "https://www.routledge.com/Speedlights--Speedlites-Creative-Flash-Photography-at-the-Speed-of-Light/Jones/p/book/9780240823591"
         }
       ]
     },
@@ -6493,10 +6585,6 @@
         {
           "bookId": "35ee2ad4fee1da204a14d367edae2952",
           "reason": "舞蹈解剖学以肌肉与舞蹈姿态关系解释核心和姿势；本书重在居家动作步骤与墙面辅助。"
-        },
-        {
-          "bookId": "0cc2f631bcefafdf29925da05f7f6ed7",
-          "reason": "跑步解剖学针对步态和专项力量训练；本书没有跑步专项背景，动作目标偏居家身体控制。"
         }
       ],
       "questions": [
@@ -6709,11 +6797,11 @@
       "comparisons": [
         {
           "bookId": "74d926778b91ba3ce9809b0a3a95c6c6",
-          "reason": "全面心率训练主要从区间、恢复和个人比赛目标组织耐力计划；本书提供更具体的重量/PT混合周期。"
+          "reason": "本书提供重量训练与徒身体能结合的周期；若要另读耐力训练的强度区间、心率监测与恢复安排，可补读《全面心率训练》。"
         },
         {
-          "bookId": "ca322432cfa1b017534cb591bae81419",
-          "reason": "篮球力量训练按球员需求与赛季阶段设计；本书以军事体能准备和作者的年度周期为背景。"
+          "bookId": "a9cacb4c23b9a5cb8695580901b71174",
+          "reason": "想理解跳跃、投掷和快速力量动作的肌群与进阶，可补读《增强式训练解剖学》；本书重点是军事体能准备中的重量与PT计划。"
         }
       ],
       "questions": [
@@ -6730,6 +6818,16 @@
         {
           "name": "Stewart “Stew” Smith",
           "description": "前美国海军军官与SEAL，1991年毕业于美国海军学院，拥有NSCA力量与体能训练资格。他的体能写作与训练工作面向军事、警察和消防等职业准备。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Penguin Random House：《The Navy SEAL Weight Training Workout》",
+          "url": "https://www.penguinrandomhouse.com/books/227105/the-navy-seal-weight-training-workout-by-stewart-smith/9781578264766/"
+        },
+        {
+          "label": "Stew Smith：海军经历与体能写作",
+          "url": "https://www.stewsmithfitness.com/blogs/news/stew-smith-my-journey-to-and-through-the-military-to-civilian-life-as-a-trainer-and-writer"
         }
       ]
     },
@@ -6838,6 +6936,16 @@
           "name": "Francesco Conconi",
           "description": "本书主编，出版时为University of Ferrara应用生化教授，参与生理、测试和训练章节。"
         }
+      ],
+      "sources": [
+        {
+          "label": "佐治亚理工学院：Robert Gregor的学术背景",
+          "url": "https://biosciences.gatech.edu/about/about-school"
+        },
+        {
+          "label": "费拉拉大学：Francesco Conconi学术背景",
+          "url": "https://docente.unife.it/francesco.conconi/curr"
+        }
       ]
     },
     "0d284af41e60a34d081cbb01e09d4a24": {
@@ -6884,12 +6992,8 @@
       ],
       "comparisons": [
         {
-          "bookId": "4acd7643c055e1911eb78b7e8ccbf541",
-          "reason": "《VIP室内保护》以被保护者和小团队为中心；本书设定是常规战争中的城市环境，目标和资源不同。"
-        },
-        {
-          "bookId": "1017f9d4b84924460ef51d4a648b2dcc",
-          "reason": "《彩弹与Airsoft》针对团队模拟游戏；本书是军事专题资料，不能把游戏规则与战争背景直接等同。"
+          "bookId": "de5f63bf4734d52cefcbe6c17fb7f409",
+          "reason": "若要研究室内进入方式的实验设计与评价指标，可补读《警务战术评估》。它研究执法情境，本书研究常规战争，比较时需要分别保留任务、参与者与资源条件。"
         }
       ],
       "questions": [
@@ -6978,11 +7082,11 @@
       "comparisons": [
         {
           "bookId": "bfed6198065b35fc87197f8299c2c110",
-          "reason": "《直升机救援技术》关注航空任务和吊运协作；本书更全面地讨论患者评估、疾病与野外照护。"
+          "reason": "需要了解航空救援任务和团队协作，可补读《直升机救援技术》；本书的主线是资源受限环境中的患者评估、伤病与照护。"
         },
         {
-          "bookId": "beb8dfe615ea3b94416a63d7927e7f8c",
-          "reason": "《足球损伤预防与处理》针对专项运动和预防；本书覆盖远程环境中的创伤、疾病和远征管理。"
+          "bookId": "4311cab6bf469c5fc198cbcc03488199",
+          "reason": "高山课程学习者可用《高山夏季技能》补充地形、行进和领队主题，再用本书理解野外照护与远征医学。"
         }
       ],
       "questions": [
@@ -7043,6 +7147,16 @@
           "name": "Tod Schimelpfenig",
           "description": "野外教育者和志愿急救人员，1973年开始担任NOLS野外教员，曾负责NOLS风险管理、学校管理与野外医学课程，并长期参与搜救和野外医学教育。"
         }
+      ],
+      "sources": [
+        {
+          "label": "NOLS：Tod Schimelpfenig作者简介",
+          "url": "https://www.nols.edu/blog/case-study-a-backcountry-first-aid-mystery-from-the-80s/"
+        },
+        {
+          "label": "Stackpole Books：《NOLS Wilderness Medicine》第七版",
+          "url": "https://www.simonandschuster.com/books/NOLS-Wilderness-Medicine/Tod-Schimelpfenig/9780811769815"
+        }
       ]
     },
     "685aeca16dd5826796bcc61a3fac4074": {
@@ -7087,16 +7201,7 @@
           "description": "最后回看肩带、弓臂和站姿示意，区分动作外观与它背后的负荷关系。"
         }
       ],
-      "comparisons": [
-        {
-          "bookId": "cc6e5b5d2e0758996e3554cfc1817182",
-          "reason": "《自行车运动科学》也研究人体与器材连接，但覆盖训练、营养和环境；本书集中于射箭动作的结构与力学。"
-        },
-        {
-          "bookId": "96d6bf5b0a35a8b84b2ea7d44351b51c",
-          "reason": "《完整马术指南》以照片展示人马协调；本书主要用人体、器材和力线示意图解释动作。"
-        }
-      ],
+      "comparisons": [],
       "questions": [
         {
           "question": "适合第一次接触射箭的人吗？",
@@ -7245,6 +7350,16 @@
           "name": "Duane Raleigh / Mike Clelland",
           "description": "Duane Raleigh具有长期攀登经验，侧重绳结的用途、选择与绳索护理；Mike Clelland为本书绘制逐步线条插画。"
         }
+      ],
+      "sources": [
+        {
+          "label": "Stackpole Books：《Knots & Ropes for Climbers》",
+          "url": "https://www.simonandschuster.com/books/Knots-Ropes-for-Climbers/Duane-Raleigh/9780811728713"
+        },
+        {
+          "label": "National Outdoor Book Awards：1998年获奖书介绍",
+          "url": "https://www.noba-web.org/books98.htm"
+        }
       ]
     },
     "1b439a927cdedaeff6885615b7e74048": {
@@ -7357,6 +7472,12 @@
           "name": "Alexandre Paiva",
           "description": "巴西柔术运动员与教练，开篇以个人训练和比赛经历讨论长期学习、传授知识与理解动作机制，主张把技术放在逻辑和策略中认识。"
         }
+      ],
+      "sources": [
+        {
+          "label": "Tuttle Publishing：书籍与作者介绍",
+          "url": "https://tuttlepublishing.com/martial-arts/brazilian-jiu-jitsu-9780804842754"
+        }
       ]
     },
     "7c2c0dfbb30f901878e1e55b843245f6": {
@@ -7450,11 +7571,11 @@
       "comparisons": [
         {
           "bookId": "2713ac7b12bbce7ef37dadaa1ba1a6e9",
-          "reason": "《我的第一本瑜伽》明确定位1至3岁幼儿的形象模仿；本书包含100项、梵文名、手势与更多体式。"
+          "reason": "《我的第一本瑜伽》面向1至3岁幼儿的形象模仿；本书包含100项活动、梵文名、手势与更多体式，选书时先区分年龄与陪伴方式。"
         },
         {
-          "bookId": "35ee2ad4fee1da204a14d367edae2952",
-          "reason": "舞蹈解剖学从肌肉和关节解释动作控制；本书通过图示、短步骤和活动分组组织儿童瑜伽。"
+          "bookId": "117f45fabb2391930cc02b3c4c08f370",
+          "reason": "希望把家庭活动延伸到户外观察、游戏与手作，可选《儿童自然探险》；本书主要围绕身体动作、呼吸与安静活动。"
         }
       ],
       "questions": [
@@ -7806,6 +7927,16 @@
           "name": "UIAA / Petzl Foundation / Alpine Club of Canada",
           "description": "手册由UIAA与Petzl Foundation合作制作，Alpine Club of Canada参与英语翻译。前言说明它面向徒步、攀登与登山活动，以及俱乐部的教练和志愿领队。"
         }
+      ],
+      "sources": [
+        {
+          "label": "UIAA：Alpine Skills书籍介绍",
+          "url": "https://www.theuiaa.org/mountain-skills-criteria-to-consider-when-planning-a-route/"
+        },
+        {
+          "label": "UIAA：英语译本与Alpine Club of Canada",
+          "url": "https://theuiaa.org/documents/members/UIAA_GA2020_Guide_v1_September.pdf"
+        }
       ]
     },
     "5295d655b18c913d6e9f05f6e10fc867": {
@@ -7881,11 +8012,11 @@
       "comparisons": [
         {
           "bookId": "03e541e24ca8f9a50217868c47ff07bc",
-          "reason": "本书按国家海军排列插图；《第三帝国军服》采用服装实物摄影，其中也包含德国海军资料。"
+          "reason": "本书按国家海军排列制服插图；《第三帝国军服》采用实物多视图摄影，其中也有德国海军服装，适合比较同一时期的图像形式与细节。"
         },
         {
-          "bookId": "b64bc354a821ad50e6e822107de6816e",
-          "reason": "《美军沙漠制服》主要研究DBDU、DCU和部队臂章；本书提供二战海军制服的跨国比较。"
+          "bookId": "18adca3c74e8375b31ce5ea5b29f0f37",
+          "reason": "若要继续阅读二战德国士兵的装备与个人用品，可看《德国士兵》；本书则集中比较各国海军的制服和徽章。"
         }
       ],
       "questions": [
@@ -8003,12 +8134,12 @@
       ],
       "comparisons": [
         {
-          "bookId": "c23b3eecb2c2851ead74fb7faef59729",
-          "reason": "板球入门同样从规则、装备进入技能与文化，但壁球卷更集中于击球、T区位置和反复移动的战术关系。"
+          "bookId": "a9cacb4c23b9a5cb8695580901b71174",
+          "reason": "想补充理解单腿、多方向动作与快速力量，可读《增强式训练解剖学》；壁球的击球、T区位置与比赛战术以本书为主。"
         },
         {
-          "bookId": "a9cacb4c23b9a5cb8695580901b71174",
-          "reason": "增强式训练卷解释快速伸缩循环和单腿、多方向动作，可用于理解本书体能部分涉及的爆发力基础。"
+          "bookId": "74d926778b91ba3ce9809b0a3a95c6c6",
+          "reason": "需要另读训练强度、恢复和周期安排，可看《全面心率训练》的耐力监测框架；本书重点是壁球专项技能、移动与战术。"
         }
       ],
       "questions": [
@@ -8115,12 +8246,8 @@
       ],
       "comparisons": [
         {
-          "bookId": "a5a2fd0e808c3d5d28a042d471c0e1c0",
-          "reason": "足球智能强调战术原则与评估模型；本书强调排球技能、场上练习和轮转攻防之间的具体连接。"
-        },
-        {
-          "bookId": "270dd825d80b0e5e3aae14138909094c",
-          "reason": "女子长曲棍球也用场地图解释快攻和转换，但连续持球与排球的触球链条不同，可比较团队配合的组织。"
+          "bookId": "a9cacb4c23b9a5cb8695580901b71174",
+          "reason": "想补充理解跳跃、投掷和快速力量动作的肌群，可读《增强式训练解剖学》；本书把个人技能、场上练习和轮转攻防连接成排球教学。"
         }
       ],
       "questions": [
@@ -8225,16 +8352,7 @@
           "description": "后半本用于理解2006年时的板球文化、球队和赛事案例，和规则基础部分区别阅读。"
         }
       ],
-      "comparisons": [
-        {
-          "bookId": "422e116dac0beeff5e1a3970bd9c2f14",
-          "reason": "壁球卷更集中于击球、位置和反复移动；这本入门书覆盖更多赛制、观赛术语与板球文化。"
-        },
-        {
-          "bookId": "a5a2fd0e808c3d5d28a042d471c0e1c0",
-          "reason": "足球智能面向已有比赛基础的战术分析，本书则先为新读者建立完整项目与规则概念。"
-        }
-      ],
+      "comparisons": [],
       "questions": [
         {
           "question": "完全没看过板球也能读吗？",
@@ -8253,6 +8371,12 @@
         {
           "name": "Julian Knight",
           "description": "新闻写作者与业余板球球员。2006年本书出版时已有约20年的联赛板球经历，曾任Blackheath Cricket Club队长；Gary Palmer为本书提供技术审阅。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Dummies：Julian Knight作者简介（新版页面）",
+          "url": "https://www.dummies.com/book/cricket-34008/cricket-for-dummies-2nd-edition-281563/"
         }
       ]
     },
@@ -8473,6 +8597,16 @@
           "name": "Steve 与 Linda Dashew",
           "description": "巡航与航海主题作者，具有长期航行经验，著作涵盖远洋巡航、海上天气与风暴应对。《Practical Seamanship》延续了用真实航行案例解释操作与判断的写作方式。"
         }
+      ],
+      "sources": [
+        {
+          "label": "SetSail：Steve与Linda Dashew航海经历",
+          "url": "https://setsail.com/about-us/"
+        },
+        {
+          "label": "SetSail：Practical Seamanship书籍介绍",
+          "url": "https://setsail.com/making-it-happen-free-book-offer/"
+        }
       ]
     },
     "6ec42dc4d2d5e5037d6818e27ac7c9e0": {
@@ -8554,16 +8688,7 @@
           "description": "读滑行章时对照刚破浪与白浪起乘图，观察划行、站起与滑行阶段如何衔接。"
         }
       ],
-      "comparisons": [
-        {
-          "bookId": "f3b481c0082b19be66b48a368a6104bd",
-          "reason": "游泳解剖学主要解释泳姿肌群与陆上训练；本书主要解释冲浪装备、海岸观察和逐浪动作。"
-        },
-        {
-          "bookId": "92bd8cf6d46be0f6d6b84167e0a65878",
-          "reason": "帆船物理学对波浪与尾流给出物理解释；本书侧重人在海滩和浪面上如何观察与移动。"
-        }
-      ],
+      "comparisons": [],
       "questions": [
         {
           "question": "为何书名叫Illustrated？",
@@ -8578,6 +8703,12 @@
         {
           "name": "John Robison",
           "description": "作者与插画作者，也是长期热爱冲浪的中级冲浪者。他用路线图、场景画和连续动作插图组织海上学习情境。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "McGraw Hill：书籍介绍",
+          "url": "https://www.mheducation.com/highered/mhp/product/surfing-illustrated.html"
         }
       ]
     },
@@ -8627,10 +8758,6 @@
         {
           "bookId": "1ebabdd45bf5255380283979ea4f801e",
           "reason": "《Kata Bunkai》用历史与套路解释空手道应用；本书用互动练习与基本原则解释Modern Arnis。"
-        },
-        {
-          "bookId": "e2faac3e151af0ce32bffcf8e8cdae06",
-          "reason": "《泰拳训练》着重课程、体能和备赛安排；本书更深入原则、感知和流动的理解。"
         }
       ],
       "questions": [
@@ -8688,6 +8815,12 @@
         {
           "name": "Dan Anderson",
           "description": "Modern Arnis作者与教练，1980年开始向Remy Presas学习；曾有空手道竞技经历，本书以其长期观察、教学和训练体会解释Modern Arnis的基本原则。"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Dan Anderson：书籍介绍",
+          "url": "https://superdanonlinelibrary.com/product/advanced-modern-arnis/"
         }
       ]
     }

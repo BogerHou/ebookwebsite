@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-02",
+  "updatedAt": "2026-10-08",
   "categories": [
     {
       "slug": "water-sailing",
@@ -24,8 +24,8 @@
     },
     {
       "slug": "cycling-riding-snow",
-      "title": "骑行马术与冰雪",
-      "description": "自行车、马术与冰雪运动，兼收器材维护和运动科学。"
+      "title": "骑行、马术与车辆",
+      "description": "自行车运动科学、车辆维护、摩托车动力学与马术的原版读物。"
     },
     {
       "slug": "craft-engineering",
@@ -4806,7 +4806,7 @@
       "id": "6ec42dc4d2d5e5037d6818e27ac7c9e0",
       "slug": "surfing-illustrated-a-visual-guide-to-wave-riding",
       "title": "图解冲浪：逐浪入门",
-      "originalTitle": "Surfing Illustrated: An Illustrated Guide to Wave Riding",
+      "originalTitle": "Surfing Illustrated: A Visual Guide to Wave Riding",
       "authors": [
         "John Robison"
       ],

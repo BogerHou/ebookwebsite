@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
 import { ChevronRightIcon } from "@radix-ui/react-icons";
 import { CatalogBrowser } from "@/components/catalog-browser";
-import { getCatalog, getCategoryCounts } from "@/lib/catalog";
+import { getCatalog, getCatalogBooks, getCategoryCounts } from "@/lib/catalog";
 import { absoluteUrl, jsonLd } from "@/lib/site";
 import { filterCatalog, getCatalogQuery, type CatalogSearchParams } from "@/lib/catalog-search";
 
@@ -34,7 +34,8 @@ export default async function LibraryPage({ params, searchParams }: { params: Pr
   if (currentPage === 1) permanentRedirect("/");
   const catalog = getCatalog();
   const query = getCatalogQuery(await searchParams);
-  const results = filterCatalog(catalog.books, query);
+  const catalogBooks = getCatalogBooks();
+  const results = filterCatalog(catalogBooks, query);
   const resultPage = Math.min(currentPage, Math.max(1, Math.ceil(results.length / PAGE_SIZE)));
   const offset = (resultPage - 1) * PAGE_SIZE;
   const books = results.slice(offset, offset + PAGE_SIZE);
@@ -43,7 +44,7 @@ export default async function LibraryPage({ params, searchParams }: { params: Pr
   return <div className="container category-page library-page">
     <nav aria-label="面包屑" className="breadcrumbs"><Link href="/">全部书籍</Link><ChevronRightIcon aria-hidden="true" /><span>书籍目录</span></nav>
     <div className="page-introduction"><h1>外文原版书籍目录</h1><p>按书名、作者或主题找书，阅读中文介绍与选书指南。</p></div>
-    <CatalogBrowser key={`${currentPage}|${query.query}|${query.sort}`} books={catalog.books} categories={catalog.categories} categoryCounts={getCategoryCounts()} initialPage={currentPage} initialQuery={query.query} initialSort={query.sort} />
+    <CatalogBrowser key={`${currentPage}|${query.query}|${query.sort}`} books={catalogBooks} categories={catalog.categories} categoryCounts={getCategoryCounts()} initialPage={currentPage} initialQuery={query.query} initialSort={query.sort} preloadCount={2} />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd({
       "@context": "https://schema.org", "@type": "CollectionPage", name: `原版书籍目录 · 第 ${currentPage} 页`, url: absoluteUrl(path), inLanguage: "zh-CN",
       isPartOf: { "@type": "WebSite", name: "书径", url: absoluteUrl("/") },
