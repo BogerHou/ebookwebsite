@@ -1,0 +1,2842 @@
+{
+  "schemaVersion": 1,
+  "widths": [
+    120,
+    240,
+    360,
+    480,
+    640,
+    960,
+    1280
+  ],
+  "images": {
+    "/books/01bb7f87ca4f747dc572cc999891ddbf-cover.webp": {
+      "version": "38a391c6af77",
+      "width": 464,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/01bb7f87ca4f747dc572cc999891ddbf-detail-0020.webp": {
+      "version": "932b75854b29",
+      "width": 1082,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/01bb7f87ca4f747dc572cc999891ddbf-detail-0193.webp": {
+      "version": "d6e1f510b7df",
+      "width": 1082,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/03e541e24ca8f9a50217868c47ff07bc-cover.webp": {
+      "version": "b5bd3028c7cf",
+      "width": 441,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/03e541e24ca8f9a50217868c47ff07bc-detail-0009.webp": {
+      "version": "121063d31718",
+      "width": 988,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/03e541e24ca8f9a50217868c47ff07bc-detail-0142.webp": {
+      "version": "033dfee108e8",
+      "width": 1028,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/0627acaeed009c6f7f5d4579d7819ab5-cover.webp": {
+      "version": "3a863bcbb6ab",
+      "width": 389,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/0627acaeed009c6f7f5d4579d7819ab5-detail-0020.webp": {
+      "version": "53f16fd19467",
+      "width": 809,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/0627acaeed009c6f7f5d4579d7819ab5-detail-0120.webp": {
+      "version": "c5783795a381",
+      "width": 809,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/0cc2f631bcefafdf29925da05f7f6ed7-cover.webp": {
+      "version": "26cb4ceac814",
+      "width": 420,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/0cc2f631bcefafdf29925da05f7f6ed7-detail-0097.webp": {
+      "version": "56cd8b723aaa",
+      "width": 980,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/0cc2f631bcefafdf29925da05f7f6ed7-detail-0153.webp": {
+      "version": "82ed15f43ff1",
+      "width": 980,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/0d284af41e60a34d081cbb01e09d4a24-cover.webp": {
+      "version": "2622303258ed",
+      "width": 480,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/0d284af41e60a34d081cbb01e09d4a24-detail-0008.webp": {
+      "version": "ef36936ff577",
+      "width": 1120,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/0d284af41e60a34d081cbb01e09d4a24-detail-0135.webp": {
+      "version": "8714edd4ab1b",
+      "width": 1120,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/1017f9d4b84924460ef51d4a648b2dcc-cover.webp": {
+      "version": "98a1990ccd9d",
+      "width": 438,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/1017f9d4b84924460ef51d4a648b2dcc-detail-0078.webp": {
+      "version": "e99d27226a7f",
+      "width": 1020,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/1017f9d4b84924460ef51d4a648b2dcc-detail-0104.webp": {
+      "version": "7e7f5f66c42c",
+      "width": 1020,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/117f45fabb2391930cc02b3c4c08f370-cover.webp": {
+      "version": "c09ba3f18e94",
+      "width": 425,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/117f45fabb2391930cc02b3c4c08f370-detail-0062.webp": {
+      "version": "930eaea80626",
+      "width": 990,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/117f45fabb2391930cc02b3c4c08f370-detail-0172.webp": {
+      "version": "cf3422299d62",
+      "width": 990,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/15770f38f8795d488f401bb6a36cef2e-cover.webp": {
+      "version": "23a0fee893ef",
+      "width": 398,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/15770f38f8795d488f401bb6a36cef2e-detail-0027.webp": {
+      "version": "1dfab14de5e2",
+      "width": 927,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/15770f38f8795d488f401bb6a36cef2e-detail-0093.webp": {
+      "version": "bcf79bec7825",
+      "width": 927,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/18adca3c74e8375b31ce5ea5b29f0f37-cover.webp": {
+      "version": "a87d2e3063df",
+      "width": 425,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/18adca3c74e8375b31ce5ea5b29f0f37-detail-0104.webp": {
+      "version": "82e9d7fc14bd",
+      "width": 1400,
+      "height": 990,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960,
+        1280
+      ]
+    },
+    "/books/18adca3c74e8375b31ce5ea5b29f0f37-detail-0222.webp": {
+      "version": "b52fff0cc3d0",
+      "width": 991,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/1b439a927cdedaeff6885615b7e74048-cover.webp": {
+      "version": "0c5355d2b14c",
+      "width": 450,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/1b439a927cdedaeff6885615b7e74048-detail-0017.webp": {
+      "version": "6651bbcb18fd",
+      "width": 990,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/1b439a927cdedaeff6885615b7e74048-detail-0185.webp": {
+      "version": "0c4bdeff6faf",
+      "width": 990,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/1ebabdd45bf5255380283979ea4f801e-cover.webp": {
+      "version": "8ee1f6de61eb",
+      "width": 413,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/1ebabdd45bf5255380283979ea4f801e-detail-0050.webp": {
+      "version": "2f8d6130ad79",
+      "width": 962,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/1ebabdd45bf5255380283979ea4f801e-detail-0240.webp": {
+      "version": "8693b2d06b1c",
+      "width": 962,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/22f9ed97dbfb75de057e5966bf6630cb-cover.webp": {
+      "version": "f6ac408f91b2",
+      "width": 389,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/22f9ed97dbfb75de057e5966bf6630cb-detail-0086.webp": {
+      "version": "e6d9d0f6a4a7",
+      "width": 845,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/22f9ed97dbfb75de057e5966bf6630cb-detail-0151.webp": {
+      "version": "4ae150331ca3",
+      "width": 845,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/270dd825d80b0e5e3aae14138909094c-cover.webp": {
+      "version": "6b79dee646ed",
+      "width": 420,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/270dd825d80b0e5e3aae14138909094c-detail-0100.webp": {
+      "version": "e7982a6b5dd1",
+      "width": 980,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/270dd825d80b0e5e3aae14138909094c-detail-0161.webp": {
+      "version": "79b143d57da4",
+      "width": 980,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/2713ac7b12bbce7ef37dadaa1ba1a6e9-cover.webp": {
+      "version": "ba5c5ea3e446",
+      "width": 600,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360,
+        480
+      ]
+    },
+    "/books/2713ac7b12bbce7ef37dadaa1ba1a6e9-detail-0007.webp": {
+      "version": "2e185fe0fb45",
+      "width": 1400,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960,
+        1280
+      ]
+    },
+    "/books/2713ac7b12bbce7ef37dadaa1ba1a6e9-detail-0017.webp": {
+      "version": "4e3f23f0bbe2",
+      "width": 1400,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960,
+        1280
+      ]
+    },
+    "/books/2f046b1a616e85f6efacbdae33a4f46e-cover.webp": {
+      "version": "41f099d600a1",
+      "width": 461,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/2f046b1a616e85f6efacbdae33a4f46e-detail-0101.webp": {
+      "version": "822efa9f0099",
+      "width": 1076,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/2f046b1a616e85f6efacbdae33a4f46e-detail-0159.webp": {
+      "version": "a64f99319e95",
+      "width": 1076,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/33e89a740d9a525c74ab5afa12364253-cover.webp": {
+      "version": "9f63a09c05f6",
+      "width": 461,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/33e89a740d9a525c74ab5afa12364253-detail-0124.webp": {
+      "version": "1055580a4df8",
+      "width": 1076,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/33e89a740d9a525c74ab5afa12364253-detail-0191.webp": {
+      "version": "8be4c9d33443",
+      "width": 1076,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/3493ac81f59e0bcafba62da79f54a7f8-cover.webp": {
+      "version": "c4ff90115323",
+      "width": 437,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/3493ac81f59e0bcafba62da79f54a7f8-detail-0030.webp": {
+      "version": "696c3b687950",
+      "width": 1019,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/3493ac81f59e0bcafba62da79f54a7f8-detail-0049.webp": {
+      "version": "1d308f65cc7b",
+      "width": 1019,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/35ee2ad4fee1da204a14d367edae2952-cover.webp": {
+      "version": "d47a431518e3",
+      "width": 420,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/35ee2ad4fee1da204a14d367edae2952-detail-0061.webp": {
+      "version": "520ca68d5e80",
+      "width": 980,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/35ee2ad4fee1da204a14d367edae2952-detail-0208.webp": {
+      "version": "5a5cbe2de01e",
+      "width": 980,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/3aea12bcf1f773d5a9d54bd874672fc0-cover.webp": {
+      "version": "80ac1571b44b",
+      "width": 465,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/3aea12bcf1f773d5a9d54bd874672fc0-detail-0032.webp": {
+      "version": "5ccd2ddfdb7f",
+      "width": 990,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/3aea12bcf1f773d5a9d54bd874672fc0-detail-0069.webp": {
+      "version": "e2661d5e91b6",
+      "width": 990,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/3c73bd307b7d16dc5988aa2189469d54-cover.webp": {
+      "version": "6f3eaafbd877",
+      "width": 400,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/3c73bd307b7d16dc5988aa2189469d54-detail-0090.webp": {
+      "version": "3e8198752e05",
+      "width": 934,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/3c73bd307b7d16dc5988aa2189469d54-detail-0191.webp": {
+      "version": "f50ec8ddace5",
+      "width": 934,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/40bed337c6c785cc4e4cbda157644f48-cover.webp": {
+      "version": "599de1bcddc4",
+      "width": 449,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/40bed337c6c785cc4e4cbda157644f48-detail-0007.webp": {
+      "version": "685053e55e21",
+      "width": 1053,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/40bed337c6c785cc4e4cbda157644f48-detail-0037.webp": {
+      "version": "757ca8af3063",
+      "width": 1047,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/413b683488859dbbfb74acbd56b49e27-cover.webp": {
+      "version": "c4d0bac6ac08",
+      "width": 452,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/413b683488859dbbfb74acbd56b49e27-detail-0025.webp": {
+      "version": "09809c61dd03",
+      "width": 1063,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/413b683488859dbbfb74acbd56b49e27-detail-0078.webp": {
+      "version": "60379542a6f1",
+      "width": 1063,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/422e116dac0beeff5e1a3970bd9c2f14-cover.webp": {
+      "version": "a8c48a6621c3",
+      "width": 464,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/422e116dac0beeff5e1a3970bd9c2f14-detail-0081.webp": {
+      "version": "ab24f8adb6e7",
+      "width": 1082,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/422e116dac0beeff5e1a3970bd9c2f14-detail-0287.webp": {
+      "version": "fd7b6aa242d6",
+      "width": 1082,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/4311cab6bf469c5fc198cbcc03488199-cover.webp": {
+      "version": "6ab0af81bfae",
+      "width": 424,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/4311cab6bf469c5fc198cbcc03488199-detail-0046.webp": {
+      "version": "7598f421b79c",
+      "width": 988,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/4311cab6bf469c5fc198cbcc03488199-detail-0251.webp": {
+      "version": "34e80b173826",
+      "width": 988,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/44c1932ed989cbbf62f828f711b1c808-cover.webp": {
+      "version": "e36fb3a1c584",
+      "width": 400,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/44c1932ed989cbbf62f828f711b1c808-detail-0038.webp": {
+      "version": "212eb5048c0c",
+      "width": 990,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/44c1932ed989cbbf62f828f711b1c808-detail-0065.webp": {
+      "version": "53fb8ca2f719",
+      "width": 990,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/45c9bf1844218f9c5f100b9f17525dfb-cover.webp": {
+      "version": "b151814aae8c",
+      "width": 375,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/45c9bf1844218f9c5f100b9f17525dfb-detail-0026.webp": {
+      "version": "52efb84a300a",
+      "width": 990,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/45c9bf1844218f9c5f100b9f17525dfb-detail-0236.webp": {
+      "version": "ff490739fb55",
+      "width": 990,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/49972d24fcefe645548a61fa656b5a4b-cover.webp": {
+      "version": "1171c8f33a72",
+      "width": 393,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/49972d24fcefe645548a61fa656b5a4b-detail-0020.webp": {
+      "version": "1475aafa48f1",
+      "width": 917,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/49972d24fcefe645548a61fa656b5a4b-detail-0065.webp": {
+      "version": "77d08b72ce68",
+      "width": 973,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/4acd7643c055e1911eb78b7e8ccbf541-cover.webp": {
+      "version": "eb5d4e22c95d",
+      "width": 480,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/4acd7643c055e1911eb78b7e8ccbf541-detail-0180.webp": {
+      "version": "3c9b9a78b129",
+      "width": 1120,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/4acd7643c055e1911eb78b7e8ccbf541-detail-0220.webp": {
+      "version": "1c98c249d2f9",
+      "width": 1120,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/4adcd4c88ae7e12480291c1191b77582-cover.webp": {
+      "version": "84bab682ec90",
+      "width": 414,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/4adcd4c88ae7e12480291c1191b77582-detail-0160.webp": {
+      "version": "106b75af8c2a",
+      "width": 964,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/4adcd4c88ae7e12480291c1191b77582-detail-0337.webp": {
+      "version": "efbd1763b496",
+      "width": 964,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/4b67b73077775b7668415484b16b8670-cover.webp": {
+      "version": "61d6ac43d80c",
+      "width": 464,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/4b67b73077775b7668415484b16b8670-detail-0117.webp": {
+      "version": "9f293b4aa885",
+      "width": 1082,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/4b67b73077775b7668415484b16b8670-detail-0184.webp": {
+      "version": "7bbcad9ca26e",
+      "width": 1082,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/4c9e6190c8a08583a0d5adec9c9e8054-cover.webp": {
+      "version": "12111a0663e3",
+      "width": 400,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/4c9e6190c8a08583a0d5adec9c9e8054-detail-0035.webp": {
+      "version": "8ae138ae83eb",
+      "width": 934,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/4c9e6190c8a08583a0d5adec9c9e8054-detail-0080.webp": {
+      "version": "91826b74b6b2",
+      "width": 934,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/4f30dc14c7fcbb7eed32bf4a60292547-cover.webp": {
+      "version": "878ee9ea4c8b",
+      "width": 456,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/4f30dc14c7fcbb7eed32bf4a60292547-detail-0230.webp": {
+      "version": "97a1fc756a12",
+      "width": 1062,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/4f30dc14c7fcbb7eed32bf4a60292547-detail-0308.webp": {
+      "version": "4c7db96c50d5",
+      "width": 1062,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/54e3f72eebb8c9dfd170d1fb5ec6d8e2-cover.webp": {
+      "version": "42798896565b",
+      "width": 425,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/54e3f72eebb8c9dfd170d1fb5ec6d8e2-detail-0010.webp": {
+      "version": "bdb957d0165e",
+      "width": 990,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/54e3f72eebb8c9dfd170d1fb5ec6d8e2-detail-0055.webp": {
+      "version": "d5bf86e8d330",
+      "width": 990,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/59913a21018efcbcc20eece81914322a-cover.webp": {
+      "version": "8c0c439bf706",
+      "width": 400,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/59913a21018efcbcc20eece81914322a-detail-0019.webp": {
+      "version": "593b70de961d",
+      "width": 990,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/59913a21018efcbcc20eece81914322a-detail-0040.webp": {
+      "version": "293c5dd45523",
+      "width": 990,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/5ae68ac17f7de36829ec94aa4f65670f-cover.webp": {
+      "version": "5ae403e926e5",
+      "width": 376,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/5ae68ac17f7de36829ec94aa4f65670f-detail-0022.webp": {
+      "version": "4790e69247df",
+      "width": 871,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/5ae68ac17f7de36829ec94aa4f65670f-detail-0047.webp": {
+      "version": "9ee6c815abaf",
+      "width": 871,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/61bf73c74c77a3a1c1571a6287d3ff41-cover.webp": {
+      "version": "ebb47a8c077e",
+      "width": 398,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/61bf73c74c77a3a1c1571a6287d3ff41-detail-0311.webp": {
+      "version": "2b39cbaac10a",
+      "width": 924,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/61bf73c74c77a3a1c1571a6287d3ff41-detail-0491.webp": {
+      "version": "32dd02ba9b36",
+      "width": 924,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/65449a376f04d2e3e15dbdd1763fb8b5-cover.webp": {
+      "version": "0c9b9fefe291",
+      "width": 464,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/65449a376f04d2e3e15dbdd1763fb8b5-detail-0097.webp": {
+      "version": "be9b9e884a3c",
+      "width": 1082,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/65449a376f04d2e3e15dbdd1763fb8b5-detail-0162.webp": {
+      "version": "3deaf702ddc7",
+      "width": 1082,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/659cd68a768afd5c7d2970524ea2f6be-cover.webp": {
+      "version": "d69f7c1828da",
+      "width": 400,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/659cd68a768afd5c7d2970524ea2f6be-detail-0081.webp": {
+      "version": "be5ccc143e6c",
+      "width": 901,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/659cd68a768afd5c7d2970524ea2f6be-detail-0128.webp": {
+      "version": "4d98dc22c0ff",
+      "width": 901,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/685aeca16dd5826796bcc61a3fac4074-cover.webp": {
+      "version": "14940db6b80c",
+      "width": 429,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/685aeca16dd5826796bcc61a3fac4074-detail-0020.webp": {
+      "version": "ea811b7ecd50",
+      "width": 1400,
+      "height": 746,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960,
+        1280
+      ]
+    },
+    "/books/685aeca16dd5826796bcc61a3fac4074-detail-0035.webp": {
+      "version": "5ffd938d8cbf",
+      "width": 1400,
+      "height": 746,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960,
+        1280
+      ]
+    },
+    "/books/6b7f92d97f3d2fed1dec3f0750a69137-cover.webp": {
+      "version": "a38f23ac390b",
+      "width": 456,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/6b7f92d97f3d2fed1dec3f0750a69137-detail-0020.webp": {
+      "version": "3ac1ab655199",
+      "width": 1063,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/6b7f92d97f3d2fed1dec3f0750a69137-detail-0045.webp": {
+      "version": "62fe7a5f7c21",
+      "width": 1063,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/6ec42dc4d2d5e5037d6818e27ac7c9e0-cover.webp": {
+      "version": "b1193c8d7fb7",
+      "width": 486,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360,
+        480
+      ]
+    },
+    "/books/6ec42dc4d2d5e5037d6818e27ac7c9e0-detail-0085.webp": {
+      "version": "49b7479c9278",
+      "width": 1133,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/6ec42dc4d2d5e5037d6818e27ac7c9e0-detail-0135.webp": {
+      "version": "eb9c70910e8d",
+      "width": 1133,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/73dcf7745f1a3b4be9f7ac18cf146c8d-cover.webp": {
+      "version": "00131eca57f6",
+      "width": 464,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/73dcf7745f1a3b4be9f7ac18cf146c8d-detail-0020.webp": {
+      "version": "8ec995025c1a",
+      "width": 1082,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/73dcf7745f1a3b4be9f7ac18cf146c8d-detail-0031.webp": {
+      "version": "dfc156492259",
+      "width": 1082,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/74d926778b91ba3ce9809b0a3a95c6c6-cover.webp": {
+      "version": "9f2c15589a9e",
+      "width": 489,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360,
+        480
+      ]
+    },
+    "/books/74d926778b91ba3ce9809b0a3a95c6c6-detail-0039.webp": {
+      "version": "4c19657e8ab5",
+      "width": 1143,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/74d926778b91ba3ce9809b0a3a95c6c6-detail-0139.webp": {
+      "version": "0dc35206341d",
+      "width": 1143,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/7801ff37ba5b1b155000f36122c9350c-cover.webp": {
+      "version": "e9bca977d594",
+      "width": 464,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/7801ff37ba5b1b155000f36122c9350c-detail-0022.webp": {
+      "version": "4c539eabe5e2",
+      "width": 1120,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/7801ff37ba5b1b155000f36122c9350c-detail-0055.webp": {
+      "version": "8ee59c1923ea",
+      "width": 1120,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/791e08e11422dfb4c7ffc3bf8afb1044-cover.webp": {
+      "version": "60b7ae1671c9",
+      "width": 464,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/791e08e11422dfb4c7ffc3bf8afb1044-detail-0154.webp": {
+      "version": "77f933f3e1db",
+      "width": 1082,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/791e08e11422dfb4c7ffc3bf8afb1044-detail-0196.webp": {
+      "version": "cd16607f783c",
+      "width": 1082,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/7b5cde153dc9c7728e32f190ed9c6a6b-cover.webp": {
+      "version": "447e1f8e3a18",
+      "width": 426,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/7b5cde153dc9c7728e32f190ed9c6a6b-detail-0035.webp": {
+      "version": "5e831c01e31c",
+      "width": 999,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/7b5cde153dc9c7728e32f190ed9c6a6b-detail-0080.webp": {
+      "version": "ea321cfc06ab",
+      "width": 999,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/7c2c0dfbb30f901878e1e55b843245f6-cover.webp": {
+      "version": "5c88dff59690",
+      "width": 550,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360,
+        480
+      ]
+    },
+    "/books/7c2c0dfbb30f901878e1e55b843245f6-detail-0123.webp": {
+      "version": "5c4051a4838b",
+      "width": 990,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/7c2c0dfbb30f901878e1e55b843245f6-detail-0194.webp": {
+      "version": "e0fcce6c5388",
+      "width": 990,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/8ac09a9a9b43570e064a9978e8f34840-cover.webp": {
+      "version": "1a617f338cde",
+      "width": 493,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360,
+        480
+      ]
+    },
+    "/books/8ac09a9a9b43570e064a9978e8f34840-detail-0034.webp": {
+      "version": "fc79eba8b508",
+      "width": 1151,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/8ac09a9a9b43570e064a9978e8f34840-detail-0073.webp": {
+      "version": "c3cc6fef19c5",
+      "width": 1151,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/8ed41c87768c1b777c2eebd1e8d91491-cover.webp": {
+      "version": "dcb4353c9fcc",
+      "width": 400,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/8ed41c87768c1b777c2eebd1e8d91491-detail-0078.webp": {
+      "version": "3dfe1db5e979",
+      "width": 934,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/8ed41c87768c1b777c2eebd1e8d91491-detail-0212.webp": {
+      "version": "6a2991ed3cf2",
+      "width": 934,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/9114c887d40d58b6aad0345081cf1e20-cover.webp": {
+      "version": "6b41fb51dc6e",
+      "width": 441,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/9114c887d40d58b6aad0345081cf1e20-detail-0099.webp": {
+      "version": "30c689d156c5",
+      "width": 1028,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/9114c887d40d58b6aad0345081cf1e20-detail-0216.webp": {
+      "version": "3363f48d2aa8",
+      "width": 1028,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/92bd8cf6d46be0f6d6b84167e0a65878-cover.webp": {
+      "version": "8b5d879820e3",
+      "width": 388,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/92bd8cf6d46be0f6d6b84167e0a65878-detail-0066.webp": {
+      "version": "f00baf95869d",
+      "width": 919,
+      "height": 1401,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/92bd8cf6d46be0f6d6b84167e0a65878-detail-0144.webp": {
+      "version": "a2ca880406bb",
+      "width": 919,
+      "height": 1401,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/96b591a4f02e5014a4323ee94540ada9-cover.webp": {
+      "version": "e6b1f9fee765",
+      "width": 462,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/96b591a4f02e5014a4323ee94540ada9-detail-0140.webp": {
+      "version": "2bd778676c19",
+      "width": 1077,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/96b591a4f02e5014a4323ee94540ada9-detail-0163.webp": {
+      "version": "4b452cd38c23",
+      "width": 1077,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/96d6bf5b0a35a8b84b2ea7d44351b51c-cover.webp": {
+      "version": "d38be3dc818b",
+      "width": 498,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360,
+        480
+      ]
+    },
+    "/books/96d6bf5b0a35a8b84b2ea7d44351b51c-detail-0048.webp": {
+      "version": "b3f22df37ff1",
+      "width": 1162,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/96d6bf5b0a35a8b84b2ea7d44351b51c-detail-0118.webp": {
+      "version": "decaaeaefbe1",
+      "width": 1162,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/9ecba67cdcca6bde5941b36ca073cedd-cover.webp": {
+      "version": "44b4f8e8544c",
+      "width": 480,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/9ecba67cdcca6bde5941b36ca073cedd-detail-0095.webp": {
+      "version": "ea0d19471e60",
+      "width": 1120,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/9ecba67cdcca6bde5941b36ca073cedd-detail-0201.webp": {
+      "version": "393cc54d72ec",
+      "width": 1120,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/a2f337ad1a306e6351c3cf963d6de1fd-cover.webp": {
+      "version": "ad83a603f892",
+      "width": 399,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/a2f337ad1a306e6351c3cf963d6de1fd-detail-0046.webp": {
+      "version": "9ad19a79283b",
+      "width": 990,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/a2f337ad1a306e6351c3cf963d6de1fd-detail-0492.webp": {
+      "version": "a013d98578c3",
+      "width": 990,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/a5a2fd0e808c3d5d28a042d471c0e1c0-cover.webp": {
+      "version": "60415d6681bc",
+      "width": 400,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/a5a2fd0e808c3d5d28a042d471c0e1c0-detail-0055.webp": {
+      "version": "45a59f496a9a",
+      "width": 934,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/a5a2fd0e808c3d5d28a042d471c0e1c0-detail-0188.webp": {
+      "version": "b3f6281e4d5d",
+      "width": 934,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/a5f9be5c819474a210a63c9197b542e8-cover.webp": {
+      "version": "6afba83e3bcb",
+      "width": 423,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/a5f9be5c819474a210a63c9197b542e8-detail-0089.webp": {
+      "version": "7ac4ce696248",
+      "width": 987,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/a5f9be5c819474a210a63c9197b542e8-detail-0299.webp": {
+      "version": "5f792b2aa652",
+      "width": 987,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/a9cacb4c23b9a5cb8695580901b71174-cover.webp": {
+      "version": "e2f8610cbe62",
+      "width": 421,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/a9cacb4c23b9a5cb8695580901b71174-detail-0058.webp": {
+      "version": "dd26ce72e27c",
+      "width": 980,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/a9cacb4c23b9a5cb8695580901b71174-detail-0202.webp": {
+      "version": "406895c82737",
+      "width": 980,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/afeca761c5790e38c29a4cab699ab563-cover.webp": {
+      "version": "7b64f514ae62",
+      "width": 423,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/afeca761c5790e38c29a4cab699ab563-detail-0009.webp": {
+      "version": "da999ec9dbb5",
+      "width": 1400,
+      "height": 991,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960,
+        1280
+      ]
+    },
+    "/books/afeca761c5790e38c29a4cab699ab563-detail-0060.webp": {
+      "version": "7ae9fdd971f1",
+      "width": 1400,
+      "height": 991,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960,
+        1280
+      ]
+    },
+    "/books/b4c29a9117ad538fb9054cd62f6ba185-cover.webp": {
+      "version": "253cce5aa0d2",
+      "width": 425,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/b4c29a9117ad538fb9054cd62f6ba185-detail-0006.webp": {
+      "version": "69ee17dd78f6",
+      "width": 990,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/b4c29a9117ad538fb9054cd62f6ba185-detail-0007.webp": {
+      "version": "9c8a2eeb737a",
+      "width": 990,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/b64bc354a821ad50e6e822107de6816e-cover.webp": {
+      "version": "5345c9bd8708",
+      "width": 464,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/b64bc354a821ad50e6e822107de6816e-detail-0087.webp": {
+      "version": "58cc9386c80e",
+      "width": 1082,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/b64bc354a821ad50e6e822107de6816e-detail-0232.webp": {
+      "version": "f953f6a53b4e",
+      "width": 1082,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/b90255f60dd31d32aa2f835e67d4ec74-cover.webp": {
+      "version": "53bd72c9314b",
+      "width": 309,
+      "height": 600,
+      "widths": [
+        120,
+        240
+      ]
+    },
+    "/books/b90255f60dd31d32aa2f835e67d4ec74-detail-0054.webp": {
+      "version": "9a376f6c9ac6",
+      "width": 722,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/b90255f60dd31d32aa2f835e67d4ec74-detail-0116.webp": {
+      "version": "f951f10a2078",
+      "width": 722,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/ba0836fd87f650a70278cf3b0021ff2e-cover.webp": {
+      "version": "53e3c88f61d4",
+      "width": 492,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360,
+        480
+      ]
+    },
+    "/books/ba0836fd87f650a70278cf3b0021ff2e-detail-0024.webp": {
+      "version": "005fbafc2599",
+      "width": 1167,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/ba0836fd87f650a70278cf3b0021ff2e-detail-0062.webp": {
+      "version": "933d05769575",
+      "width": 1167,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/beb8dfe615ea3b94416a63d7927e7f8c-cover.webp": {
+      "version": "baa760f2f689",
+      "width": 400,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/beb8dfe615ea3b94416a63d7927e7f8c-detail-0098.webp": {
+      "version": "2c4e4e44ea49",
+      "width": 933,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/beb8dfe615ea3b94416a63d7927e7f8c-detail-0198.webp": {
+      "version": "ff09c73346df",
+      "width": 1400,
+      "height": 933,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960,
+        1280
+      ]
+    },
+    "/books/bf801bd55df8c6de7d56e22d21793c3e-cover.webp": {
+      "version": "2d599bbeadf3",
+      "width": 464,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/bf801bd55df8c6de7d56e22d21793c3e-detail-0045.webp": {
+      "version": "2093de1f279d",
+      "width": 1083,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/bf801bd55df8c6de7d56e22d21793c3e-detail-0290.webp": {
+      "version": "5b7c481646a5",
+      "width": 1083,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/bfed6198065b35fc87197f8299c2c110-cover.webp": {
+      "version": "8c77a19ed9d1",
+      "width": 464,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/bfed6198065b35fc87197f8299c2c110-detail-0025.webp": {
+      "version": "13c169cc0de3",
+      "width": 1082,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/bfed6198065b35fc87197f8299c2c110-detail-0072.webp": {
+      "version": "9263d41d975f",
+      "width": 1082,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/c23b3eecb2c2851ead74fb7faef59729-cover.webp": {
+      "version": "bea102818742",
+      "width": 479,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/c23b3eecb2c2851ead74fb7faef59729-detail-0047.webp": {
+      "version": "bde10c55c64f",
+      "width": 1117,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/c23b3eecb2c2851ead74fb7faef59729-detail-0165.webp": {
+      "version": "a657fffdf926",
+      "width": 1117,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/c308ef582da3654f1bb488ab13b3e8b6-cover.webp": {
+      "version": "1254cebf394f",
+      "width": 464,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/c308ef582da3654f1bb488ab13b3e8b6-detail-0010.webp": {
+      "version": "4681ee11797f",
+      "width": 1082,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/c308ef582da3654f1bb488ab13b3e8b6-detail-0080.webp": {
+      "version": "2a7e53531671",
+      "width": 1082,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/ca322432cfa1b017534cb591bae81419-cover.webp": {
+      "version": "872eba1044bb",
+      "width": 464,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/ca322432cfa1b017534cb591bae81419-detail-0206.webp": {
+      "version": "5c1b08e0aa30",
+      "width": 1082,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/ca322432cfa1b017534cb591bae81419-detail-0267.webp": {
+      "version": "ae1451a34d2d",
+      "width": 1082,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/cc6e5b5d2e0758996e3554cfc1817182-cover.webp": {
+      "version": "277edde1cc5f",
+      "width": 420,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/cc6e5b5d2e0758996e3554cfc1817182-detail-0085.webp": {
+      "version": "337657d12ea5",
+      "width": 980,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/cc6e5b5d2e0758996e3554cfc1817182-detail-0364.webp": {
+      "version": "fda47218c759",
+      "width": 980,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/cdff2f632c54381b710726507f01f7e7-cover.webp": {
+      "version": "8202f6ef8b7d",
+      "width": 459,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/cdff2f632c54381b710726507f01f7e7-detail-0010.webp": {
+      "version": "4c83d2644718",
+      "width": 1070,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/cdff2f632c54381b710726507f01f7e7-detail-0039.webp": {
+      "version": "cc26c2432845",
+      "width": 1070,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/d122fd2f0d705b63ff7ebc6ae7d0b326-cover.webp": {
+      "version": "232413c132bf",
+      "width": 480,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/d122fd2f0d705b63ff7ebc6ae7d0b326-detail-0036.webp": {
+      "version": "73c85f95ee03",
+      "width": 1120,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/d122fd2f0d705b63ff7ebc6ae7d0b326-detail-0049.webp": {
+      "version": "a5a10e4effaf",
+      "width": 1120,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/de5f63bf4734d52cefcbe6c17fb7f409-cover.webp": {
+      "version": "cc17a6e94cfc",
+      "width": 400,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/de5f63bf4734d52cefcbe6c17fb7f409-detail-0030.webp": {
+      "version": "577577478dce",
+      "width": 934,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/de5f63bf4734d52cefcbe6c17fb7f409-detail-0064.webp": {
+      "version": "5ec1d8e62469",
+      "width": 934,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/e2faac3e151af0ce32bffcf8e8cdae06-cover.webp": {
+      "version": "4a5fa9c811d2",
+      "width": 457,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/e2faac3e151af0ce32bffcf8e8cdae06-detail-0190.webp": {
+      "version": "8981be2c51be",
+      "width": 1066,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/e2faac3e151af0ce32bffcf8e8cdae06-detail-0370.webp": {
+      "version": "09154f109d3d",
+      "width": 1066,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/e4afb17b9cb0e4db556f935ec7f7de52-cover.webp": {
+      "version": "fe624887ea46",
+      "width": 389,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/e4afb17b9cb0e4db556f935ec7f7de52-detail-0065.webp": {
+      "version": "8b5931baa5a1",
+      "width": 906,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/e4afb17b9cb0e4db556f935ec7f7de52-detail-0113.webp": {
+      "version": "864e49938c4a",
+      "width": 906,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640
+      ]
+    },
+    "/books/e9f1a6035abab24c3878b7639349a18c-cover.webp": {
+      "version": "f7b26ac8f2de",
+      "width": 425,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/e9f1a6035abab24c3878b7639349a18c-detail-0033.webp": {
+      "version": "2fa60d28b409",
+      "width": 990,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/e9f1a6035abab24c3878b7639349a18c-detail-0052.webp": {
+      "version": "80e92c826b33",
+      "width": 990,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/eca58837b7e967f69bc4d1fa183791e6-cover.webp": {
+      "version": "19683626cdcb",
+      "width": 415,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/eca58837b7e967f69bc4d1fa183791e6-detail-0022.webp": {
+      "version": "cfcdb9c401ef",
+      "width": 967,
+      "height": 1401,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/eca58837b7e967f69bc4d1fa183791e6-detail-0074.webp": {
+      "version": "56a5231d0490",
+      "width": 967,
+      "height": 1401,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/ecff489405989263e4743349a47f0897-cover.webp": {
+      "version": "c2a3ac7725f6",
+      "width": 413,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/ecff489405989263e4743349a47f0897-detail-0036.webp": {
+      "version": "d35c77557b15",
+      "width": 963,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/ecff489405989263e4743349a47f0897-detail-0072.webp": {
+      "version": "695bcb7a8f0c",
+      "width": 963,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/f3b481c0082b19be66b48a368a6104bd-cover.webp": {
+      "version": "a2fab9de9bde",
+      "width": 464,
+      "height": 600,
+      "widths": [
+        120,
+        240,
+        360
+      ]
+    },
+    "/books/f3b481c0082b19be66b48a368a6104bd-detail-0076.webp": {
+      "version": "6605a6b3c523",
+      "width": 1082,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    },
+    "/books/f3b481c0082b19be66b48a368a6104bd-detail-0261.webp": {
+      "version": "5a4dec15a3cf",
+      "width": 1082,
+      "height": 1400,
+      "widths": [
+        120,
+        240,
+        360,
+        480,
+        640,
+        960
+      ]
+    }
+  }
+}

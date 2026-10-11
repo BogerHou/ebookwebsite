@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/book-image";
 import type { Book } from "@/lib/types";
 import { bookImageAlt } from "@/lib/book-images";
 

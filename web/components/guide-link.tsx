@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/book-image";
 import Link from "next/link";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import { getBookById } from "@/lib/catalog";

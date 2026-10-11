@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { CatalogBrowser } from "@/components/catalog-browser";
 import { getCatalog, getCatalogBooks, getCategoryCounts } from "@/lib/catalog";
 import { absoluteUrl, jsonLd, SITE_NAME } from "@/lib/site";
-import Image from "next/image";
+import Image from "@/components/book-image";
 import Link from "next/link";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 import { getGuides } from "@/lib/editorial";

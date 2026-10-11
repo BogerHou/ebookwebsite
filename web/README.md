@@ -81,6 +81,10 @@ node scripts/validate-seo.mjs --base https://ebooknest.store --canonical-origin 
 
 ## 内容与图片
 
+图片使用本地预生成的响应式WebP，浏览器直接请求静态文件，不调用Vercel图片转换服务。`npm run dev`、`npm run check`和`npm run build`先执行`scripts/generate-image-variants.mjs`；它从目录中的原图生成有限尺寸，不放大，生成文件放在`public/books/responsive/`（不提交），`data/image-variants.json`记录真实尺寸与内容版本。原始封面、高清内页链接和结构化数据地址保持不变。
+
+`components/book-image.tsx`根据真实宽度生成`srcset`，保留alt、宽高和懒加载，首屏重点图使用响应式预载。衍生文件名含内容版本并缓存一年，更新原图或编码参数会生成新地址。`next.config.ts`的`images.unoptimized`关闭Vercel转换服务；仅迁移原图地址或延长缓存不能保证停止转换消耗。静态传输及CDN请求仍按托管平台额度统计。
+
 所有新建或修改的公开文案，必须遵守`AGENTS.md`的公开内容铁律。发布前逐条语义审查正文、问答、metadata、JSON-LD、图片说明和无障碍文案，以及领取、反馈、空状态和错误提示；内部交流、开发实现、采集核验、运营计划不得出现在网站。书籍事实、文件限制与必要隐私披露应保留并使用读者能理解的表达。
 
 `npm run check`和生产构建会运行`validate-public-copy.mjs`，检查内容数据和TS/TSX字符串中的已知内部措辞（不扫描代码注释）。HTTP SEO检查还会覆盖完整页面、metadata和无障碍文本。这些规则用于阻止已知问题回归，不能代替对新增内容的逐句阅读。

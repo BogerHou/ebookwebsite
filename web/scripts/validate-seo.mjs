@@ -167,6 +167,16 @@ async function inspect(path, { canonicalPath = new URL(path, base).pathname, noi
   expect(`${path}: one visible primary heading`, document.querySelectorAll("h1").length === 1);
   expect(`${path}: Open Graph image supplied`, Boolean(head?.querySelector('meta[property="og:image"]')?.getAttribute("content")));
   expect(`${path}: browser and Apple touch icons are declared`, head?.querySelectorAll('link[rel="icon"]').some((link) => hrefPath(link.getAttribute("href")) === "/favicon.ico") && Boolean(head?.querySelector('link[rel="apple-touch-icon"]')));
+  const images = document.querySelectorAll("img");
+  const imagePreloads = document.querySelectorAll('link[rel="preload"][as="image"]');
+  const imageUrls = [...images.flatMap((img) => [img.getAttribute("src"), img.getAttribute("srcset")]),
+    ...imagePreloads.flatMap((link) => [link.getAttribute("href"), link.getAttribute("imagesrcset")])].filter(Boolean);
+  expect(`${path}: images and preloads bypass runtime image transformations`, imageUrls.every((url) => !/\/_next\/image|\/_vercel\/image/.test(url)));
+  expect(`${path}: raster book images retain static responsive candidates and declared dimensions`, images.every((img) => {
+    const src = img.getAttribute("src") || "";
+    return !src.startsWith("/books/") || Boolean(img.getAttribute("alt") && Number(img.getAttribute("width")) > 0 && Number(img.getAttribute("height")) > 0 &&
+      (!src.endsWith(".webp") || img.getAttribute("srcset")?.includes("/books/responsive/")));
+  }));
   const ld = schemas(document, path);
   pages.push({ path, status: response.status, title, description, canonical, noindex, htmlBytes: Buffer.byteLength(text), elapsedMs, schemaTypes: ld.map((schema) => schema["@type"]) });
   documents.set(path, { document, ld });
@@ -306,6 +316,22 @@ async function inspectHttpContent() {
     const isPng = /png/.test(type) && bytes.length >= 24 && bytes.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]));
     expect(`icon ${url.pathname}: returns a real image instead of HTML or an error`, response.status === 200 && (isIco || isSvg || isPng));
     if (link.getAttribute("rel") === "apple-touch-icon") expect(`icon ${url.pathname}: Apple touch PNG is at least 180px square`, isPng && bytes.readUInt32BE(16) >= 180 && bytes.readUInt32BE(16) === bytes.readUInt32BE(20));
+  }
+
+  const home = documents.get("/").document;
+  const responsiveSample = home.querySelector('img[srcset]')?.getAttribute("srcset")?.split(", ")[0]?.split(" ")[0];
+  expect("homepage declares a prebuilt responsive image", responsiveSample?.startsWith("/books/responsive/"));
+  if (responsiveSample) {
+    const response = await fetch(new URL(responsiveSample, base), { signal: AbortSignal.timeout(15000) });
+    const bytes = Buffer.from(await response.arrayBuffer());
+    expect("responsive image is a static WebP with immutable caching", response.status === 200 && /image\/webp/.test(response.headers.get("content-type") || "") &&
+      bytes.subarray(0, 4).toString() === "RIFF" && bytes.subarray(8, 12).toString() === "WEBP" && /immutable/.test(response.headers.get("cache-control") || ""));
+  }
+  // Invalid input is rejected before any transformation even if optimization
+  // is accidentally re-enabled. Disabled routes return 404 rather than 400.
+  for (const route of ["/_next/image", "/_vercel/image"]) {
+    const result = await request(`${route}?url=invalid-image-source&w=1&q=1`);
+    expect(`${route}: runtime image transformation service is disabled`, result.response.status === 404);
   }
 
   if (args.includes("--check-resources")) {

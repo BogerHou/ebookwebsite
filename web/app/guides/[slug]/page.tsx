@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import Image from "@/components/book-image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronRightIcon } from "@radix-ui/react-icons";
@@ -24,7 +24,7 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
     <nav className="breadcrumbs" aria-label="面包屑"><Link href="/">全部书籍</Link><ChevronRightIcon aria-hidden="true" /><Link href="/guides">选书指南</Link><ChevronRightIcon aria-hidden="true" /><span>{guide.title}</span></nav>
     <article>
       <header className="guide-article-header"><div><h1>{guide.title}</h1><p className="guide-lead">{guide.lead}</p><p className="editorial-byline"><Link href="/about">书径</Link><span>更新于 <time dateTime={published}>{published.replaceAll("-", "/")}</time></span></p></div>
-        <div className="guide-cover-pair">{books.slice(0, 2).map((book) => <Link href={`/books/${book.slug}`} key={book.id}><Image src={book.cover.src} width={book.cover.width} height={book.cover.height} alt={`${book.title}原书图像`} sizes="(max-width: 767px) 120px, 150px" priority /></Link>)}</div>
+        <div className="guide-cover-pair">{books.slice(0, 2).map((book) => <Link href={`/books/${book.slug}`} key={book.id}><Image src={book.cover.src} width={book.cover.width} height={book.cover.height} alt={`${book.title}原书图像`} sizes="(max-width: 767px) 120px, 150px" preload /></Link>)}</div>
       </header>
       <div className="guide-reading-layout"><div className="guide-body">
         <section className="reading-section" id="book-comparison"><h2>本篇提到的书</h2><div className="comparison-table-wrap"><table className="book-comparison"><caption className="sr-only">本篇书籍的题名、阅读主题与PDF页数</caption><thead><tr><th scope="col">书籍</th><th scope="col">阅读主题</th><th scope="col">PDF页数</th></tr></thead><tbody>{books.map((book) => <tr key={book.id}><th scope="row"><Link href={`/books/${book.slug}`}>{book.title}</Link><span lang="en">{book.originalTitle}</span></th><td>{book.subcategory || getCategory(book.categorySlug)?.title}</td><td>{book.pages ? `${book.pages} 页` : "—"}</td></tr>)}</tbody></table></div></section>

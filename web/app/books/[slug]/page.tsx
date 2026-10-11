@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import Image from "@/components/book-image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeftIcon, ChevronRightIcon } from "@radix-ui/react-icons";
@@ -92,7 +92,7 @@ export default async function BookPage({ params }: { params: Promise<{ slug: str
     </nav>
     <article>
       <div className="detail-top">
-        <div className="detail-cover-column"><div className="detail-cover"><Image src={book.cover.src} width={book.cover.width} height={book.cover.height} alt={bookImageAlt(book)} priority sizes="(max-width: 767px) 72vw, 330px" /></div></div>
+        <div className="detail-cover-column"><div className="detail-cover"><Image src={book.cover.src} width={book.cover.width} height={book.cover.height} alt={bookImageAlt(book)} preload sizes="(max-width: 767px) min(294px, calc(100vw - 82px)), 290px" /></div></div>
         <div className="detail-book-info">
           <p className="detail-subcategory">{book.subcategory || category?.title}</p>
           <h1>{book.title}</h1><p className="detail-original-title">{book.originalTitle}</p>
