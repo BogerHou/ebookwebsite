@@ -327,11 +327,16 @@ async function inspectHttpContent() {
     expect("responsive image is a static WebP with immutable caching", response.status === 200 && /image\/webp/.test(response.headers.get("content-type") || "") &&
       bytes.subarray(0, 4).toString() === "RIFF" && bytes.subarray(8, 12).toString() === "WEBP" && /immutable/.test(response.headers.get("cache-control") || ""));
   }
-  // Invalid input is rejected before any transformation even if optimization
-  // is accidentally re-enabled. Disabled routes return 404 rather than 400.
+  // Invalid input never creates a transformation. A 400 only proves invalid
+  // input, so require an absent route or the explicitly configured WAF deny.
+  const optimizerFirewall = args.includes("--optimizer-firewall");
   for (const route of ["/_next/image", "/_vercel/image"]) {
     const result = await request(`${route}?url=invalid-image-source&w=1&q=1`);
-    expect(`${route}: runtime image transformation service is disabled`, result.response.status === 404);
+    const blocked = optimizerFirewall
+      ? result.response.status === 403 && result.response.headers.get("x-vercel-mitigated") === "deny"
+      : result.response.status === 404;
+    expect(`${route}: runtime image transformation route is ${optimizerFirewall ? "blocked by the project firewall" : "absent"}`, blocked,
+      `status ${result.response.status}; mitigation ${result.response.headers.get("x-vercel-mitigated") || "none"}`);
   }
 
   if (args.includes("--check-resources")) {
