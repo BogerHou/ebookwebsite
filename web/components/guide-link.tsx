@@ -6,7 +6,7 @@ import type { ReadingGuide } from "@/lib/types";
 
 export function GuideLink({ guide }: { guide: ReadingGuide }) {
   const book = guide.bookIds.map(getBookById).find(Boolean);
-  return <Link className="guide-link" href={`/guides/${guide.slug}`}>
+  return <Link className="guide-link" href={`/guides/${guide.slug}`} prefetch={false}>
     {book && <div className="guide-link-image"><Image src={book.cover.src} width={book.cover.width} height={book.cover.height} alt={`${book.title}原书图像`} sizes="100px" /></div>}
     <div><h3>{guide.title}</h3><p>{guide.description}</p><span>阅读选书指南 <ArrowRightIcon aria-hidden="true" /></span></div>
   </Link>;

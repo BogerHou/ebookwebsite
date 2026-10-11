@@ -75,6 +75,8 @@ node scripts/validate-seo.mjs --base https://ebooknest.store --canonical-origin 
 
 该检查覆盖108个规范页面、搜索和排序变体、canonical、结构化数据、初始HTML、分页、sitemap与robots。资源接口可按私有映射另行验证，不输出真实分享地址或提取码。检查 Preview 时将 `--base` 改为预览地址，保持生产 canonical-origin，并增加 `--preview`。
 
+Vercel成本验收见[`docs/vercel-cost-policy.md`](docs/vercel-cost-policy.md)，属于实现及上线的必检项。`npm run check`检查密集链接预取、运行时图片组件和公开大文件等源代码约束；`npm run build`进一步要求全部规范页面在构建时生成、无独立路径校验Proxy、图片优化关闭及静态OG。上线后用`node scripts/validate-vercel-cost.mjs --base https://ebooknest.store`抽查默认页面缓存和转换入口；实际账户用量另从已授权控制台核对，脚本不声称测量账单。
+
 `/sitemap.xml` 只含公开规范页面，`/robots.txt` 排除资源API。站点可公开访问后可提交 sitemap 到 Search Console，再依据实际索引和性能数据迭代。
 
 浏览器图标使用`app/icon.svg`与含16、32、48像素图层的`app/favicon.ico`，iPhone主屏幕图标使用180像素的`app/apple-icon.png`。页头使用同一书本标识。HTTP检查验证每页声明图标，并请求图标地址确认文件格式与尺寸，防止链接存在却返回404或HTML。

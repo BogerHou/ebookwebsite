@@ -7,6 +7,6 @@ export const metadata: Metadata = { title: "主题分类", description: "按运�
 export default function Categories() {
   const catalog = getCatalog();
   return <div className="container categories-page"><div className="page-introduction"><h1>从一个主题开始</h1><p>找到你关心的领域，沿着兴趣继续读下去。</p></div>
-    <div className="category-directory">{catalog.categories.map((category) => <Link key={category.slug} href={`/categories/${category.slug}`} className="category-directory-item"><div><p>{catalog.books.filter((book) => book.categorySlug === category.slug).length} 本书</p><h2>{category.title}</h2><p>{category.description}</p></div><ArrowRightIcon aria-hidden="true" /></Link>)}</div>
+    <div className="category-directory">{catalog.categories.map((category) => <Link key={category.slug} href={`/categories/${category.slug}`} prefetch={false} className="category-directory-item"><div><p>{catalog.books.filter((book) => book.categorySlug === category.slug).length} 本书</p><h2>{category.title}</h2><p>{category.description}</p></div><ArrowRightIcon aria-hidden="true" /></Link>)}</div>
   </div>;
 }

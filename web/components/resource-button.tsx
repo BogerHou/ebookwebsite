@@ -8,7 +8,7 @@ import { trackResourceClaim } from "@/components/google-analytics";
 import { contactHref } from "@/lib/contact";
 
 function ResourceSupport({ id, available }: { id: string; available: boolean }) {
-  return <div className="resource-support"><Link href="/help">下载帮助</Link>{available && <Link href={contactHref("broken-link", id)}>链接失效</Link>}<Link href={contactHref("book-correction", id)}>信息纠错</Link></div>;
+  return <div className="resource-support"><Link href="/help">下载帮助</Link>{available && <a href={contactHref("broken-link", id)}>链接失效</a>}<a href={contactHref("book-correction", id)}>信息纠错</a></div>;
 }
 
 export function ResourceButton({ id, resourceStatus }: {

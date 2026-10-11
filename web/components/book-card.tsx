@@ -5,7 +5,7 @@ import type { CatalogBook } from "@/lib/types";
 
 export function BookCard({ book, priority = false }: { book: Omit<CatalogBook, "searchText">; priority?: boolean }) {
   return <article className="book-card">
-    <Link href={`/books/${book.slug}`} className="book-card-link">
+    <Link href={`/books/${book.slug}`} prefetch={false} className="book-card-link">
       <BookCover book={book} priority={priority} />
       <div className="book-card-copy">
         <p className="book-card-subcategory">{book.subcategory || book.tags[0]}</p>
