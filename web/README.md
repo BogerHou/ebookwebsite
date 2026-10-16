@@ -79,6 +79,20 @@ Vercel成本验收见[`docs/vercel-cost-policy.md`](docs/vercel-cost-policy.md)�
 
 `/sitemap.xml` 只含公开规范页面，`/robots.txt` 排除资源API。站点可公开访问后可提交 sitemap 到 Search Console，再依据实际索引和性能数据迭代。
 
+### IndexNow 发布通知
+
+`indexnow.config.json` 指向本站独立的根目录验证文本，由 `public/` 随正常部署发布。`npm run indexnow` 使用无依赖脚本，不在构建、页面访问或定时任务中自动发送请求，也不新增网站运行时接口。
+
+每次正式发布后，先完成页面上线验收并执行 `npm run indexnow -- --check` 核验生产验证文本，再仅通知本次新增、实质修改或删除的规范 URL。不要将未修改的 sitemap 每天全量重发；初次接入只用首页做一次连通测试。
+
+```bash
+npm run indexnow -- /books/changed-book
+npm run indexnow -- --submit /books/changed-book
+npm run indexnow -- --submit --removed /books/removed-book
+```
+
+第一条默认只预览，不联网；示例路径须替换为本次真实变更。也可使用 `--file changed-urls.txt` 读取每行一个 URL。脚本限制生产 host 与 HTTPS，拒绝查询参数、片段和内部/API地址；提交前检查线上 HTML、noindex 与 canonical，删除模式另允许真实404、410或重定向。不要提交预览页、领取接口、私有资源链接或仅作预览的内容。HTTP 200 表示通知已接收，202 表示已接收但验证文本待核验，均不证明已抓取、已收录或排名改善；不自动重试，同一URL五分钟内不重复通知。
+
 浏览器图标使用`app/icon.svg`与含16、32、48像素图层的`app/favicon.ico`，iPhone主屏幕图标使用180像素的`app/apple-icon.png`。页头使用同一书本标识。HTTP检查验证每页声明图标，并请求图标地址确认文件格式与尺寸，防止链接存在却返回404或HTML。
 
 ## 内容与图片
